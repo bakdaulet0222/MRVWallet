@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.market
+package com.mrv.wallet.modules.market
 
 import android.os.Parcelable
 import androidx.annotation.DrawableRes
@@ -9,14 +9,14 @@ import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import coil.compose.rememberAsyncImagePainter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.market.filters.TimePeriod
-import io.horizontalsystems.bankwallet.modules.settings.appearance.PriceChangeInterval
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.market.filters.TimePeriod
+import com.mrv.wallet.modules.settings.appearance.PriceChangeInterval
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
 import io.horizontalsystems.marketkit.models.FullCoin
 import io.horizontalsystems.marketkit.models.MarketGlobal
 import io.horizontalsystems.marketkit.models.MarketInfo

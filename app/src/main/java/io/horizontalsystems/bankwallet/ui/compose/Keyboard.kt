@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose
+package com.mrv.wallet.ui.compose
 
 import android.graphics.Rect
 import android.view.View

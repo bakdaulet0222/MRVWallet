@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.profeatures.storage
+package com.mrv.wallet.modules.profeatures.storage
 
 import androidx.room.Entity
-import io.horizontalsystems.bankwallet.core.storage.SecretString
+import com.mrv.wallet.core.storage.SecretString
 import java.util.*
 
 @Entity(primaryKeys = ["nftName", "accountId"])

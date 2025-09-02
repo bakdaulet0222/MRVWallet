@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
 import com.unstoppabledomains.resolution.Resolution
-import io.horizontalsystems.bankwallet.core.adapters.zcash.ZcashAddressValidator
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.BitcoinAddress
+import com.mrv.wallet.core.adapters.zcash.ZcashAddressValidator
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.BitcoinAddress
 import io.horizontalsystems.bitcoincore.crypto.Base58
 import io.horizontalsystems.bitcoincore.network.Network
 import io.horizontalsystems.bitcoincore.utils.Base58AddressConverter

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin.ui
+package com.mrv.wallet.modules.pin.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -21,14 +21,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.pin.PinModule
-import io.horizontalsystems.bankwallet.modules.pin.unlock.PinUnlockModule.InputState
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.animations.shake
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_lucian
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.pin.PinModule
+import com.mrv.wallet.modules.pin.unlock.PinUnlockModule.InputState
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.animations.shake
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_jacob
+import com.mrv.wallet.ui.compose.components.subhead2_lucian
 
 @Composable
 fun PinTopBlock(

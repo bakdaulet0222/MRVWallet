@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin.advanced
+package com.mrv.wallet.modules.send.bitcoin.advanced
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -10,13 +10,13 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoBody
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoHeader
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.info.ui.InfoBody
+import com.mrv.wallet.modules.info.ui.InfoHeader
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.MenuItem
 
 @Composable
 fun BtcTransactionInputSortInfoScreen(

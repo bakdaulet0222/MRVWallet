@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.privatekeys
+package com.mrv.wallet.modules.manageaccount.privatekeys
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.core.managers.toStellarWallet
-import io.horizontalsystems.bankwallet.core.toRawHexString
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.core.managers.toStellarWallet
+import com.mrv.wallet.core.toRawHexString
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule
 import io.horizontalsystems.ethereumkit.core.signer.Signer
 import io.horizontalsystems.hdwalletkit.HDExtendedKey
 import io.horizontalsystems.hdwalletkit.HDWallet

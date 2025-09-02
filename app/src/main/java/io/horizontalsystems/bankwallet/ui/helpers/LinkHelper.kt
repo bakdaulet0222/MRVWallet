@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.helpers
+package com.mrv.wallet.ui.helpers
 
 import android.content.Context
 import android.content.Intent
@@ -6,7 +6,7 @@ import android.net.Uri
 import android.util.Log
 import androidx.browser.customtabs.CustomTabColorSchemeParams
 import androidx.browser.customtabs.CustomTabsIntent
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 import java.net.MalformedURLException
 import java.net.URL
 

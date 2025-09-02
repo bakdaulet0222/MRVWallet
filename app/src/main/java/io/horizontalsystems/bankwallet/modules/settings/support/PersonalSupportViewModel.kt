@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.settings.support
+package com.mrv.wallet.modules.settings.support
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.MarketKitWrapper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.await

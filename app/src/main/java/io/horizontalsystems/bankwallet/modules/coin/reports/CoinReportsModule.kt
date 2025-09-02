@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.coin.reports
+package com.mrv.wallet.modules.coin.reports
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import javax.annotation.concurrent.Immutable
 
 object CoinReportsModule {

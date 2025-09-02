@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.receive
+package com.mrv.wallet.modules.receive
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.adapters.StellarAssetAdapter
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveModule.AdditionalData
-import io.horizontalsystems.bankwallet.modules.receive.viewmodels.AddressUriService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.adapters.StellarAssetAdapter
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.receive.ReceiveModule.AdditionalData
+import com.mrv.wallet.modules.receive.viewmodels.AddressUriService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.math.BigDecimal

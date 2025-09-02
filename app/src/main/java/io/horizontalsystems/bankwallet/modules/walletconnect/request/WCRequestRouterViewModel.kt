@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request
+package com.mrv.wallet.modules.walletconnect.request
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCDelegate
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.modules.walletconnect.WCDelegate
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class WCRequestRouterViewModel : ViewModelUiState<WCRequestRouterUiState>() {

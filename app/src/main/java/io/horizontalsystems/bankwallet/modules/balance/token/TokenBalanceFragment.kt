@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.balance.token
+package com.mrv.wallet.modules.balance.token
 
 import androidx.compose.runtime.Composable
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.navGraphViewModels
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionsModule
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionsViewModel
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.transactions.TransactionsModule
+import com.mrv.wallet.modules.transactions.TransactionsViewModel
 
 class TokenBalanceFragment : BaseComposeFragment() {
 

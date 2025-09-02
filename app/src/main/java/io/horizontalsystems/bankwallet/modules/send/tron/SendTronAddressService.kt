@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.send.tron
+package com.mrv.wallet.modules.send.tron
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ISendTronAdapter
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.ui.compose.components.FormsInputStateWarning
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ISendTronAdapter
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.ui.compose.components.FormsInputStateWarning
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenType
 import kotlinx.coroutines.flow.MutableStateFlow

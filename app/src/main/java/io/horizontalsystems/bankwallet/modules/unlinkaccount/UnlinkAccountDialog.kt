@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.unlinkaccount
+package com.mrv.wallet.modules.unlinkaccount
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,22 +19,22 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.requireInput
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryRed
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HsCheckbox
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_leah
-import io.horizontalsystems.bankwallet.ui.extensions.BaseComposableBottomSheetFragment
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.core.requireInput
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryRed
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HsCheckbox
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.subhead2_leah
+import com.mrv.wallet.ui.extensions.BaseComposableBottomSheetFragment
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 import io.horizontalsystems.core.findNavController
 import io.horizontalsystems.core.helpers.HudHelper
 

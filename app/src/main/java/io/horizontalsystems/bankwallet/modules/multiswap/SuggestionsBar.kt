@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -8,11 +8,11 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.BoxTyler44
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondary
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryCircle
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.BoxTyler44
+import com.mrv.wallet.ui.compose.components.ButtonSecondary
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryCircle
 
 @Composable
 fun SuggestionsBar(

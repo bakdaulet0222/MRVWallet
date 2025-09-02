@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount
+package com.mrv.wallet.modules.restoreaccount
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -6,21 +6,21 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.composablePage
-import io.horizontalsystems.bankwallet.core.composablePopup
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.manageaccounts.ManageAccountsModule
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoreblockchains.ManageWalletsScreen
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu.RestoreMenuModule
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu.RestoreMenuViewModel
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonic.RestorePhrase
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonicnonstandard.RestorePhraseNonStandard
-import io.horizontalsystems.bankwallet.modules.restoreconfig.BirthdayHeightConfigScreen
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.composablePage
+import com.mrv.wallet.core.composablePopup
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.manageaccounts.ManageAccountsModule
+import com.mrv.wallet.modules.restoreaccount.restoreblockchains.ManageWalletsScreen
+import com.mrv.wallet.modules.restoreaccount.restoremenu.RestoreMenuModule
+import com.mrv.wallet.modules.restoreaccount.restoremenu.RestoreMenuViewModel
+import com.mrv.wallet.modules.restoreaccount.restoremnemonic.RestorePhrase
+import com.mrv.wallet.modules.restoreaccount.restoremnemonicnonstandard.RestorePhraseNonStandard
+import com.mrv.wallet.modules.restoreconfig.BirthdayHeightConfigScreen
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class RestoreAccountFragment : BaseComposeFragment(screenshotEnabled = false) {

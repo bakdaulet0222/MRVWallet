@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.bankwallet.entities.SpamAddress
-import io.horizontalsystems.bankwallet.entities.SpamScanState
+import com.mrv.wallet.entities.SpamAddress
+import com.mrv.wallet.entities.SpamScanState
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 @Dao

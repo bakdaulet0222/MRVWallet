@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import io.horizontalsystems.core.helpers.LocaleHelper
 import java.util.*
 

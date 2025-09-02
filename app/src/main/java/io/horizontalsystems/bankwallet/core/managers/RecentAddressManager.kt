@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.storage.RecentAddressDao
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.RecentAddress
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.storage.RecentAddressDao
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.RecentAddress
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class RecentAddressManager(

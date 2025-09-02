@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.ui
+package com.mrv.wallet.modules.multiswap.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -9,16 +9,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.modules.multiswap.QuoteInfoRow
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_leah
-import io.horizontalsystems.bankwallet.ui.helpers.TextHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.modules.multiswap.QuoteInfoRow
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryCircle
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_leah
+import com.mrv.wallet.ui.helpers.TextHelper
 import io.horizontalsystems.core.helpers.HudHelper
 import io.horizontalsystems.marketkit.models.BlockchainType
 

@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.coin.treasuries
+package com.mrv.wallet.modules.coin.treasuries
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.IAppNumberFormatter
-import io.horizontalsystems.bankwallet.core.logoUrl
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.treasuries.CoinTreasuriesModule.CoinTreasuriesData
-import io.horizontalsystems.bankwallet.modules.coin.treasuries.CoinTreasuriesModule.CoinTreasuryItem
-import io.horizontalsystems.bankwallet.modules.coin.treasuries.CoinTreasuriesModule.SelectorDialogState
-import io.horizontalsystems.bankwallet.modules.coin.treasuries.CoinTreasuriesModule.TreasuryTypeFilter
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.core.IAppNumberFormatter
+import com.mrv.wallet.core.logoUrl
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.treasuries.CoinTreasuriesModule.CoinTreasuriesData
+import com.mrv.wallet.modules.coin.treasuries.CoinTreasuriesModule.CoinTreasuryItem
+import com.mrv.wallet.modules.coin.treasuries.CoinTreasuriesModule.SelectorDialogState
+import com.mrv.wallet.modules.coin.treasuries.CoinTreasuriesModule.TreasuryTypeFilter
+import com.mrv.wallet.ui.compose.Select
 import io.horizontalsystems.marketkit.models.CoinTreasury
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.catch

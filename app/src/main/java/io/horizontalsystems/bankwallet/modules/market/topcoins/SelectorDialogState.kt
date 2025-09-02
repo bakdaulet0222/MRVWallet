@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.market.topcoins
+package com.mrv.wallet.modules.market.topcoins
 
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.ui.compose.Select
 
 sealed class SelectorDialogState {
     object Closed : SelectorDialogState()

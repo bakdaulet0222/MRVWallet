@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.managewallets
+package com.mrv.wallet.modules.managewallets
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings.RestoreSettingsService
-import io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings.RestoreSettingsViewModel
-import io.horizontalsystems.bankwallet.modules.receive.FullCoinsProvider
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.enablecoin.restoresettings.RestoreSettingsService
+import com.mrv.wallet.modules.enablecoin.restoresettings.RestoreSettingsViewModel
+import com.mrv.wallet.modules.receive.FullCoinsProvider
 
 object ManageWalletsModule {
 

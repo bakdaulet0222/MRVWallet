@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount
+package com.mrv.wallet.modules.restoreaccount
 
 import androidx.compose.runtime.Composable
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu.RestoreMenuModule.RestoreOption
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu.RestoreMenuViewModel
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonic.RestorePhrase
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoreprivatekey.RestorePrivateKey
+import com.mrv.wallet.modules.restoreaccount.restoremenu.RestoreMenuModule.RestoreOption
+import com.mrv.wallet.modules.restoreaccount.restoremenu.RestoreMenuViewModel
+import com.mrv.wallet.modules.restoreaccount.restoremnemonic.RestorePhrase
+import com.mrv.wallet.modules.restoreaccount.restoreprivatekey.RestorePrivateKey
 
 @Composable
 fun AdvancedRestoreScreen(

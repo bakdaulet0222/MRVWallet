@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.tor
+package com.mrv.wallet.modules.tor
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ITorManager
-import io.horizontalsystems.bankwallet.core.managers.ConnectivityManager
-import io.horizontalsystems.bankwallet.modules.settings.privacy.tor.TorStatus
-import io.horizontalsystems.bankwallet.modules.tor.TorConnectionModule.TorViewState
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ITorManager
+import com.mrv.wallet.core.managers.ConnectivityManager
+import com.mrv.wallet.modules.settings.privacy.tor.TorStatus
+import com.mrv.wallet.modules.tor.TorConnectionModule.TorViewState
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 

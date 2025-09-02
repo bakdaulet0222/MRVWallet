@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.annotation.SuppressLint
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
 import com.google.gson.Strictness
-import io.horizontalsystems.bankwallet.core.INetworkManager
+import com.mrv.wallet.core.INetworkManager
 import io.reactivex.Flowable
 import io.reactivex.Single
 import okhttp3.Interceptor

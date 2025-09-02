@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.receive.ui
+package com.mrv.wallet.modules.receive.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -13,18 +13,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.TextAttention
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.TextAttention
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.headline2_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 
 @Composable
 fun AddressFormatSelectScreen(

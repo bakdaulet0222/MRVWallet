@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.entities.Address
 
 class AddressParserChain(
     handlers: List<IAddressHandler> = emptyList(),

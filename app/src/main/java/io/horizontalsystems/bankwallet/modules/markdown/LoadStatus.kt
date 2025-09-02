@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.markdown
+package com.mrv.wallet.modules.markdown
 
 sealed class LoadStatus {
     object Initial : LoadStatus()

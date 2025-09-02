@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.backuplocal.password
+package com.mrv.wallet.modules.backuplocal.password
 
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -22,17 +22,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.evmfee.ButtonsGroupWithShade
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellowWithSpinner
-import io.horizontalsystems.bankwallet.ui.compose.components.FormsInputPassword
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.evmfee.ButtonsGroupWithShade
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellowWithSpinner
+import com.mrv.wallet.ui.compose.components.FormsInputPassword
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.VSpacer
 import io.horizontalsystems.core.SnackbarDuration
 import io.horizontalsystems.core.helpers.HudHelper
 

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.storage.AppDatabase
-import io.horizontalsystems.bankwallet.core.storage.FavoriteCoin
-import io.horizontalsystems.bankwallet.core.storage.MarketFavoritesDao
-import io.horizontalsystems.bankwallet.widgets.MarketWidgetManager
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.storage.AppDatabase
+import com.mrv.wallet.core.storage.FavoriteCoin
+import com.mrv.wallet.core.storage.MarketFavoritesDao
+import com.mrv.wallet.widgets.MarketWidgetManager
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 

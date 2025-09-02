@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.overview.ui
+package com.mrv.wallet.modules.coin.overview.ui
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,12 +10,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.modules.coin.CoinDataItem
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.Badge
-import io.horizontalsystems.bankwallet.ui.compose.components.CellSingleLineLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.modules.coin.CoinDataItem
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.Badge
+import com.mrv.wallet.ui.compose.components.CellSingleLineLawrenceSection
+import com.mrv.wallet.ui.compose.components.subhead1_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 
 @Preview
 @Composable

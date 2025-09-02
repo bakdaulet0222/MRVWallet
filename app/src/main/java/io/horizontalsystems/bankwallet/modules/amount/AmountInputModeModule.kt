@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.amount
+package com.mrv.wallet.modules.amount
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.xrate.XRateService
 
 object AmountInputModeModule {
 

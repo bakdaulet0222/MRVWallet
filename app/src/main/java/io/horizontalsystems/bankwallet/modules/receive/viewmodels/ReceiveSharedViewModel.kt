@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.receive.viewmodels
+package com.mrv.wallet.modules.receive.viewmodels
 
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Account
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Account
 import io.horizontalsystems.marketkit.models.FullCoin
 
 class ReceiveSharedViewModel : ViewModel() {

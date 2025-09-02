@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.solananetwork
+package com.mrv.wallet.modules.solananetwork
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.managers.SolanaRpcSourceManager
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.managers.SolanaRpcSourceManager
 import io.horizontalsystems.solanakit.models.RpcSource
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable

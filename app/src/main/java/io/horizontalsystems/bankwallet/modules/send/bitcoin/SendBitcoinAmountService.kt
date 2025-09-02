@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin
+package com.mrv.wallet.modules.send.bitcoin
 
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.core.ISendBitcoinAdapter
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.modules.amount.AmountValidator
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.core.ISendBitcoinAdapter
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.modules.amount.AmountValidator
 import io.horizontalsystems.bitcoincore.core.IPluginData
 import io.horizontalsystems.bitcoincore.storage.UnspentOutputInfo
 import io.horizontalsystems.bitcoincore.storage.UtxoFilters

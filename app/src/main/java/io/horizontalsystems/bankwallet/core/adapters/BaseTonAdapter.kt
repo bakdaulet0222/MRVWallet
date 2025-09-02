@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.IAdapter
-import io.horizontalsystems.bankwallet.core.IBalanceAdapter
-import io.horizontalsystems.bankwallet.core.IReceiveAdapter
-import io.horizontalsystems.bankwallet.core.managers.TonKitWrapper
-import io.horizontalsystems.bankwallet.core.managers.statusInfo
+import com.mrv.wallet.core.IAdapter
+import com.mrv.wallet.core.IBalanceAdapter
+import com.mrv.wallet.core.IReceiveAdapter
+import com.mrv.wallet.core.managers.TonKitWrapper
+import com.mrv.wallet.core.managers.statusInfo
 import io.horizontalsystems.tonkit.models.Network
 
 abstract class BaseTonAdapter(

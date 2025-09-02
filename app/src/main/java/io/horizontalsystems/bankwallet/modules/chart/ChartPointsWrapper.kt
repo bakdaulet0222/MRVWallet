@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.chart
+package com.mrv.wallet.modules.chart
 
 import io.horizontalsystems.chartview.models.ChartIndicator
 import io.horizontalsystems.chartview.models.ChartPoint

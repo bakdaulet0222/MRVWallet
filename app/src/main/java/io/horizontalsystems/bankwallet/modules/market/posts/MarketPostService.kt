@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.market.posts
+package com.mrv.wallet.modules.market.posts
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.DataState
 import io.horizontalsystems.core.BackgroundManager
 import io.horizontalsystems.core.BackgroundManagerState
 import io.horizontalsystems.marketkit.models.Post

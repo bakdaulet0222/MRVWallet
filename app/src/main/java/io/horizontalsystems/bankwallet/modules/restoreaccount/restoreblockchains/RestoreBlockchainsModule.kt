@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoreblockchains
+package com.mrv.wallet.modules.restoreaccount.restoreblockchains
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.enablecoin.blockchaintokens.BlockchainTokensService
-import io.horizontalsystems.bankwallet.modules.enablecoin.blockchaintokens.BlockchainTokensViewModel
-import io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings.RestoreSettingsService
-import io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings.RestoreSettingsViewModel
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.enablecoin.blockchaintokens.BlockchainTokensService
+import com.mrv.wallet.modules.enablecoin.blockchaintokens.BlockchainTokensViewModel
+import com.mrv.wallet.modules.enablecoin.restoresettings.RestoreSettingsService
+import com.mrv.wallet.modules.enablecoin.restoresettings.RestoreSettingsViewModel
+import com.mrv.wallet.modules.market.ImageSource
 
 object RestoreBlockchainsModule {
 

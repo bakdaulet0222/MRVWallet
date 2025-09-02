@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.tor
+package com.mrv.wallet.modules.tor
 
 import androidx.compose.animation.Animatable
 import androidx.compose.animation.core.LinearEasing
@@ -20,10 +20,10 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toUpperCase
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryTransparent
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryTransparent
+import com.mrv.wallet.ui.compose.components.HsDivider
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.coroutines.delay
 

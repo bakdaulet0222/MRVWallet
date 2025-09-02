@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BalanceData
-import io.horizontalsystems.bankwallet.core.Warning
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.address.AddressHandlerFactory
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BalanceData
+import com.mrv.wallet.core.Warning
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.address.AddressHandlerFactory
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.marketkit.models.CoinPrice
 
 object BalanceModule {

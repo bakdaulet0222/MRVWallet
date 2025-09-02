@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -19,9 +19,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.Orange
+import com.mrv.wallet.modules.market.ImageSource
+import com.mrv.wallet.ui.compose.BlueL
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.Orange
 
 data class TabItem<T>(
     val title: String,
@@ -56,7 +57,7 @@ fun <T>Tabs(tabs: List<TabItem<T>>, onClick: (T) -> Unit) {
                     modifier = Modifier
                         .tabIndicatorOffset(tabPositions[selectedIndex])
                         .clip(RoundedCornerShape(topStart = 2.dp, topEnd = 2.dp)),
-                    color = Orange
+                    color = BlueL
                 )
             }
         ) {
@@ -104,14 +105,14 @@ fun <T>ScrollableTabs(tabs: List<TabItem<T>>, onClick: (T) -> Unit) {
                     modifier = Modifier
                         .tabIndicatorOffset(tabPositions[selectedIndex])
                         .clip(RoundedCornerShape(topStart = 2.dp, topEnd = 2.dp)),
-                    color = Orange
+                    color = BlueL
                 )
             }
         ) {
             tabs.forEach { tab ->
                 val textColor = when{
                     tab.selected -> ComposeAppTheme.colors.leah
-                    tab.premium -> Orange
+                    tab.premium -> BlueL
                     else -> ComposeAppTheme.colors.grey
                 }
                 Tab(

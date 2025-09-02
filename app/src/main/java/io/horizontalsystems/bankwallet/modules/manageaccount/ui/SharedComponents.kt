@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.ui
+package com.mrv.wallet.modules.manageaccount.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -29,27 +29,27 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.evmfee.ButtonsGroupWithShade
-import io.horizontalsystems.bankwallet.modules.manageaccount.recoveryphrase.RecoveryPhraseModule
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.B2
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryRed
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryTransparent
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.C2
-import io.horizontalsystems.bankwallet.ui.compose.components.CellSingleLineLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.D1
-import io.horizontalsystems.bankwallet.ui.compose.components.D2
-import io.horizontalsystems.bankwallet.ui.compose.components.D7
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.evmfee.ButtonsGroupWithShade
+import com.mrv.wallet.modules.manageaccount.recoveryphrase.RecoveryPhraseModule
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.B2
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryRed
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryTransparent
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.C2
+import com.mrv.wallet.ui.compose.components.CellSingleLineLawrenceSection
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.D1
+import com.mrv.wallet.ui.compose.components.D2
+import com.mrv.wallet.ui.compose.components.D7
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 
 @Composable
 fun ActionButton(title: Int, onClick: () -> Unit) {
@@ -120,7 +120,7 @@ fun KeyActionItem(
                     text = title,
                 )
                 Icon(
-                    painter = painterResource(id = io.horizontalsystems.bankwallet.R.drawable.ic_arrow_right),
+                    painter = painterResource(id = com.mrv.wallet.R.drawable.ic_arrow_right),
                     contentDescription = null,
                     tint = ComposeAppTheme.colors.grey
                 )

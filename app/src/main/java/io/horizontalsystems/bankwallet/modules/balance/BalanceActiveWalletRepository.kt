@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.managers.EvmSyncSourceManager
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.managers.EvmSyncSourceManager
+import com.mrv.wallet.entities.Wallet
 import io.reactivex.Observable
 
 class BalanceActiveWalletRepository(

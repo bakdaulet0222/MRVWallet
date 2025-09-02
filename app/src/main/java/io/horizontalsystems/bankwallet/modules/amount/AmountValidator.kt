@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.amount
+package com.mrv.wallet.modules.amount
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.modules.send.SendErrorInsufficientBalance
-import io.horizontalsystems.bankwallet.modules.send.SendErrorMaximumSendAmount
-import io.horizontalsystems.bankwallet.modules.send.SendErrorMinimumSendAmount
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.modules.send.SendErrorInsufficientBalance
+import com.mrv.wallet.modules.send.SendErrorMaximumSendAmount
+import com.mrv.wallet.modules.send.SendErrorMinimumSendAmount
+import com.mrv.wallet.ui.compose.TranslatableString
 import java.math.BigDecimal
 
 class AmountValidator {

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.RowScope

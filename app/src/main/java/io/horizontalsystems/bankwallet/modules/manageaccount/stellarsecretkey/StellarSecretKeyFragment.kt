@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.stellarsecretkey
+package com.mrv.wallet.modules.manageaccount.stellarsecretkey
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.manageaccount.SecretKeyScreen
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.manageaccount.SecretKeyScreen
 import kotlinx.parcelize.Parcelize
 
 class StellarSecretKeyFragment : BaseComposeFragment(screenshotEnabled = false) {

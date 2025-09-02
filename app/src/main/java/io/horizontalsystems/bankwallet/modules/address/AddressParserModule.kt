@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.utils.AddressUriParser
+import com.mrv.wallet.core.utils.AddressUriParser
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

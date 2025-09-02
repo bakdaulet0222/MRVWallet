@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.settings.security.autolock
+package com.mrv.wallet.modules.settings.security.autolock
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
 
 object AutoLockModule {
     class Factory : ViewModelProvider.Factory {

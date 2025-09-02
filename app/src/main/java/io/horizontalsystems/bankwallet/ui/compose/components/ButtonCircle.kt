@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.background
@@ -11,8 +11,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 
 @Composable
 fun ButtonPrimaryCircle(

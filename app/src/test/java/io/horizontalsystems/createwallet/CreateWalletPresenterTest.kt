@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.createwallet
+package com.mrv.wallet.modules.createwallet
 
 import org.spekframework.spek2.Spek
 

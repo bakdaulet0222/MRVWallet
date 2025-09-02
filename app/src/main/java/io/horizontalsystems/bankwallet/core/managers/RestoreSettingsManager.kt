@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IRestoreSettingsStorage
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.RestoreSettingRecord
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IRestoreSettingsStorage
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.RestoreSettingRecord
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 

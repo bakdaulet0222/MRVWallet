@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.entities.nft
+package com.mrv.wallet.entities.nft
 
-import io.horizontalsystems.bankwallet.entities.Account
+import com.mrv.wallet.entities.Account
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 data class NftKey(

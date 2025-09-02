@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.rooteddevice
+package com.mrv.wallet.modules.rooteddevice
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.utils.RootUtil
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.utils.RootUtil
 
 object RootedDeviceModule {
 

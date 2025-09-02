@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonic
+package com.mrv.wallet.modules.restoreaccount.restoremnemonic
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAccountFactory
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.WordsManager
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.entities.normalizeNFKD
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonic.RestoreMnemonicModule.UiState
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonic.RestoreMnemonicModule.WordItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAccountFactory
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.WordsManager
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.entities.normalizeNFKD
+import com.mrv.wallet.modules.restoreaccount.restoremnemonic.RestoreMnemonicModule.UiState
+import com.mrv.wallet.modules.restoreaccount.restoremnemonic.RestoreMnemonicModule.WordItem
 import io.horizontalsystems.core.CoreApp
 import io.horizontalsystems.core.IThirdKeyboard
 import io.horizontalsystems.hdwalletkit.Language

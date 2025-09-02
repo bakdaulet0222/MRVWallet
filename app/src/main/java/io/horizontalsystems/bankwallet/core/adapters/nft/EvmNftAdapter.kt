@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.adapters.nft
+package com.mrv.wallet.core.adapters.nft
 
-import io.horizontalsystems.bankwallet.entities.nft.EvmNftRecord
-import io.horizontalsystems.bankwallet.entities.nft.NftRecord
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
+import com.mrv.wallet.entities.nft.EvmNftRecord
+import com.mrv.wallet.entities.nft.NftRecord
+import com.mrv.wallet.entities.nft.NftUid
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.ethereumkit.models.TransactionData
 import io.horizontalsystems.marketkit.models.BlockchainType

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin.unlock
+package com.mrv.wallet.modules.pin.unlock
 
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat

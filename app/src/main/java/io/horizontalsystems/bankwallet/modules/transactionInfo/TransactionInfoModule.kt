@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.transactionInfo
+package com.mrv.wallet.modules.transactionInfo
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ITransactionsAdapter
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.entities.LastBlockInfo
-import io.horizontalsystems.bankwallet.entities.nft.NftAssetBriefMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.NftMetadataService
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ITransactionsAdapter
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.entities.LastBlockInfo
+import com.mrv.wallet.entities.nft.NftAssetBriefMetadata
+import com.mrv.wallet.entities.nft.NftUid
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.transactions.NftMetadataService
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 object TransactionInfoModule {

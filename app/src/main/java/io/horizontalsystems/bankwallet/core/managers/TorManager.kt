@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.content.Context
-import io.horizontalsystems.bankwallet.core.AppLogger
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.ITorManager
-import io.horizontalsystems.bankwallet.core.tor.ConnectionStatus
-import io.horizontalsystems.bankwallet.core.tor.Tor
-import io.horizontalsystems.bankwallet.core.tor.torcore.TorConstants
-import io.horizontalsystems.bankwallet.core.tor.torcore.TorOperator
-import io.horizontalsystems.bankwallet.core.tor.torutils.TorConnectionManager
-import io.horizontalsystems.bankwallet.modules.settings.privacy.tor.TorStatus
+import com.mrv.wallet.core.AppLogger
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.ITorManager
+import com.mrv.wallet.core.tor.ConnectionStatus
+import com.mrv.wallet.core.tor.Tor
+import com.mrv.wallet.core.tor.torcore.TorConstants
+import com.mrv.wallet.core.tor.torcore.TorOperator
+import com.mrv.wallet.core.tor.torutils.TorConnectionManager
+import com.mrv.wallet.modules.settings.privacy.tor.TorStatus
 import io.reactivex.Single
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update

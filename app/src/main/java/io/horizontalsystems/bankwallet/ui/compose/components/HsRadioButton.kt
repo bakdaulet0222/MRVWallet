@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 @Composable
 fun HsRadioButton(

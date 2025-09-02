@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request
+package com.mrv.wallet.modules.walletconnect.request
 
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.SectionViewItem
+import com.mrv.wallet.modules.sendevmtransaction.SectionViewItem
 
 data class WCActionState(
     val runnable: Boolean,

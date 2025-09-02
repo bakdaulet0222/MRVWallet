@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -6,9 +6,9 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import cash.z.ecc.android.sdk.ext.collectWith
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.managers.ActiveAccountState
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.managers.ActiveAccountState
+import com.mrv.wallet.entities.AccountType
 
 class BalanceAccountsViewModel(accountManager: IAccountManager) : ViewModel() {
 

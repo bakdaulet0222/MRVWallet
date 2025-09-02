@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.syncerror
+package com.mrv.wallet.modules.syncerror
 
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.managers.BtcBlockchainManager
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.managers.BtcBlockchainManager
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.entities.Wallet
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class SyncErrorService(

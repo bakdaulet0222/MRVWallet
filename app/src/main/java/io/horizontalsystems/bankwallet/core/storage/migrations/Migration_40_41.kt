@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.storage.migrations
+package com.mrv.wallet.core.storage.migrations
 
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import io.horizontalsystems.bankwallet.core.storage.BlockchainSettingsStorage
-import io.horizontalsystems.bankwallet.entities.BtcRestoreMode
+import com.mrv.wallet.core.storage.BlockchainSettingsStorage
+import com.mrv.wallet.entities.BtcRestoreMode
 
 object Migration_40_41 : Migration(40, 41) {
     override fun migrate(db: SupportSQLiteDatabase) {

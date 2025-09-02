@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
 import android.util.Log
-import io.horizontalsystems.bankwallet.modules.transactions.FilterTransactionType
+import com.mrv.wallet.modules.transactions.FilterTransactionType
 import io.horizontalsystems.monerokit.model.TransactionInfo
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable

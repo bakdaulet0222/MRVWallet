@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.coin.analytics
+package com.mrv.wallet.modules.coin.analytics
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.InvalidAuthTokenException
-import io.horizontalsystems.bankwallet.core.NoAuthTokenException
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.InvalidAuthTokenException
+import com.mrv.wallet.core.NoAuthTokenException
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.entities.DataState
 import io.horizontalsystems.marketkit.models.Analytics
 import io.horizontalsystems.marketkit.models.AnalyticsPreview
 import io.horizontalsystems.marketkit.models.Blockchain

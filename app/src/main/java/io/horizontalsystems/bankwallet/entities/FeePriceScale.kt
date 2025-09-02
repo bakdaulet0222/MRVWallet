@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 enum class FeePriceScale {
     Satoshi, Gwei, Navax;

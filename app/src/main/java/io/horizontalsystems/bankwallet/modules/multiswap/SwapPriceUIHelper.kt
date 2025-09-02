@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
-import io.horizontalsystems.bankwallet.entities.CoinValue
+import com.mrv.wallet.entities.CoinValue
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 import java.math.RoundingMode

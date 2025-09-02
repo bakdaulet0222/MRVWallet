@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.eip20approve
+package com.mrv.wallet.modules.eip20approve
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
 
 class Eip20ApproveTransactionSettingsFragment : BaseComposeFragment() {
     @Composable

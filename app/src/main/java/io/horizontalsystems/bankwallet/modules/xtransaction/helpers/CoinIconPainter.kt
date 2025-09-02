@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.xtransaction.helpers
+package com.mrv.wallet.modules.xtransaction.helpers
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
 import coil.compose.rememberAsyncImagePainter
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 @Composable
 fun coinIconPainter(

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import io.horizontalsystems.marketkit.models.Coin
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

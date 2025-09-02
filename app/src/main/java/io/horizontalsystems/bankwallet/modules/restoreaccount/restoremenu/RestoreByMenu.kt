@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu
+package com.mrv.wallet.modules.restoreaccount.restoremenu
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -13,14 +13,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.B2
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.SelectorDialogCompose
-import io.horizontalsystems.bankwallet.ui.compose.components.SelectorItem
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.B2
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.SelectorDialogCompose
+import com.mrv.wallet.ui.compose.components.SelectorItem
+import com.mrv.wallet.ui.compose.components.subhead1_grey
 
 @Composable
 fun RestoreByMenu(

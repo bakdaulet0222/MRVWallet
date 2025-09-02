@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey
+package com.mrv.wallet.modules.manageaccount.showextendedkey
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule.DisplayKeyType
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule.DisplayKeyType
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.bitcoincash.MainNetBitcoinCash
 import io.horizontalsystems.bitcoinkit.MainNet
 import io.horizontalsystems.dashkit.MainNetDash

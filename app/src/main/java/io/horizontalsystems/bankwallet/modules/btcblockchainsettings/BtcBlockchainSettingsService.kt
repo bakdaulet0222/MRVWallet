@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.btcblockchainsettings
+package com.mrv.wallet.modules.btcblockchainsettings
 
-import io.horizontalsystems.bankwallet.core.managers.BtcBlockchainManager
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.BtcRestoreMode
+import com.mrv.wallet.core.managers.BtcBlockchainManager
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.BtcRestoreMode
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject

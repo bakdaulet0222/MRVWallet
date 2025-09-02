@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.coin.majorholders
+package com.mrv.wallet.modules.coin.majorholders
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.CoinViewFactory
-import io.horizontalsystems.bankwallet.modules.coin.MajorHolderItem
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.StackBarSlice
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.CoinViewFactory
+import com.mrv.wallet.modules.coin.MajorHolderItem
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.StackBarSlice
 import io.horizontalsystems.marketkit.models.Blockchain
 
 object CoinMajorHoldersModule {

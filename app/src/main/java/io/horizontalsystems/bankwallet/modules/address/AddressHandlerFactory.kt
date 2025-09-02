@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
-import io.horizontalsystems.bankwallet.core.supported
+import com.mrv.wallet.core.supported
 import io.horizontalsystems.bitcoincash.MainNetBitcoinCash
 import io.horizontalsystems.bitcoinkit.MainNet
 import io.horizontalsystems.dashkit.MainNetDash

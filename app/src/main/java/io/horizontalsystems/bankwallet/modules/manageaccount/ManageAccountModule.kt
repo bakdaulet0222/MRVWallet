@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount
+package com.mrv.wallet.modules.manageaccount
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.balance.HeaderNote
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.balance.HeaderNote
 
 object ManageAccountModule {
     class Factory(private val accountId: String) : ViewModelProvider.Factory {

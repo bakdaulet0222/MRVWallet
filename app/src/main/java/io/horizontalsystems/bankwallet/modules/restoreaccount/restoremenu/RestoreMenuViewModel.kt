@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu
+package com.mrv.wallet.modules.restoreaccount.restoremenu
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.tor.torcore
+package com.mrv.wallet.core.tor.torcore
 
 import android.util.Log
-import io.horizontalsystems.bankwallet.core.tor.Tor
-import io.horizontalsystems.bankwallet.core.tor.torutils.FileUtils
-import io.horizontalsystems.bankwallet.core.tor.torutils.NativeLoader
-import io.horizontalsystems.bankwallet.core.tor.torutils.NetworkUtils
+import com.mrv.wallet.core.tor.Tor
+import com.mrv.wallet.core.tor.torutils.FileUtils
+import com.mrv.wallet.core.tor.torutils.NativeLoader
+import com.mrv.wallet.core.tor.torutils.NetworkUtils
 import java.io.*
 import java.util.concurrent.TimeoutException
 import java.util.logging.Logger

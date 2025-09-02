@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.market.filters
+package com.mrv.wallet.modules.market.filters
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -12,18 +12,18 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.body_lucian
-import io.horizontalsystems.bankwallet.ui.compose.components.body_remus
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_grey
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_grey
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.body_lucian
+import com.mrv.wallet.ui.compose.components.body_remus
+import com.mrv.wallet.ui.compose.components.caption_grey
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 
 @Composable
 fun <ItemClass> SingleSelectBottomSheetContent(

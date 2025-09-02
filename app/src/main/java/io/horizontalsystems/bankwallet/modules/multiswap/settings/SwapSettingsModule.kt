@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.settings
+package com.mrv.wallet.modules.multiswap.settings
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.Caution
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.ui.compose.components.FormsInputStateWarning
+import com.mrv.wallet.R
+import com.mrv.wallet.core.Caution
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.ui.compose.components.FormsInputStateWarning
 import java.math.BigDecimal
 
 object SwapSettingsModule {

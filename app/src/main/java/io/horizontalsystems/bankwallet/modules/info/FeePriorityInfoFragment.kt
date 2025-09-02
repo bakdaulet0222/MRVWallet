@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.info
+package com.mrv.wallet.modules.info
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -11,15 +11,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoBody
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoHeader
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoSubHeader
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.info.ui.InfoBody
+import com.mrv.wallet.modules.info.ui.InfoHeader
+import com.mrv.wallet.modules.info.ui.InfoSubHeader
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.MenuItem
 
 class FeePriorityInfoFragment : BaseComposeFragment() {
 

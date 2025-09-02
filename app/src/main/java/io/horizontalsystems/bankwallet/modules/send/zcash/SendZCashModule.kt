@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.send.zcash
+package com.mrv.wallet.modules.send.zcash
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ISendZcashAdapter
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.amount.AmountValidator
-import io.horizontalsystems.bankwallet.modules.amount.SendAmountService
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ISendZcashAdapter
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.amount.AmountValidator
+import com.mrv.wallet.modules.amount.SendAmountService
+import com.mrv.wallet.modules.xrate.XRateService
 
 object SendZCashModule {
 

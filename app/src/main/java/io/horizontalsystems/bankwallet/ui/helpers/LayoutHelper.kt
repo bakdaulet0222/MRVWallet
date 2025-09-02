@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.helpers
+package com.mrv.wallet.ui.helpers
 
 import android.content.Context
 

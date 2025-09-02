@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.addresschecker
+package com.mrv.wallet.modules.settings.addresschecker
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -19,23 +19,23 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HFillSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsSwitch
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.CellUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionUniversalLawrence
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HFillSpacer
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsSwitch
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.cell.CellUniversal
+import com.mrv.wallet.ui.compose.components.cell.SectionUniversalLawrence
 
 class AddressCheckerFragment : BaseComposeFragment() {
 

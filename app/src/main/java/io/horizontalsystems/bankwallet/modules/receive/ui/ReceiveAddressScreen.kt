@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.receive.ui
+package com.mrv.wallet.modules.receive.ui
 
 import android.content.Intent
 import android.graphics.drawable.AdaptiveIconDrawable
@@ -67,46 +67,46 @@ import io.github.alexzhirkevich.qrose.options.QrLogoShape
 import io.github.alexzhirkevich.qrose.options.QrPixelShape
 import io.github.alexzhirkevich.qrose.options.roundCorners
 import io.github.alexzhirkevich.qrose.rememberQrCodePainter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Loading
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveModule
-import io.horizontalsystems.bankwallet.ui.compose.ColoredTextStyle
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryJacobCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.ErrorScreenWithAction
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.HsIconButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsTextButton
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantError
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_grey50
-import io.horizontalsystems.bankwallet.ui.compose.components.body_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.captionSB_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.title3_leah
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
-import io.horizontalsystems.bankwallet.ui.helpers.TextHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.overview.ui.Loading
+import com.mrv.wallet.modules.receive.ReceiveModule
+import com.mrv.wallet.ui.compose.ColoredTextStyle
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryCircle
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryJacobCircle
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryCircle
+import com.mrv.wallet.ui.compose.components.ErrorScreenWithAction
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.HsIconButton
+import com.mrv.wallet.ui.compose.components.HsTextButton
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.TextImportantError
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_grey50
+import com.mrv.wallet.ui.compose.components.body_jacob
+import com.mrv.wallet.ui.compose.components.captionSB_jacob
+import com.mrv.wallet.ui.compose.components.caption_grey
+import com.mrv.wallet.ui.compose.components.subhead1_jacob
+import com.mrv.wallet.ui.compose.components.subhead1_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_leah
+import com.mrv.wallet.ui.compose.components.subhead_grey
+import com.mrv.wallet.ui.compose.components.title3_leah
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.ui.helpers.TextHelper
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -354,8 +354,8 @@ fun ReceiveAddressScreen(
 private fun QrCodeImage(address: String) {
     val logoPainter: Painter =
         adaptiveIconPainterResource(
-            id = R.mipmap.launcher_main,
-            fallbackDrawable = R.drawable.launcher_main_preview
+            id = R.mipmap.mrv_wallet_logo,
+            fallbackDrawable = R.mipmap.mrv_wallet_logo
         )
     val qrcodePainter: Painter =
         rememberQrCodePainter(address) {

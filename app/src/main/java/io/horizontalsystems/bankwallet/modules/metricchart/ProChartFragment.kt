@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.metricchart
+package com.mrv.wallet.modules.metricchart
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -13,14 +13,14 @@ import androidx.compose.ui.unit.dp
 import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.getInputX
-import io.horizontalsystems.bankwallet.modules.chart.ChartViewModel
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Chart
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.extensions.BaseComposableBottomSheetFragment
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.core.getInputX
+import com.mrv.wallet.modules.chart.ChartViewModel
+import com.mrv.wallet.modules.coin.overview.ui.Chart
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.extensions.BaseComposableBottomSheetFragment
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 import kotlinx.parcelize.Parcelize
 
 class ProChartFragment : BaseComposableBottomSheetFragment() {

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose
+package com.mrv.wallet.ui.compose
 
 data class Select<T>(
     val selected: T,

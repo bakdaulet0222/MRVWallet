@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoreprivatekey
+package com.mrv.wallet.modules.restoreaccount.restoreprivatekey
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -12,22 +12,22 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.restoreaccount.RestoreViewModel
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu.RestoreByMenu
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu.RestoreMenuViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.FormsInput
-import io.horizontalsystems.bankwallet.ui.compose.components.FormsInputMultiline
-import io.horizontalsystems.bankwallet.ui.compose.components.HeaderText
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.restoreaccount.RestoreViewModel
+import com.mrv.wallet.modules.restoreaccount.restoremenu.RestoreByMenu
+import com.mrv.wallet.modules.restoreaccount.restoremenu.RestoreMenuViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.FormsInput
+import com.mrv.wallet.ui.compose.components.FormsInputMultiline
+import com.mrv.wallet.ui.compose.components.HeaderText
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.MenuItem
 
 @Composable
 fun RestorePrivateKey(

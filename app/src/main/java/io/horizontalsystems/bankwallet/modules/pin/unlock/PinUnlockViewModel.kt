@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.pin.unlock
+package com.mrv.wallet.modules.pin.unlock
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.modules.pin.PinModule
-import io.horizontalsystems.bankwallet.modules.pin.core.ILockoutManager
-import io.horizontalsystems.bankwallet.modules.pin.core.LockoutState
-import io.horizontalsystems.bankwallet.modules.pin.core.OneTimeTimer
-import io.horizontalsystems.bankwallet.modules.pin.core.OneTimerDelegate
-import io.horizontalsystems.bankwallet.modules.pin.unlock.PinUnlockModule.PinUnlockViewState
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.modules.pin.PinModule
+import com.mrv.wallet.modules.pin.core.ILockoutManager
+import com.mrv.wallet.modules.pin.core.LockoutState
+import com.mrv.wallet.modules.pin.core.OneTimeTimer
+import com.mrv.wallet.modules.pin.core.OneTimerDelegate
+import com.mrv.wallet.modules.pin.unlock.PinUnlockModule.PinUnlockViewState
 import io.horizontalsystems.core.IPinComponent
 import io.horizontalsystems.core.ISystemInfoManager
 import io.horizontalsystems.core.helpers.DateHelper

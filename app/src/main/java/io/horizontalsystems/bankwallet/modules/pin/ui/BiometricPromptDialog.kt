@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin.ui
+package com.mrv.wallet.modules.pin.ui
 
 import androidx.biometric.BiometricPrompt
 import androidx.compose.runtime.Composable
@@ -6,8 +6,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.fragment.app.FragmentActivity
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.pin.unlock.BiometricPromptUtils.createBiometricPrompt
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.pin.unlock.BiometricPromptUtils.createBiometricPrompt
 
 @Composable
 fun BiometricPromptDialog(

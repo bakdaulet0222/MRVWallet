@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import io.horizontalsystems.core.security.KeyStoreManager
 import java.util.*

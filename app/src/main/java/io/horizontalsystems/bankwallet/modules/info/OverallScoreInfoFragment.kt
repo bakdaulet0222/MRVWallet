@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.info
+package com.mrv.wallet.modules.info
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -16,21 +16,21 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule.OverallScore
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule.ScoreCategory
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoHeader
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoTextBody
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_jacob
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule.OverallScore
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule.ScoreCategory
+import com.mrv.wallet.modules.info.ui.InfoHeader
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.InfoTextBody
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.headline2_jacob
 import java.math.BigDecimal
 
 class OverallScoreInfoFragment : BaseComposeFragment() {

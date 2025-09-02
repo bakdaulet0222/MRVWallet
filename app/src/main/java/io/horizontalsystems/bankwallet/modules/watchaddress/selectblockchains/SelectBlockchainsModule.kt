@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.watchaddress.selectblockchains
+package com.mrv.wallet.modules.watchaddress.selectblockchains
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.watchaddress.WatchAddressService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.watchaddress.WatchAddressService
 
 object SelectBlockchainsModule {
     class Factory(val accountType: AccountType, val accountName: String?) : ViewModelProvider.Factory {

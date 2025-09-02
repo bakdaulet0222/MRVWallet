@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.markdown
+package com.mrv.wallet.modules.markdown
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.databinding.*
+import com.mrv.wallet.R
+import com.mrv.wallet.databinding.*
 
 class MarkdownContentAdapter(
     private val handleRelativeUrl: Boolean,

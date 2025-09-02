@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel

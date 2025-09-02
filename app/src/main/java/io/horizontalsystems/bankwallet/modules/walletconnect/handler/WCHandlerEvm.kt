@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.handler
+package com.mrv.wallet.modules.walletconnect.handler
 
 import com.walletconnect.android.Core
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.core.UnsupportedAccountException
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.core.UnsupportedAccountException
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
 import io.horizontalsystems.ethereumkit.core.signer.Signer
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.ethereumkit.models.Chain

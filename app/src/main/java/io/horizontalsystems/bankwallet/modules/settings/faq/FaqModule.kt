@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.settings.faq
+package com.mrv.wallet.modules.settings.faq
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.FaqManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.FaqManager
 
 object FaqModule {
 

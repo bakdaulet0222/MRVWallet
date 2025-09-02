@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.contacts
+package com.mrv.wallet.modules.contacts
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.modules.address.AddressHandlerFactory
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
-import io.horizontalsystems.bankwallet.modules.contacts.model.ContactAddress
-import io.horizontalsystems.bankwallet.modules.contacts.viewmodel.AddressViewModel
-import io.horizontalsystems.bankwallet.modules.contacts.viewmodel.ContactViewModel
-import io.horizontalsystems.bankwallet.modules.contacts.viewmodel.ContactsViewModel
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.modules.address.AddressHandlerFactory
+import com.mrv.wallet.modules.contacts.model.Contact
+import com.mrv.wallet.modules.contacts.model.ContactAddress
+import com.mrv.wallet.modules.contacts.viewmodel.AddressViewModel
+import com.mrv.wallet.modules.contacts.viewmodel.ContactViewModel
+import com.mrv.wallet.modules.contacts.viewmodel.ContactsViewModel
 
 object ContactsModule {
 

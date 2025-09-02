@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.send.address
+package com.mrv.wallet.modules.send.address
 
-import io.horizontalsystems.bankwallet.core.title
-import io.horizontalsystems.bankwallet.core.utils.AddressUriParser
-import io.horizontalsystems.bankwallet.core.utils.AddressUriResult
-import io.horizontalsystems.bankwallet.core.utils.ToncoinUriParser
-import io.horizontalsystems.bankwallet.modules.address.AddressValidationException
+import com.mrv.wallet.core.title
+import com.mrv.wallet.core.utils.AddressUriParser
+import com.mrv.wallet.core.utils.AddressUriResult
+import com.mrv.wallet.core.utils.ToncoinUriParser
+import com.mrv.wallet.modules.address.AddressValidationException
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class AddressExtractor(

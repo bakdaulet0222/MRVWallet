@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.providers
+package com.mrv.wallet.core.providers
 
-import io.horizontalsystems.bankwallet.core.IFeeRateProvider
+import com.mrv.wallet.core.IFeeRateProvider
 import io.horizontalsystems.feeratekit.FeeRateKit
 import io.horizontalsystems.feeratekit.model.FeeProviderConfig
 import io.horizontalsystems.feeratekit.providers.MempoolSpaceProvider

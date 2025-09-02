@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.markdown
+package com.mrv.wallet.modules.markdown
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object MarkdownModule {
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey
+package com.mrv.wallet.modules.manageaccount.showextendedkey
 
 import android.os.Parcelable
 import androidx.lifecycle.ViewModel

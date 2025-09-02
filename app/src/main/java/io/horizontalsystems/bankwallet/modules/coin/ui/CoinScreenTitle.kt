@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.ui
+package com.mrv.wallet.modules.coin.ui
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -9,11 +9,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.HsImage
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.body_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.HsImage
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.body_grey
+import com.mrv.wallet.ui.compose.components.subhead1_grey
 
 @Composable
 fun CoinScreenTitle(

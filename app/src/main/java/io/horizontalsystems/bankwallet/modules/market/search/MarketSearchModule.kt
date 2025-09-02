@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.market.search
+package com.mrv.wallet.modules.market.search
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import io.horizontalsystems.marketkit.models.CoinCategory
 import io.horizontalsystems.marketkit.models.FullCoin
 import java.math.BigDecimal

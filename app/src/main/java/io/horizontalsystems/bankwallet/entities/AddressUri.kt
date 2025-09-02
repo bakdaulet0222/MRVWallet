@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
-import io.horizontalsystems.bankwallet.core.factories.uriScheme
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.core.supported
+import com.mrv.wallet.core.factories.uriScheme
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.core.supported
 import io.horizontalsystems.marketkit.models.BlockchainType
 import java.math.BigDecimal
 

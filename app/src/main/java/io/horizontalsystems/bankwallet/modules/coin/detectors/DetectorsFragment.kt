@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.detectors
+package com.mrv.wallet.modules.coin.detectors
 
 import android.os.Parcelable
 import androidx.compose.animation.AnimatedVisibility
@@ -32,23 +32,23 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.coin.detectors.DetectorsModule.DetectorsTab
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.TabItem
-import io.horizontalsystems.bankwallet.ui.compose.components.Tabs
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.coin.detectors.DetectorsModule.DetectorsTab
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.TabItem
+import com.mrv.wallet.ui.compose.components.Tabs
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.headline2_leah
+import com.mrv.wallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_leah
 import kotlinx.parcelize.Parcelize
 
 class DetectorsFragment : BaseComposeFragment() {

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.core.BalanceData
-import io.horizontalsystems.bankwallet.core.storage.EnabledWalletsCacheDao
-import io.horizontalsystems.bankwallet.entities.EnabledWalletCache
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.BalanceData
+import com.mrv.wallet.core.storage.EnabledWalletsCacheDao
+import com.mrv.wallet.entities.EnabledWalletCache
+import com.mrv.wallet.entities.Wallet
 
 class BalanceCache(private val dao: EnabledWalletsCacheDao) {
     private var cacheMap: Map<String, BalanceData>

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin.ui
+package com.mrv.wallet.modules.pin.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -14,12 +14,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.body_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.body_lucian
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.title3_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.body_grey
+import com.mrv.wallet.ui.compose.components.body_lucian
+import com.mrv.wallet.ui.compose.components.headline2_jacob
+import com.mrv.wallet.ui.compose.components.title3_leah
 
 @Composable
 fun BiometricDisabledDialog(onClick: () -> Unit) {

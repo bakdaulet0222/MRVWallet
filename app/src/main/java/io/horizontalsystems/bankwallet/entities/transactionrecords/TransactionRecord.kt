@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords
+package com.mrv.wallet.entities.transactionrecords
 
-import io.horizontalsystems.bankwallet.entities.LastBlockInfo
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.ContractCallTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.EvmOutgoingTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.ExternalContractCallTransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionStatus
+import com.mrv.wallet.entities.LastBlockInfo
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.nft.NftUid
+import com.mrv.wallet.entities.transactionrecords.evm.ContractCallTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.evm.EvmOutgoingTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.evm.ExternalContractCallTransactionRecord
+import com.mrv.wallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.transactions.TransactionStatus
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 abstract class TransactionRecord(

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.providers.nft
+package com.mrv.wallet.core.providers.nft
 
-import io.horizontalsystems.bankwallet.core.managers.APIClient
+import com.mrv.wallet.core.managers.APIClient
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

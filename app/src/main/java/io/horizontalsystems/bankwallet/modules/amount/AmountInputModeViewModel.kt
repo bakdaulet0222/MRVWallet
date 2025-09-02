@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.amount
+package com.mrv.wallet.modules.amount
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -6,8 +6,8 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import cash.z.ecc.android.sdk.ext.onFirstWith
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.modules.xrate.XRateService
 
 class AmountInputModeViewModel(
     private val localStorage: ILocalStorage,

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.manageaccounts
+package com.mrv.wallet.modules.manageaccounts
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -16,29 +16,29 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.navigateWithTermsAccepted
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.backupalert.BackupAlert
-import io.horizontalsystems.bankwallet.modules.manageaccount.ManageAccountFragment
-import io.horizontalsystems.bankwallet.modules.manageaccounts.ManageAccountsModule.AccountViewItem
-import io.horizontalsystems.bankwallet.modules.manageaccounts.ManageAccountsModule.ActionViewItem
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsRadioButton
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.body_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_lucian
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.navigateWithTermsAccepted
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.backupalert.BackupAlert
+import com.mrv.wallet.modules.manageaccount.ManageAccountFragment
+import com.mrv.wallet.modules.manageaccounts.ManageAccountsModule.AccountViewItem
+import com.mrv.wallet.modules.manageaccounts.ManageAccountsModule.ActionViewItem
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryCircle
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsRadioButton
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.body_jacob
+import com.mrv.wallet.ui.compose.components.headline2_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_lucian
 
 class ManageAccountsFragment : BaseComposeFragment() {
 

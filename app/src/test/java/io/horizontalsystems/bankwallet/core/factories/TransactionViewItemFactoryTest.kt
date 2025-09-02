@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
 //class TransactionViewItemFactoryTest {
 //

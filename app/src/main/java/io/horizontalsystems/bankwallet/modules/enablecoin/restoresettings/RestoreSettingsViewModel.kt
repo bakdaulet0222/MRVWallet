@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings
+package com.mrv.wallet.modules.enablecoin.restoresettings
 
 import android.os.Parcelable
 import androidx.compose.runtime.getValue
@@ -6,7 +6,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.Clearable
+import com.mrv.wallet.core.Clearable
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow

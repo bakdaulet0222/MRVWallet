@@ -9,7 +9,7 @@ plugins {
 android {
 
     defaultConfig {
-        applicationId "io.horizontalsystems.bankwallet"
+        applicationId "com.mrv.wallet"
         compileSdk compile_sdk_version
         minSdkVersion min_sdk_version
         targetSdkVersion compile_sdk_version
@@ -26,18 +26,12 @@ android {
             checkReleaseBuilds false
         }
 
-        resValue "string", "companyWebPageLink", "https://horizontalsystems.io"
-        resValue "string", "appWebPageLink", "https://unstoppable.money"
-        resValue "string", "analyticsLink", "https://unstoppable.money/analytics"
-        resValue "string", "appGithubLink", "https://github.com/horizontalsystems/unstoppable-wallet-android"
-        resValue "string", "appTwitterLink", "https://twitter.com/UnstoppableByHS"
-        resValue "string", "appTelegramLink", "https://t.me/unstoppable_announcements"
-        resValue "string", "reportEmail", "support.unstoppable@protonmail.com"
-        resValue "string", "releaseNotesUrl", "https://api.github.com/repos/horizontalsystems/unstoppable-wallet-android/releases/tags/"
-        resValue "string", "walletConnectAppMetaDataName", "Unstoppable"
-        resValue "string", "walletConnectAppMetaDataUrl", "unstoppable.money"
-        resValue "string", "walletConnectAppMetaDataIcon", "https://raw.githubusercontent.com/horizontalsystems/HS-Design/master/PressKit/UW-AppIcon-on-light.png"
-        resValue "string", "accountsBackupFileSalt", "unstoppable"
+        resValue "string", "reportEmail", ""
+        resValue "string", "releaseNotesUrl", ""
+        resValue "string", "walletConnectAppMetaDataName", ""
+        resValue "string", "walletConnectAppMetaDataUrl", ""
+        resValue "string", "walletConnectAppMetaDataIcon", ""
+        resValue "string", "accountsBackupFileSalt", ""
 
         buildConfigField "boolean", "FDROID_BUILD", "false"
 
@@ -190,7 +184,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion '1.5.12'
     }
-    namespace 'io.horizontalsystems.bankwallet'
+    namespace 'com.mrv.wallet'
     lint {
         disable 'LogNotTimber'
     }
@@ -339,7 +333,7 @@ dependencies {
     implementation 'com.walletconnect:web3wallet'
     implementation 'com.walletconnect:android-core'
 
-    // Unstoppable Domains
+    // MRV Domains
     implementation 'com.github.unstoppabledomains:resolution-java:v7.1.0'
 
     // Ethereum Name Service

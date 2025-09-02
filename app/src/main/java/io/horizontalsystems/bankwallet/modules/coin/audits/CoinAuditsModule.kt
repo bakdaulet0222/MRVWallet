@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.coin.audits
+package com.mrv.wallet.modules.coin.audits
 
 import android.os.Parcelable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.TranslatableString
 import kotlinx.parcelize.Parcelize
 import javax.annotation.concurrent.Immutable
 

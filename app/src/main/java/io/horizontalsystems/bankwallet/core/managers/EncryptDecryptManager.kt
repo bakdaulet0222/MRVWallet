@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.util.Base64
-import io.horizontalsystems.bankwallet.modules.backuplocal.BackupLocalModule
+import com.mrv.wallet.modules.backuplocal.BackupLocalModule
 import io.horizontalsystems.ethereumkit.core.hexStringToByteArray
 import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
 import org.bouncycastle.crypto.generators.SCrypt

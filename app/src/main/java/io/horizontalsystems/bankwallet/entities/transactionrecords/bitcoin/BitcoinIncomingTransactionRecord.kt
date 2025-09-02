@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.bitcoin
+package com.mrv.wallet.entities.transactionrecords.bitcoin
 
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionLockInfo
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.modules.transactions.TransactionLockInfo
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

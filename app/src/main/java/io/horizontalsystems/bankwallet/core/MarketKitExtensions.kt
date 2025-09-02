@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import androidx.compose.ui.graphics.Color
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.managers.RestoreSettingType
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.entities.BitcoinCashCoinType
-import io.horizontalsystems.bankwallet.entities.FeePriceScale
-import io.horizontalsystems.bankwallet.modules.settings.appearance.PriceChangeInterval
+import com.mrv.wallet.R
+import com.mrv.wallet.core.managers.RestoreSettingType
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.entities.BitcoinCashCoinType
+import com.mrv.wallet.entities.FeePriceScale
+import com.mrv.wallet.modules.settings.appearance.PriceChangeInterval
 import io.horizontalsystems.bitcoincash.MainNetBitcoinCash
 import io.horizontalsystems.hdwalletkit.ExtendedKeyCoinType
 import io.horizontalsystems.hdwalletkit.HDWallet

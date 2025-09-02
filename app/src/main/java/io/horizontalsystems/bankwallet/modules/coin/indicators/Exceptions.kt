@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.coin.indicators
+package com.mrv.wallet.modules.coin.indicators
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
 
 class NotIntegerException : Exception() {
     override fun getLocalizedMessage(): String {

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.tor.torcore
+package com.mrv.wallet.core.tor.torcore
 
 
 interface TorConstants {

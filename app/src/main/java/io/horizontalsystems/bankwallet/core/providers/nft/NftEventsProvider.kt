@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.providers.nft
+package com.mrv.wallet.core.providers.nft
 
-import io.horizontalsystems.bankwallet.core.managers.APIClient
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.nft.NftAssetMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftEventMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
+import com.mrv.wallet.core.managers.APIClient
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.nft.NftAssetMetadata
+import com.mrv.wallet.entities.nft.NftEventMetadata
+import com.mrv.wallet.entities.nft.NftUid
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.NftPrice
 import io.horizontalsystems.marketkit.models.TokenQuery

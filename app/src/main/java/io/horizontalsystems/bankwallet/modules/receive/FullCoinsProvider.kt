@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.receive
+package com.mrv.wallet.modules.receive
 
-import io.horizontalsystems.bankwallet.core.isCustom
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.core.nativeTokenQueries
-import io.horizontalsystems.bankwallet.core.sortedByFilter
-import io.horizontalsystems.bankwallet.core.supported
-import io.horizontalsystems.bankwallet.core.supports
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.isCustom
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.nativeTokenQueries
+import com.mrv.wallet.core.sortedByFilter
+import com.mrv.wallet.core.supported
+import com.mrv.wallet.core.supports
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.Wallet
 import io.horizontalsystems.ethereumkit.core.AddressValidator
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.FullCoin

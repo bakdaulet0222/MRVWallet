@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
 
 enum class LaunchPage(@StringRes val titleRes: Int, @DrawableRes val iconRes: Int):
     WithTranslatableTitle {

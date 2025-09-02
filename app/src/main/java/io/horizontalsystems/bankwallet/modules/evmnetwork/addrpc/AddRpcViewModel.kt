@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.evmnetwork.addrpc
+package com.mrv.wallet.modules.evmnetwork.addrpc
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.Caution
-import io.horizontalsystems.bankwallet.core.managers.EvmSyncSourceManager
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
+import com.mrv.wallet.R
+import com.mrv.wallet.core.Caution
+import com.mrv.wallet.core.managers.EvmSyncSourceManager
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
 import io.horizontalsystems.marketkit.models.Blockchain
 import java.net.MalformedURLException
 import java.net.URI

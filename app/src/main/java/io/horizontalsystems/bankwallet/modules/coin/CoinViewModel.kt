@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.coin
+package com.mrv.wallet.modules.coin
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.ILocalStorage
+import com.mrv.wallet.R
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.ILocalStorage
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import java.math.BigDecimal
 import java.math.BigInteger

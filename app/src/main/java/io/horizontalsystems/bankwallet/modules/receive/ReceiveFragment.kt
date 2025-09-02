@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.receive
+package com.mrv.wallet.modules.receive
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,17 +12,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.receive.ui.ReceiveAddressScreen
-import io.horizontalsystems.bankwallet.modules.receive.ui.UsedAddressesParams
-import io.horizontalsystems.bankwallet.modules.receive.viewmodels.ReceiveAddressViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.receive.ui.ReceiveAddressScreen
+import com.mrv.wallet.modules.receive.ui.UsedAddressesParams
+import com.mrv.wallet.modules.receive.viewmodels.ReceiveAddressViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.TokenType
 import kotlinx.parcelize.Parcelize

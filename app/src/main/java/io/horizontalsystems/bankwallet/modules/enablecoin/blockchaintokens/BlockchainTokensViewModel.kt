@@ -1,18 +1,18 @@
-package io.horizontalsystems.bankwallet.modules.enablecoin.blockchaintokens
+package com.mrv.wallet.modules.enablecoin.blockchaintokens
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.description
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.title
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetSelectorMultipleDialog
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetSelectorViewItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.description
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.title
+import com.mrv.wallet.modules.market.ImageSource
+import com.mrv.wallet.ui.extensions.BottomSheetSelectorMultipleDialog
+import com.mrv.wallet.ui.extensions.BottomSheetSelectorViewItem
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow
 

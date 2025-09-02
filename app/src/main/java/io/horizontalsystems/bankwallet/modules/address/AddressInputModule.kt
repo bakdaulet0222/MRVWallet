@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.utils.AddressUriParser
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.utils.AddressUriParser
+import com.mrv.wallet.entities.Address
 import io.horizontalsystems.bitcoincash.MainNetBitcoinCash
 import io.horizontalsystems.bitcoinkit.MainNet
 import io.horizontalsystems.dashkit.MainNetDash

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.settings.security.passcode
+package com.mrv.wallet.modules.settings.security.passcode
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object SecurityPasscodeSettingsModule {
 

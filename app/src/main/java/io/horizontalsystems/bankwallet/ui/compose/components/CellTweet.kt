@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -34,11 +34,11 @@ import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import coil.size.Size
 import com.twitter.twittertext.Extractor
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.coin.tweets.ReferencedTweetViewItem
-import io.horizontalsystems.bankwallet.modules.coin.tweets.Tweet
-import io.horizontalsystems.bankwallet.modules.coin.tweets.TweetViewItem
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.coin.tweets.ReferencedTweetViewItem
+import com.mrv.wallet.modules.coin.tweets.Tweet
+import com.mrv.wallet.modules.coin.tweets.TweetViewItem
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 
 @Preview
 @Composable

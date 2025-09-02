@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
 import io.horizontalsystems.marketkit.models.CoinPrice
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.list.ui
+package com.mrv.wallet.modules.walletconnect.list.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row

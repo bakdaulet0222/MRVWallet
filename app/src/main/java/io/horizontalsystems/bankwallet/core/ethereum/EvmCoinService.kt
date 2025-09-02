@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.ethereum
+package com.mrv.wallet.core.ethereum
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.CoinValue
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.send.SendModule
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.CoinValue
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.send.SendModule
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 import java.math.BigInteger

@@ -1,3 +1,3 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.handler
+package com.mrv.wallet.modules.walletconnect.handler
 
 class UnsupportedMethodException(val method: String) : Exception()

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.xtransaction.sections.ton
+package com.mrv.wallet.modules.xtransaction.sections.ton
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.xtransaction.cells.HeaderCell
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionUniversalLawrence
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.xtransaction.cells.HeaderCell
+import com.mrv.wallet.ui.compose.components.cell.SectionUniversalLawrence
 
 @Composable
 fun ContractDeploySection(

@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.send.address
+package com.mrv.wallet.modules.send.address
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.ISendBitcoinAdapter
-import io.horizontalsystems.bankwallet.core.ISendStellarAdapter
-import io.horizontalsystems.bankwallet.core.ISendTronAdapter
-import io.horizontalsystems.bankwallet.core.ISendZcashAdapter
-import io.horizontalsystems.bankwallet.core.adapters.zcash.ZcashAdapter.ZcashError
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.ISendBitcoinAdapter
+import com.mrv.wallet.core.ISendStellarAdapter
+import com.mrv.wallet.core.ISendTronAdapter
+import com.mrv.wallet.core.ISendZcashAdapter
+import com.mrv.wallet.core.adapters.zcash.ZcashAdapter.ZcashError
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.Address
 import io.horizontalsystems.ethereumkit.core.AddressValidator
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenType

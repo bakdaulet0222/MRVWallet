@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.chart
+package com.mrv.wallet.modules.chart
 
 import androidx.annotation.CallSuper
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.entities.Currency
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.entities.Currency
 import io.horizontalsystems.chartview.ChartViewType
 import io.horizontalsystems.chartview.models.ChartPoint
 import io.horizontalsystems.marketkit.models.HsTimePeriod

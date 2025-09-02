@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.coin
+package com.mrv.wallet.modules.coin
 
 import androidx.annotation.DrawableRes
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAppNumberFormatter
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.shorten
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.coin.overview.CoinOverviewItem
-import io.horizontalsystems.bankwallet.modules.coin.overview.CoinOverviewViewItem
-import io.horizontalsystems.bankwallet.modules.roi.RoiManager
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAppNumberFormatter
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.shorten
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.coin.overview.CoinOverviewItem
+import com.mrv.wallet.modules.coin.overview.CoinOverviewViewItem
+import com.mrv.wallet.modules.roi.RoiManager
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.chartview.ChartData
 import io.horizontalsystems.core.helpers.DateHelper
 import io.horizontalsystems.marketkit.models.HsTimePeriod

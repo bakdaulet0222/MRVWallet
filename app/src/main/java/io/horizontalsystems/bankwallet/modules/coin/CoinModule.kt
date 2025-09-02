@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.coin
+package com.mrv.wallet.modules.coin
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
 
 object CoinModule {
 

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.contacts.model.Contact
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.reactivex.Observable
 

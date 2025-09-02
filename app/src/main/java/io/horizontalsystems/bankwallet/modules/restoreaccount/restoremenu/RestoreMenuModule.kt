@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoremenu
+package com.mrv.wallet.modules.restoreaccount.restoremenu
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 object RestoreMenuModule {
 

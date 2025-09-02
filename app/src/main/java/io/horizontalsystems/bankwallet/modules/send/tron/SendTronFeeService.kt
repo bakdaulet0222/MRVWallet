@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.send.tron
+package com.mrv.wallet.modules.send.tron
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ISendTronAdapter
-import io.horizontalsystems.bankwallet.core.ServiceState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ISendTronAdapter
+import com.mrv.wallet.core.ServiceState
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.tronkit.models.Address
 import io.horizontalsystems.tronkit.models.Contract

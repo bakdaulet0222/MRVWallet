@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.usersubscription
+package com.mrv.wallet.modules.usersubscription
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
 import io.horizontalsystems.subscriptions.core.AddressBlacklist
 import io.horizontalsystems.subscriptions.core.AddressPhishing
 import io.horizontalsystems.subscriptions.core.AdvancedSearch

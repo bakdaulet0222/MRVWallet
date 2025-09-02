@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.storage.BlockchainSettingsStorage
+import com.mrv.wallet.core.storage.BlockchainSettingsStorage
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.solanakit.models.RpcSource

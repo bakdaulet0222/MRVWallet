@@ -1,13 +1,13 @@
-//package io.horizontalsystems.bankwallet.modules.send
+//package com.mrv.wallet.modules.send
 //
 //import com.nhaarman.mockito_kotlin.any
 //import com.nhaarman.mockito_kotlin.verify
 //import com.nhaarman.mockito_kotlin.whenever
-//import io.horizontalsystems.bankwallet.R
-//import io.horizontalsystems.bankwallet.core.FeeRatePriority
-//import io.horizontalsystems.bankwallet.entities.Coin
-//import io.horizontalsystems.bankwallet.entities.PaymentRequestAddress
-//import io.horizontalsystems.bankwallet.entities.Rate
+//import com.mrv.wallet.R
+//import com.mrv.wallet.core.FeeRatePriority
+//import com.mrv.wallet.entities.Coin
+//import com.mrv.wallet.entities.PaymentRequestAddress
+//import com.mrv.wallet.entities.Rate
 //import org.junit.Assert
 //import org.junit.Before
 //import org.junit.Test

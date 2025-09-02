@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -6,11 +6,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.ui.compose.components.FormsInputAddress
-import io.horizontalsystems.bankwallet.ui.compose.components.TextPreprocessor
-import io.horizontalsystems.bankwallet.ui.compose.components.TextPreprocessorImpl
+import com.mrv.wallet.R
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.ui.compose.components.FormsInputAddress
+import com.mrv.wallet.ui.compose.components.TextPreprocessor
+import com.mrv.wallet.ui.compose.components.TextPreprocessorImpl
 import io.horizontalsystems.marketkit.models.TokenQuery
 
 @Composable

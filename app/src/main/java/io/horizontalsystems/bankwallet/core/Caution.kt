@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 data class Caution(val text: String, val type: Type) {
     enum class Type {

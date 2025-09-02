@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
-import io.horizontalsystems.bankwallet.core.IRestoreSettingsStorage
-import io.horizontalsystems.bankwallet.entities.RestoreSettingRecord
+import com.mrv.wallet.core.IRestoreSettingsStorage
+import com.mrv.wallet.entities.RestoreSettingRecord
 
 class RestoreSettingsStorage(appDatabase: AppDatabase) : IRestoreSettingsStorage {
     private val dao: RestoreSettingDao by lazy {

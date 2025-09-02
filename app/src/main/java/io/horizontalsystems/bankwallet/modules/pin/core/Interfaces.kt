@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin.core
+package com.mrv.wallet.modules.pin.core
 
 import java.util.*
 

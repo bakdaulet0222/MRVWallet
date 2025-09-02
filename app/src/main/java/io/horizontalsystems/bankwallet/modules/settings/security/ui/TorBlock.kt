@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.security.ui
+package com.mrv.wallet.modules.settings.security.ui
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.Icon
@@ -8,12 +8,12 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.settings.privacy.tor.SecurityTorSettingsViewModel
-import io.horizontalsystems.bankwallet.modules.settings.security.SecurityCenterCell
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.HsSwitch
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.settings.privacy.tor.SecurityTorSettingsViewModel
+import com.mrv.wallet.modules.settings.security.SecurityCenterCell
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.HsSwitch
+import com.mrv.wallet.ui.compose.components.body_leah
 
 @Composable
 fun TorBlock(

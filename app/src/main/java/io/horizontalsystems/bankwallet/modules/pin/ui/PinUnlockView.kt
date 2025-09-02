@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin.ui
+package com.mrv.wallet.modules.pin.ui
 
 import androidx.biometric.BiometricPrompt
 import androidx.compose.foundation.layout.Arrangement
@@ -25,11 +25,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.pin.unlock.PinUnlockModule
-import io.horizontalsystems.bankwallet.modules.pin.unlock.PinUnlockViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.title3_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.pin.unlock.PinUnlockModule
+import com.mrv.wallet.modules.pin.unlock.PinUnlockViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.title3_leah
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.profeatures
+package com.mrv.wallet.modules.profeatures
 
 import io.horizontalsystems.marketkit.providers.RetrofitUtils
 import kotlinx.coroutines.Dispatchers

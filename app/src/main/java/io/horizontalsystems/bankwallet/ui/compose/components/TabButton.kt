@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.animation.core.FastOutSlowInEasing
@@ -59,7 +59,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
 import androidx.compose.ui.util.fastMap
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

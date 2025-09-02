@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.market.search
+package com.mrv.wallet.modules.market.search
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.managers.MarketKitWrapper
 import io.horizontalsystems.marketkit.models.Coin
 import io.horizontalsystems.marketkit.models.FullCoin
 import kotlinx.coroutines.flow.MutableStateFlow

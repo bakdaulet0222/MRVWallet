@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.market.topplatforms
+package com.mrv.wallet.modules.market.topplatforms
 
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.iconUrl
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.market.MarketField
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.iconUrl
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.market.MarketField
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.TimeDuration
+import com.mrv.wallet.ui.compose.Select
 import kotlinx.parcelize.Parcelize
 import java.math.BigDecimal
 

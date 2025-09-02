@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.banners
+package com.mrv.wallet.modules.settings.banners
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -24,12 +24,13 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.ui.compose.Bright
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.GreenD
-import io.horizontalsystems.bankwallet.ui.compose.YellowD
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.ui.compose.BlueL
+import com.mrv.wallet.ui.compose.Bright
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.GreenD
+import com.mrv.wallet.ui.compose.YellowD
 import io.horizontalsystems.subscriptions.core.UserSubscriptionManager
 import kotlinx.coroutines.launch
 
@@ -76,7 +77,7 @@ fun SubscriptionBannerView(
                 Text(
                     text = stringResource(R.string.SettingsBanner_Premium),
                     style = ComposeAppTheme.typography.headline1,
-                    color = YellowD,
+                    color = BlueL,
                 )
                 Column {
                     Text(

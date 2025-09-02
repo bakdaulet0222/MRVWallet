@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.providers
+package com.mrv.wallet.core.providers
 
-import io.horizontalsystems.bankwallet.core.managers.RestoreSettings
-import io.horizontalsystems.bankwallet.core.managers.RestoreSettingsManager
-import io.horizontalsystems.bankwallet.core.managers.ZcashBirthdayProvider
-import io.horizontalsystems.bankwallet.entities.Account
+import com.mrv.wallet.core.managers.RestoreSettings
+import com.mrv.wallet.core.managers.RestoreSettingsManager
+import com.mrv.wallet.core.managers.ZcashBirthdayProvider
+import com.mrv.wallet.entities.Account
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class PredefinedBlockchainSettingsProvider(

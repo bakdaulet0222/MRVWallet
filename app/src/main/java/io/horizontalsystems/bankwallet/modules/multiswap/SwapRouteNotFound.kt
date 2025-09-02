@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 class SwapRouteNotFound : Throwable()
 class NoSupportedSwapProvider : Throwable()

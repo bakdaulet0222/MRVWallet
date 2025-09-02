@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.BalanceHiddenManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.BalanceHiddenManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

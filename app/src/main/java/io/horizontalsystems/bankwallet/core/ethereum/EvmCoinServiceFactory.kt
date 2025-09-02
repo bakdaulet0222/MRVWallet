@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.ethereum
+package com.mrv.wallet.core.ethereum
 
-import io.horizontalsystems.bankwallet.core.ICoinManager
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.ICoinManager
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

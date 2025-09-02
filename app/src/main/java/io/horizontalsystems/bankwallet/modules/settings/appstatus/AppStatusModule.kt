@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.settings.appstatus
+package com.mrv.wallet.modules.settings.appstatus
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object AppStatusModule {
 

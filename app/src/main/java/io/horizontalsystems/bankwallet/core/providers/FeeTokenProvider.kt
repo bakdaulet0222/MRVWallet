@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.providers
+package com.mrv.wallet.core.providers
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.core.protocolType
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.protocolType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery
 import io.horizontalsystems.marketkit.models.TokenType

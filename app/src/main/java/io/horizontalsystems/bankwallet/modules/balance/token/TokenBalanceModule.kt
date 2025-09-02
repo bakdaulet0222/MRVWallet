@@ -1,20 +1,20 @@
-package io.horizontalsystems.bankwallet.modules.balance.token
+package com.mrv.wallet.modules.balance.token
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.balance.BalanceAdapterRepository
-import io.horizontalsystems.bankwallet.modules.balance.BalanceCache
-import io.horizontalsystems.bankwallet.modules.balance.BalanceViewItem
-import io.horizontalsystems.bankwallet.modules.balance.BalanceViewItemFactory
-import io.horizontalsystems.bankwallet.modules.balance.BalanceXRateRepository
-import io.horizontalsystems.bankwallet.modules.transactions.NftMetadataService
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionRecordRepository
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSyncStateRepository
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionViewItem
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionViewItemFactory
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionsRateRepository
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.balance.BalanceAdapterRepository
+import com.mrv.wallet.modules.balance.BalanceCache
+import com.mrv.wallet.modules.balance.BalanceViewItem
+import com.mrv.wallet.modules.balance.BalanceViewItemFactory
+import com.mrv.wallet.modules.balance.BalanceXRateRepository
+import com.mrv.wallet.modules.transactions.NftMetadataService
+import com.mrv.wallet.modules.transactions.TransactionRecordRepository
+import com.mrv.wallet.modules.transactions.TransactionSyncStateRepository
+import com.mrv.wallet.modules.transactions.TransactionViewItem
+import com.mrv.wallet.modules.transactions.TransactionViewItemFactory
+import com.mrv.wallet.modules.transactions.TransactionsRateRepository
 
 class TokenBalanceModule {
 

@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction
+package com.mrv.wallet.modules.multiswap.sendtransaction
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.UnsupportedException
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.UnsupportedException
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 

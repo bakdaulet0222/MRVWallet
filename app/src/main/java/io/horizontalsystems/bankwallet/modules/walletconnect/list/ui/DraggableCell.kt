@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.list.ui
+package com.mrv.wallet.modules.walletconnect.list.ui
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.core.MutableTransitionState

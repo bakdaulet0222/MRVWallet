@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.settings.vipsupport
+package com.mrv.wallet.modules.settings.vipsupport
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.MarketKitWrapper
 import io.horizontalsystems.subscriptions.core.UserSubscriptionManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

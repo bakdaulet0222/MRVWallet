@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
-import io.horizontalsystems.bankwallet.core.storage.AccountRecord
+import com.mrv.wallet.core.storage.AccountRecord
 
 @Entity(primaryKeys = ["tokenQueryId", "accountId"],
         foreignKeys = [ForeignKey(

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
-import io.horizontalsystems.bankwallet.entities.MoneroNodeRecord
+import com.mrv.wallet.entities.MoneroNodeRecord
 
 class MoneroNodeStorage(appDatabase: AppDatabase) {
 

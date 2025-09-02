@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.send.evm.processing
+package com.mrv.wallet.modules.send.evm.processing
 
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
+import com.mrv.wallet.core.ViewModelUiState
 
 class SendEvmProcessingViewModel: ViewModelUiState<SendEvmProcessingUiState>() {
 

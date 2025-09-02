@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.profeatures.yakauthorization
+package com.mrv.wallet.modules.profeatures.yakauthorization
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.profeatures.HSProFeaturesAdapter
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.profeatures.HSProFeaturesAdapter
 
 object YakAuthorizationModule {
 

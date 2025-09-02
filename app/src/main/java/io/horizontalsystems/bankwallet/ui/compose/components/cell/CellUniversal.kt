@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components.cell
+package com.mrv.wallet.ui.compose.components.cell
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -22,8 +22,8 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.HsDivider
 
 @Composable
 fun CellUniversal(
@@ -109,8 +109,8 @@ private fun SectionPremiumUniversal(
     content: @Composable() (ColumnScope.() -> Unit),
 ) {
     val brush = Brush.horizontalGradient(
-        0.0f to Color(0xFFFFD000),
-        1.0f to Color(0xFFFFA800),
+        0.0f to Color(0xFF99C4FB),
+        1.0f to Color(0xFF4A94F1),
     )
 
     Column(

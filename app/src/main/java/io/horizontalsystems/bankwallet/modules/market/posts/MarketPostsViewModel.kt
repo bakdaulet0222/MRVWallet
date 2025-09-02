@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.market.posts
+package com.mrv.wallet.modules.market.posts
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.ViewState
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.ViewState
 import io.horizontalsystems.core.helpers.DateHelper
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow

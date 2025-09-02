@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.markdown
+package com.mrv.wallet.modules.markdown
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.INetworkManager
-import io.horizontalsystems.bankwallet.core.managers.ConnectivityManager
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.ViewState
+import com.mrv.wallet.R
+import com.mrv.wallet.core.INetworkManager
+import com.mrv.wallet.core.managers.ConnectivityManager
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.ViewState
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch

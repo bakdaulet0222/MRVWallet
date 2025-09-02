@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.fee
+package com.mrv.wallet.modules.fee
 
 data class FeeItem(
     val primary: String,

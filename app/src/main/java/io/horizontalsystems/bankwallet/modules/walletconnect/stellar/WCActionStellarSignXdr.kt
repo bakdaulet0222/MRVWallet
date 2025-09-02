@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.stellar
+package com.mrv.wallet.modules.walletconnect.stellar
 
 import com.google.gson.GsonBuilder
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.AbstractWCAction
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.WCActionState
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.walletconnect.request.AbstractWCAction
+import com.mrv.wallet.modules.walletconnect.request.WCActionState
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.stellarkit.StellarKit
 import kotlinx.coroutines.CoroutineScope
 

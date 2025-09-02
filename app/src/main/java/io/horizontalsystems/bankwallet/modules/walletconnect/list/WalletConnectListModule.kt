@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.list
+package com.mrv.wallet.modules.walletconnect.list
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object WalletConnectListModule {
 

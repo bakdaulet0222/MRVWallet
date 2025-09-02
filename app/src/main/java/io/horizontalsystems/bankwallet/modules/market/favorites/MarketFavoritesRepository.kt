@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.market.favorites
+package com.mrv.wallet.modules.market.favorites
 
-import io.horizontalsystems.bankwallet.core.managers.MarketFavoritesManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.modules.market.filters.TimePeriod
+import com.mrv.wallet.core.managers.MarketFavoritesManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.modules.market.filters.TimePeriod
 import kotlinx.coroutines.rx2.await
 
 class MarketFavoritesRepository(

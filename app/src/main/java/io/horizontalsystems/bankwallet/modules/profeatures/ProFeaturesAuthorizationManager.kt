@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.profeatures
+package com.mrv.wallet.modules.profeatures
 
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.orNull
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
-import io.horizontalsystems.bankwallet.core.storage.SecretString
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.profeatures.storage.ProFeaturesSessionKey
-import io.horizontalsystems.bankwallet.modules.profeatures.storage.ProFeaturesStorage
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.orNull
+import com.mrv.wallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.storage.SecretString
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.profeatures.storage.ProFeaturesSessionKey
+import com.mrv.wallet.modules.profeatures.storage.ProFeaturesStorage
 import io.horizontalsystems.ethereumkit.core.Eip1155Provider
 import io.horizontalsystems.ethereumkit.core.signer.EthSigner
 import io.horizontalsystems.ethereumkit.core.signer.Signer

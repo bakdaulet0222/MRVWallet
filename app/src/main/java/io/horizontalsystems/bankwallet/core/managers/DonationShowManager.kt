@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.BuildConfig
-import io.horizontalsystems.bankwallet.core.ILocalStorage
+import com.mrv.wallet.BuildConfig
+import com.mrv.wallet.core.ILocalStorage
 
 class DonationShowManager(
     private val localStorage: ILocalStorage,

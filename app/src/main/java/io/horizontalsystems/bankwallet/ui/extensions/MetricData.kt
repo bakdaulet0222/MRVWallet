@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.ui.extensions
+package com.mrv.wallet.ui.extensions
 
-import io.horizontalsystems.bankwallet.modules.metricchart.MetricsType
+import com.mrv.wallet.modules.metricchart.MetricsType
 import io.horizontalsystems.chartview.ChartData
 import java.math.BigDecimal
 

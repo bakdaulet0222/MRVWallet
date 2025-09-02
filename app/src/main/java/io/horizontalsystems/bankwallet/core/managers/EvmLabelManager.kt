@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.util.Log
-import io.horizontalsystems.bankwallet.core.providers.EvmLabelProvider
-import io.horizontalsystems.bankwallet.core.shorten
-import io.horizontalsystems.bankwallet.core.storage.EvmAddressLabelDao
-import io.horizontalsystems.bankwallet.core.storage.EvmMethodLabelDao
-import io.horizontalsystems.bankwallet.core.storage.SyncerStateDao
-import io.horizontalsystems.bankwallet.core.toHexString
-import io.horizontalsystems.bankwallet.entities.EvmAddressLabel
-import io.horizontalsystems.bankwallet.entities.EvmMethodLabel
-import io.horizontalsystems.bankwallet.entities.SyncerState
+import com.mrv.wallet.core.providers.EvmLabelProvider
+import com.mrv.wallet.core.shorten
+import com.mrv.wallet.core.storage.EvmAddressLabelDao
+import com.mrv.wallet.core.storage.EvmMethodLabelDao
+import com.mrv.wallet.core.storage.SyncerStateDao
+import com.mrv.wallet.core.toHexString
+import com.mrv.wallet.entities.EvmAddressLabel
+import com.mrv.wallet.entities.EvmMethodLabel
+import com.mrv.wallet.entities.SyncerState
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.asCoroutineDispatcher
 import kotlinx.coroutines.launch

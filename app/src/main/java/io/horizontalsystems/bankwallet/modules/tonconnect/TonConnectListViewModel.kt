@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.tonconnect
+package com.mrv.wallet.modules.tonconnect
 
 import androidx.lifecycle.viewModelScope
 import com.tonapps.wallet.data.tonconnect.entities.DAppEntity
 import com.tonapps.wallet.data.tonconnect.entities.DAppRequestEntity
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.ViewModelUiState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

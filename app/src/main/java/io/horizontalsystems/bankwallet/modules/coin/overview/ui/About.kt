@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.overview.ui
+package com.mrv.wallet.modules.coin.overview.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -14,13 +14,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.CellSingleLineClear
-import io.horizontalsystems.bankwallet.ui.compose.components.DescriptionMarkdown
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_jacob
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.CellSingleLineClear
+import com.mrv.wallet.ui.compose.components.DescriptionMarkdown
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.subhead2_jacob
 
 @Preview
 @Composable

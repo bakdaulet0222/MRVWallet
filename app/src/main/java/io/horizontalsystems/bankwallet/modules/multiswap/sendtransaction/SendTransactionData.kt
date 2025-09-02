@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction
+package com.mrv.wallet.modules.multiswap.sendtransaction
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.entities.CoinValue
+import com.mrv.wallet.R
+import com.mrv.wallet.entities.CoinValue
 import io.horizontalsystems.bitcoincore.storage.UtxoFilters
 import io.horizontalsystems.ethereumkit.models.TransactionData
 import io.horizontalsystems.tronkit.models.Contract

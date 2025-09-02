@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.list.ui
+package com.mrv.wallet.modules.walletconnect.list.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -23,15 +23,15 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.WalletConnectListModule
-import io.horizontalsystems.bankwallet.modules.walletconnect.session.WCSessionModule
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.BadgeText
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.modules.walletconnect.list.WalletConnectListModule
+import com.mrv.wallet.modules.walletconnect.session.WCSessionModule
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.BadgeText
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 
 @Composable
 fun WCSessionCell(

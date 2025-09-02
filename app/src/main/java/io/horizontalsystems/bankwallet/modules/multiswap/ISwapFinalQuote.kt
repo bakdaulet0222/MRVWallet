@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionData
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataField
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionData
+import com.mrv.wallet.modules.multiswap.ui.DataField
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

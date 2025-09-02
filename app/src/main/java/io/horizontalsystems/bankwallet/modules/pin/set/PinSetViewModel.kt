@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.pin.set
+package com.mrv.wallet.modules.pin.set
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.modules.pin.PinModule
-import io.horizontalsystems.bankwallet.modules.pin.set.PinSetModule.PinSetViewState
-import io.horizontalsystems.bankwallet.modules.pin.set.PinSetModule.SetStage.Confirm
-import io.horizontalsystems.bankwallet.modules.pin.set.PinSetModule.SetStage.Enter
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.modules.pin.PinModule
+import com.mrv.wallet.modules.pin.set.PinSetModule.PinSetViewState
+import com.mrv.wallet.modules.pin.set.PinSetModule.SetStage.Confirm
+import com.mrv.wallet.modules.pin.set.PinSetModule.SetStage.Enter
 import io.horizontalsystems.core.IPinComponent
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

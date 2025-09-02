@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin.ui
+package com.mrv.wallet.modules.pin.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -11,13 +11,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.pin.set.PinSetModule
-import io.horizontalsystems.bankwallet.modules.pin.set.PinSetViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.animations.CrossSlide
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.pin.set.PinSetModule
+import com.mrv.wallet.modules.pin.set.PinSetViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.animations.CrossSlide
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HsBackButton
 
 @Composable
 fun PinSet(

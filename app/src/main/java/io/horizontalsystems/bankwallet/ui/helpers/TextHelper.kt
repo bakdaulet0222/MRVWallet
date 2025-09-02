@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.ui.helpers
+package com.mrv.wallet.ui.helpers
 
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IClipboardManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IClipboardManager
 
 object TextHelper : IClipboardManager {
 

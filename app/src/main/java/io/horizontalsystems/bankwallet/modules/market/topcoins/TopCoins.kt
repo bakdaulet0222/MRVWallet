@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.market.topcoins
+package com.mrv.wallet.modules.market.topcoins
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -15,26 +15,26 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.StatSection
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.core.stats.statMarketTop
-import io.horizontalsystems.bankwallet.core.stats.statPeriod
-import io.horizontalsystems.bankwallet.core.stats.statSortType
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Loading
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.TopMarket
-import io.horizontalsystems.bankwallet.ui.compose.HSSwipeRefresh
-import io.horizontalsystems.bankwallet.ui.compose.Select
-import io.horizontalsystems.bankwallet.ui.compose.components.AlertGroup
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryWithIcon
-import io.horizontalsystems.bankwallet.ui.compose.components.CoinListSlidable
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HeaderSorting
-import io.horizontalsystems.bankwallet.ui.compose.components.ListErrorView
+import com.mrv.wallet.R
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.StatSection
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.core.stats.statMarketTop
+import com.mrv.wallet.core.stats.statPeriod
+import com.mrv.wallet.core.stats.statSortType
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.overview.ui.Loading
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.TopMarket
+import com.mrv.wallet.ui.compose.HSSwipeRefresh
+import com.mrv.wallet.ui.compose.Select
+import com.mrv.wallet.ui.compose.components.AlertGroup
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryWithIcon
+import com.mrv.wallet.ui.compose.components.CoinListSlidable
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HeaderSorting
+import com.mrv.wallet.ui.compose.components.ListErrorView
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

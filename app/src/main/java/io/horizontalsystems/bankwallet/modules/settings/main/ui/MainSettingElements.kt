@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.main.ui
+package com.mrv.wallet.modules.settings.main.ui
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -9,8 +9,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.ui.compose.components.SliderIndicator
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.SliderIndicator
+import com.mrv.wallet.ui.compose.components.VSpacer
 import kotlinx.coroutines.delay
 
 @Composable

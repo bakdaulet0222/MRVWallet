@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.roi
+package com.mrv.wallet.modules.roi
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
+import com.mrv.wallet.core.ILocalStorage
 import io.horizontalsystems.marketkit.models.HsTimePeriod
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

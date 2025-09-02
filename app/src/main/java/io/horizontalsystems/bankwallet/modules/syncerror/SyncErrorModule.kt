@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.syncerror
+package com.mrv.wallet.modules.syncerror
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Wallet
 import io.horizontalsystems.marketkit.models.Blockchain
 
 object SyncErrorModule {

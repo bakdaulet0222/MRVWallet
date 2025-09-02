@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount
+package com.mrv.wallet.modules.manageaccount
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -16,19 +16,19 @@ import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.managers.FaqManager
-import io.horizontalsystems.bankwallet.modules.manageaccount.ui.ActionButton
-import io.horizontalsystems.bankwallet.modules.manageaccount.ui.ConfirmCopyBottomSheet
-import io.horizontalsystems.bankwallet.modules.manageaccount.ui.HidableContent
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.helpers.TextHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.managers.FaqManager
+import com.mrv.wallet.modules.manageaccount.ui.ActionButton
+import com.mrv.wallet.modules.manageaccount.ui.ConfirmCopyBottomSheet
+import com.mrv.wallet.modules.manageaccount.ui.HidableContent
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.helpers.TextHelper
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.coroutines.launch
 

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect
+package com.mrv.wallet.modules.walletconnect
 
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.WCChainData
+import com.mrv.wallet.modules.walletconnect.request.WCChainData
 import io.horizontalsystems.ethereumkit.models.Chain
 
 object WCUtils {

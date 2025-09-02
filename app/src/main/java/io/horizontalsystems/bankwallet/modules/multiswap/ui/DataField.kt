@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.ui
+package com.mrv.wallet.modules.multiswap.ui
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController

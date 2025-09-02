@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.evmnetwork
+package com.mrv.wallet.modules.evmnetwork
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.managers.EvmSyncSourceManager
-import io.horizontalsystems.bankwallet.core.managers.uris
-import io.horizontalsystems.bankwallet.entities.EvmSyncSource
+import com.mrv.wallet.core.managers.EvmSyncSourceManager
+import com.mrv.wallet.core.managers.uris
+import com.mrv.wallet.entities.EvmSyncSource
 import io.horizontalsystems.marketkit.models.Blockchain
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

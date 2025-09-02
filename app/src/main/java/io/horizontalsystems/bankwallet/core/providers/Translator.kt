@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.providers
+package com.mrv.wallet.core.providers
 
 import androidx.annotation.StringRes
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object Translator {
 

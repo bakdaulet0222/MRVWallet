@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
+import com.mrv.wallet.core.ILocalStorage
 import io.horizontalsystems.subscriptions.core.TradeSignals
 import io.horizontalsystems.subscriptions.core.UserSubscriptionManager
 

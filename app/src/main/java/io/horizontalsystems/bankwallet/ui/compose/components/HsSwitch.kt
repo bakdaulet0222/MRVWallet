@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.LocalMinimumInteractiveComponentEnforcement
@@ -7,8 +7,8 @@ import androidx.compose.material.SwitchDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
-import io.horizontalsystems.bankwallet.ui.compose.Bright
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.Bright
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable

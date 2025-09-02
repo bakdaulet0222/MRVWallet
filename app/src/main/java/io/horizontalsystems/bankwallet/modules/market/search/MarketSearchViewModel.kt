@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.market.search
+package com.mrv.wallet.modules.market.search
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.managers.MarketFavoritesManager
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
+import com.mrv.wallet.core.managers.MarketFavoritesManager
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
 import io.horizontalsystems.marketkit.models.Coin
 import io.horizontalsystems.marketkit.models.FullCoin
 import kotlinx.coroutines.launch

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.backupkey
+package com.mrv.wallet.modules.manageaccount.backupkey
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.entities.Account
+import com.mrv.wallet.entities.Account
 
 object BackupKeyModule {
     class Factory(private val account: Account) : ViewModelProvider.Factory {

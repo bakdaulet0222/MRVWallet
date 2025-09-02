@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.factories.EvmAccountManagerFactory
+import com.mrv.wallet.core.factories.EvmAccountManagerFactory
 import io.horizontalsystems.core.BackgroundManager
 import io.horizontalsystems.ethereumkit.models.Chain
 import io.horizontalsystems.marketkit.models.Blockchain

@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.badge
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
+import com.mrv.wallet.R
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.badge
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.entities.nft.NftUid
 import io.horizontalsystems.marketkit.models.Coin
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal

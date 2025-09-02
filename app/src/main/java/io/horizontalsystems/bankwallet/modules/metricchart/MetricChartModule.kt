@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.metricchart
+package com.mrv.wallet.modules.metricchart
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

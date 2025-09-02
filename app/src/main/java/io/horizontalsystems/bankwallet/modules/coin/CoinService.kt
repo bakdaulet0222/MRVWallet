@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.coin
+package com.mrv.wallet.modules.coin
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.managers.MarketFavoritesManager
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.managers.MarketFavoritesManager
 import io.horizontalsystems.marketkit.models.FullCoin
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.providers
+package com.mrv.wallet.modules.multiswap.providers
 
-import io.horizontalsystems.bankwallet.modules.multiswap.ISwapFinalQuote
-import io.horizontalsystems.bankwallet.modules.multiswap.ISwapQuote
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionSettings
+import com.mrv.wallet.modules.multiswap.ISwapFinalQuote
+import com.mrv.wallet.modules.multiswap.ISwapQuote
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionSettings
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal

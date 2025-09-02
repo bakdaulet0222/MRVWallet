@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.settings.privacy
+package com.mrv.wallet.modules.settings.privacy
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
-import io.horizontalsystems.bankwallet.core.stats.StatsManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.stats.StatsManager
 import kotlinx.coroutines.launch
 import java.util.Calendar
 

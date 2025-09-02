@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.receive.viewmodels
+package com.mrv.wallet.modules.receive.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.eligibleTokens
-import io.horizontalsystems.bankwallet.core.utils.Utils
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.eligibleTokens
+import com.mrv.wallet.core.utils.Utils
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.Wallet
 import io.horizontalsystems.marketkit.models.FullCoin
 import io.horizontalsystems.marketkit.models.Token
 

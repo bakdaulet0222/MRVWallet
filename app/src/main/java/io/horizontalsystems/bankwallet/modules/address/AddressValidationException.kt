@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
 import android.os.Parcelable
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

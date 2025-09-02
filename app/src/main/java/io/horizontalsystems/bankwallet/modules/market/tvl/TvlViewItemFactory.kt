@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.market.tvl
+package com.mrv.wallet.modules.market.tvl
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.ui.compose.Select
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.ui.compose.Select
+import com.mrv.wallet.ui.compose.TranslatableString
 
 class TvlViewItemFactory {
     private val cache: MutableMap<Int, TvlModule.CoinTvlViewItem> = hashMapOf()

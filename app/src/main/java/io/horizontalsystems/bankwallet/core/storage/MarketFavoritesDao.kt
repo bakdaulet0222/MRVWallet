@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
 import androidx.room.*
 

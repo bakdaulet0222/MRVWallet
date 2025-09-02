@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request.sendtransaction
+package com.mrv.wallet.modules.walletconnect.request.sendtransaction
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
@@ -13,15 +13,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.AppLogger
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.modules.confirm.ConfirmTransactionScreen
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.SendEvmTransactionView
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryDefault
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
+import com.mrv.wallet.R
+import com.mrv.wallet.core.AppLogger
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.modules.confirm.ConfirmTransactionScreen
+import com.mrv.wallet.modules.sendevmtransaction.SendEvmTransactionView
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryDefault
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.VSpacer
 import io.horizontalsystems.core.SnackbarDuration
 import io.horizontalsystems.core.helpers.HudHelper
 import io.horizontalsystems.marketkit.models.BlockchainType

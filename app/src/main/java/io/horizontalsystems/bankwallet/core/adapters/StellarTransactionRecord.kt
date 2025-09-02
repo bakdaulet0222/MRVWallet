@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.TransferEvent
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionStatus
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.entities.transactionrecords.evm.TransferEvent
+import com.mrv.wallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.transactions.TransactionStatus
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.stellarkit.room.Operation
 

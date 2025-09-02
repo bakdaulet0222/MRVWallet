@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.IMultiSwapProvider
+import com.mrv.wallet.modules.multiswap.providers.IMultiSwapProvider
 
 data class SwapProviderQuote(
     val provider: IMultiSwapProvider,

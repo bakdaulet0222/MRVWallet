@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin.advanced
+package com.mrv.wallet.modules.send.bitcoin.advanced
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.TransactionDataSortMode
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.TransactionDataSortMode
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 object SendBtcAdvancedSettingsModule {

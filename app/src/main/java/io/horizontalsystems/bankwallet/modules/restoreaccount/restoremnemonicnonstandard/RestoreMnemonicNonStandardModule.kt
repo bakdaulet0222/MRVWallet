@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonicnonstandard
+package com.mrv.wallet.modules.restoreaccount.restoremnemonicnonstandard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoremnemonic.RestoreMnemonicModule
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.restoreaccount.restoremnemonic.RestoreMnemonicModule
 import io.horizontalsystems.hdwalletkit.Language
 
 object RestoreMnemonicNonStandardModule {

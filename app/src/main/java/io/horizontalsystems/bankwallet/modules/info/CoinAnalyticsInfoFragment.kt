@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.info
+package com.mrv.wallet.modules.info
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -12,15 +12,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule.AnalyticInfo
-import io.horizontalsystems.bankwallet.modules.info.ui.BulletedText
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoBody
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoHeader
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule.AnalyticInfo
+import com.mrv.wallet.modules.info.ui.BulletedText
+import com.mrv.wallet.modules.info.ui.InfoBody
+import com.mrv.wallet.modules.info.ui.InfoHeader
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HsBackButton
 
 class CoinAnalyticsInfoFragment : BaseComposeFragment() {
 

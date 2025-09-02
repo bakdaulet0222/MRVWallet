@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.market.platform
+package com.mrv.wallet.modules.market.platform
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.chart.ChartCurrencyValueFormatterShortened
-import io.horizontalsystems.bankwallet.modules.chart.ChartModule
-import io.horizontalsystems.bankwallet.modules.chart.ChartViewModel
-import io.horizontalsystems.bankwallet.modules.market.MarketField
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.topplatforms.Platform
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.chart.ChartCurrencyValueFormatterShortened
+import com.mrv.wallet.modules.chart.ChartModule
+import com.mrv.wallet.modules.chart.ChartViewModel
+import com.mrv.wallet.modules.market.MarketField
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.topplatforms.Platform
+import com.mrv.wallet.ui.compose.Select
 
 object MarketPlatformModule {
 

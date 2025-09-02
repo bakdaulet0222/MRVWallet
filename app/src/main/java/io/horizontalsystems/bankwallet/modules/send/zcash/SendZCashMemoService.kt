@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.send.zcash
+package com.mrv.wallet.modules.send.zcash
 
-import io.horizontalsystems.bankwallet.core.adapters.zcash.ZcashAdapter
+import com.mrv.wallet.core.adapters.zcash.ZcashAdapter
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

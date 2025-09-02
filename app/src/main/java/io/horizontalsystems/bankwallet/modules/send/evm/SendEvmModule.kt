@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.send.evm
+package com.mrv.wallet.modules.send.evm
 
 import android.os.Parcelable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ISendEthereumAdapter
-import io.horizontalsystems.bankwallet.core.isNative
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.amount.AmountValidator
-import io.horizontalsystems.bankwallet.modules.amount.SendAmountService
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ISendEthereumAdapter
+import com.mrv.wallet.core.isNative
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.amount.AmountValidator
+import com.mrv.wallet.modules.amount.SendAmountService
+import com.mrv.wallet.modules.xrate.XRateService
 import io.horizontalsystems.ethereumkit.models.TransactionData
 import kotlinx.parcelize.Parcelize
 import java.math.BigInteger

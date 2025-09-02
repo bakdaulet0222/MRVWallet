@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.transactionInfo
+package com.mrv.wallet.modules.transactionInfo
 
 import androidx.compose.runtime.Composable
-import io.horizontalsystems.bankwallet.core.stats.StatSection
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionStatus
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.core.stats.StatSection
+import com.mrv.wallet.modules.contacts.model.Contact
+import com.mrv.wallet.modules.transactions.TransactionStatus
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 import io.horizontalsystems.marketkit.models.BlockchainType
 import java.util.Date
 

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.chart
+package com.mrv.wallet.modules.chart
 
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.ChartInfoData
-import io.horizontalsystems.bankwallet.ui.compose.components.TabItem
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.ChartInfoData
+import com.mrv.wallet.ui.compose.components.TabItem
 import io.horizontalsystems.chartview.ChartViewType
 import io.horizontalsystems.marketkit.models.HsTimePeriod
 

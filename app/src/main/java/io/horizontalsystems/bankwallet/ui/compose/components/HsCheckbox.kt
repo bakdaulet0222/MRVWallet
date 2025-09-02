@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -11,7 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 @Composable
 fun HsCheckbox(

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.address
+package com.mrv.wallet.core.address
 
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 enum class AddressCheckType {
     Phishing,

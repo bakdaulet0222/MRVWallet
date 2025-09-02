@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
-import io.horizontalsystems.bankwallet.core.ServiceState
-import io.horizontalsystems.bankwallet.core.managers.ConnectivityManager
+import com.mrv.wallet.core.ServiceState
+import com.mrv.wallet.core.managers.ConnectivityManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import java.net.UnknownHostException

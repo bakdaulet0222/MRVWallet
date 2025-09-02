@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.send.evm.settings
+package com.mrv.wallet.modules.send.evm.settings
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.Warning
-import io.horizontalsystems.bankwallet.core.ethereum.CautionViewItem
-import io.horizontalsystems.bankwallet.core.ethereum.CautionViewItemFactory
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.Warning
+import com.mrv.wallet.core.ethereum.CautionViewItem
+import com.mrv.wallet.core.ethereum.CautionViewItemFactory
+import com.mrv.wallet.entities.DataState
 import kotlinx.coroutines.launch
 
 class SendEvmSettingsViewModel(

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.tonconnect
+package com.mrv.wallet.modules.tonconnect
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -33,18 +33,18 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
 import com.tonapps.wallet.data.tonconnect.entities.DAppEntity
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.ActionsRow
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.DraggableCardSimple
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.getShape
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.showDivider
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.HeaderText
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.HsIconButton
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.walletconnect.list.ui.ActionsRow
+import com.mrv.wallet.modules.walletconnect.list.ui.DraggableCardSimple
+import com.mrv.wallet.modules.walletconnect.list.ui.getShape
+import com.mrv.wallet.modules.walletconnect.list.ui.showDivider
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.HeaderText
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.HsIconButton
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.headline2_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 
 @Composable
 fun TonConnectSessionList(

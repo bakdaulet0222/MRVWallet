@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.syncerror
+package com.mrv.wallet.modules.syncerror
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -25,16 +25,16 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryDefault
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryTransparent
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.extensions.BaseComposableBottomSheetFragment
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryDefault
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryTransparent
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.extensions.BaseComposableBottomSheetFragment
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 import io.horizontalsystems.core.findNavController
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.parcelize.Parcelize

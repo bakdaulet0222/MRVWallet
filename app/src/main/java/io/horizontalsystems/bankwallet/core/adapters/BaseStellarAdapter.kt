@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.IAdapter
-import io.horizontalsystems.bankwallet.core.IBalanceAdapter
-import io.horizontalsystems.bankwallet.core.IReceiveAdapter
-import io.horizontalsystems.bankwallet.core.ISendStellarAdapter
-import io.horizontalsystems.bankwallet.core.managers.StellarKitWrapper
+import com.mrv.wallet.core.IAdapter
+import com.mrv.wallet.core.IBalanceAdapter
+import com.mrv.wallet.core.IReceiveAdapter
+import com.mrv.wallet.core.ISendStellarAdapter
+import com.mrv.wallet.core.managers.StellarKitWrapper
 
 abstract class BaseStellarAdapter(
     stellarKitWrapper: StellarKitWrapper

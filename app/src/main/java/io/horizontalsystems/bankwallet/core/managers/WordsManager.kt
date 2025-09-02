@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IWordsManager
+import com.mrv.wallet.core.IWordsManager
 import io.horizontalsystems.hdwalletkit.Language
 import io.horizontalsystems.hdwalletkit.Mnemonic
 

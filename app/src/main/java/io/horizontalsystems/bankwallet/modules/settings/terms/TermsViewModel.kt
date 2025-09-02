@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.settings.terms
+package com.mrv.wallet.modules.settings.terms
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.ITermsManager
-import io.horizontalsystems.bankwallet.modules.settings.terms.TermsModule.TermViewItem
+import com.mrv.wallet.core.ITermsManager
+import com.mrv.wallet.modules.settings.terms.TermsModule.TermViewItem
 
 class TermsViewModel(private val termsManager: ITermsManager) : ViewModel() {
 

@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request
+package com.mrv.wallet.modules.walletconnect.request
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.SectionViewItem
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCDelegate
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.modules.sendevmtransaction.SectionViewItem
+import com.mrv.wallet.modules.walletconnect.WCDelegate
+import com.mrv.wallet.ui.compose.TranslatableString
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

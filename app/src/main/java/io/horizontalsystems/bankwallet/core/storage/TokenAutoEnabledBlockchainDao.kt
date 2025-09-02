@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.bankwallet.entities.TokenAutoEnabledBlockchain
+import com.mrv.wallet.entities.TokenAutoEnabledBlockchain
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 @Dao

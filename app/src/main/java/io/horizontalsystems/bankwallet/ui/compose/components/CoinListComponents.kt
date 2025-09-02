@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.annotation.DrawableRes
 import androidx.compose.animation.AnimatedVisibility
@@ -55,16 +55,16 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
-import io.horizontalsystems.bankwallet.modules.market.MarketViewItem
-import io.horizontalsystems.bankwallet.modules.market.search.MarketSearchModule.DiscoveryItem
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.DraggableCardSimple
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.modules.market.ImageSource
+import com.mrv.wallet.modules.market.MarketViewItem
+import com.mrv.wallet.modules.market.search.MarketSearchModule.DiscoveryItem
+import com.mrv.wallet.modules.walletconnect.list.ui.DraggableCardSimple
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

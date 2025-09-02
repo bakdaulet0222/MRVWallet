@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.managewallets
+package com.mrv.wallet.modules.managewallets
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.badge
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoreblockchains.CoinViewItem
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.badge
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.modules.market.ImageSource
+import com.mrv.wallet.modules.restoreaccount.restoreblockchains.CoinViewItem
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.coroutines.launch
 

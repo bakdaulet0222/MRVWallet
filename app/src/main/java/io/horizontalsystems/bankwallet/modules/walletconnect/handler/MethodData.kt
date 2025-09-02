@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.handler
+package com.mrv.wallet.modules.walletconnect.handler
 
 data class MethodData(
     val title: String,

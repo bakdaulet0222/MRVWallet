@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.settings.guides
+package com.mrv.wallet.modules.settings.guides
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.GuidesManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.GuidesManager
 
 object GuidesModule {
 

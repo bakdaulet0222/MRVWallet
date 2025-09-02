@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.handler
+package com.mrv.wallet.modules.walletconnect.handler
 
 import com.walletconnect.android.Core
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.AbstractWCAction
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.walletconnect.request.AbstractWCAction
 
 interface IWCHandler {
     val chainNamespace: String

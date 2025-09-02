@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.contacts.viewmodel
+package com.mrv.wallet.modules.contacts.viewmodel
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.order
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsModule.ContactValidationException
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsRepository
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
-import io.horizontalsystems.bankwallet.modules.contacts.model.ContactAddress
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.order
+import com.mrv.wallet.modules.contacts.ContactsModule.ContactValidationException
+import com.mrv.wallet.modules.contacts.ContactsRepository
+import com.mrv.wallet.modules.contacts.model.Contact
+import com.mrv.wallet.modules.contacts.model.ContactAddress
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.marketkit.models.Blockchain
 import java.util.UUID
 

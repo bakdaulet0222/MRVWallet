@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.security
+package com.mrv.wallet.modules.settings.security
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.Icon
@@ -9,21 +9,21 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.authorizedAction
-import io.horizontalsystems.bankwallet.core.ensurePinSet
-import io.horizontalsystems.bankwallet.core.paidAction
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.StatPremiumTrigger
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.settings.security.passcode.SecuritySettingsViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.PremiumHeader
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.body_lucian
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionPremiumUniversalLawrence
+import com.mrv.wallet.R
+import com.mrv.wallet.core.authorizedAction
+import com.mrv.wallet.core.ensurePinSet
+import com.mrv.wallet.core.paidAction
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.StatPremiumTrigger
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.settings.security.passcode.SecuritySettingsViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.PremiumHeader
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.body_lucian
+import com.mrv.wallet.ui.compose.components.cell.SectionPremiumUniversalLawrence
 import io.horizontalsystems.subscriptions.core.DuressMode
 
 @Composable

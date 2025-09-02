@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.solananetwork
+package com.mrv.wallet.modules.solananetwork
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.address
+package com.mrv.wallet.core.address
 
-import io.horizontalsystems.bankwallet.core.managers.APIClient
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.core.managers.APIClient
+import com.mrv.wallet.entities.Address
 import retrofit2.http.GET
 import retrofit2.http.Path
 

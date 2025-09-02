@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.send.evm.settings
+package com.mrv.wallet.modules.send.evm.settings
 
-import io.horizontalsystems.bankwallet.core.Warning
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.evmfee.GasData
-import io.horizontalsystems.bankwallet.modules.evmfee.IEvmFeeService
+import com.mrv.wallet.core.Warning
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.evmfee.GasData
+import com.mrv.wallet.modules.evmfee.IEvmFeeService
 import io.horizontalsystems.ethereumkit.models.TransactionData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.BufferOverflow
@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import io.horizontalsystems.bankwallet.modules.evmfee.Transaction as TransactionFeeData
+import com.mrv.wallet.modules.evmfee.Transaction as TransactionFeeData
 
 class SendEvmSettingsService(
     private val feeService: IEvmFeeService,

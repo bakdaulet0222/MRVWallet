@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.send.stellar
+package com.mrv.wallet.modules.send.stellar
 
-import io.horizontalsystems.bankwallet.core.ISendStellarAdapter
-import io.horizontalsystems.bankwallet.core.ServiceState
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.core.ISendStellarAdapter
+import com.mrv.wallet.core.ServiceState
+import com.mrv.wallet.entities.Address
 import java.math.BigDecimal
 
 class SendStellarMinimumAmountService(

@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.managers.BalanceHiddenManager
-import io.horizontalsystems.bankwallet.core.managers.BaseTokenManager
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.CoinValue
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.managers.BalanceHiddenManager
+import com.mrv.wallet.core.managers.BaseTokenManager
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.CoinValue
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.entities.CurrencyValue
 import io.horizontalsystems.marketkit.models.CoinPrice
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.coroutines.CoroutineScope

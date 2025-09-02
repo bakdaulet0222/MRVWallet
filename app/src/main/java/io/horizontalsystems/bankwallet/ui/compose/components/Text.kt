@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -7,7 +7,7 @@ import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 
 @Composable
 fun headline1_grey(

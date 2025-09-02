@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect
+package com.mrv.wallet.modules.walletconnect
 
 import com.walletconnect.web3.wallet.client.Wallet
 import com.walletconnect.web3.wallet.client.Web3Wallet
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.managers.ActiveAccountState
-import io.horizontalsystems.bankwallet.modules.walletconnect.storage.WCSessionStorage
-import io.horizontalsystems.bankwallet.modules.walletconnect.storage.WalletConnectV2Session
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.managers.ActiveAccountState
+import com.mrv.wallet.modules.walletconnect.storage.WCSessionStorage
+import com.mrv.wallet.modules.walletconnect.storage.WalletConnectV2Session
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

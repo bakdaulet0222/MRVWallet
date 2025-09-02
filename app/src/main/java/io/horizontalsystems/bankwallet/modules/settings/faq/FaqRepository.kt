@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.settings.faq
+package com.mrv.wallet.modules.settings.faq
 
-import io.horizontalsystems.bankwallet.core.managers.ConnectivityManager
-import io.horizontalsystems.bankwallet.core.managers.FaqManager
-import io.horizontalsystems.bankwallet.core.managers.LanguageManager
-import io.horizontalsystems.bankwallet.core.retryWhen
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.FaqMap
-import io.horizontalsystems.bankwallet.entities.FaqSection
+import com.mrv.wallet.core.managers.ConnectivityManager
+import com.mrv.wallet.core.managers.FaqManager
+import com.mrv.wallet.core.managers.LanguageManager
+import com.mrv.wallet.core.retryWhen
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.FaqMap
+import com.mrv.wallet.entities.FaqSection
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject
 import kotlinx.coroutines.CoroutineScope

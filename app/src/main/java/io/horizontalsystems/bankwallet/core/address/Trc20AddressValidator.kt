@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.address
+package com.mrv.wallet.core.address
 
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.entities.Address
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenType
 import kotlinx.coroutines.Dispatchers

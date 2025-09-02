@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.background
@@ -16,24 +16,24 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.badge
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.B2
-import io.horizontalsystems.bankwallet.ui.compose.components.Badge
-import io.horizontalsystems.bankwallet.ui.compose.components.D1
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.HsImage
-import io.horizontalsystems.bankwallet.ui.compose.components.MultitextM1
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.SearchBar
-import io.horizontalsystems.bankwallet.ui.compose.components.SectionUniversalItem
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.badge
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.B2
+import com.mrv.wallet.ui.compose.components.Badge
+import com.mrv.wallet.ui.compose.components.D1
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.HsImage
+import com.mrv.wallet.ui.compose.components.MultitextM1
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.SearchBar
+import com.mrv.wallet.ui.compose.components.SectionUniversalItem
+import com.mrv.wallet.ui.compose.components.VSpacer
 
 @OptIn(ExperimentalAnimationApi::class)
 @Composable

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.adapters.zcash
+package com.mrv.wallet.core.adapters.zcash
 
 import cash.z.ecc.android.sdk.model.AccountUuid
 import cash.z.ecc.android.sdk.model.FirstClassByteArray

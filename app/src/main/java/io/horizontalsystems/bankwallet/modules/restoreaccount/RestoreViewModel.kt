@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount
+package com.mrv.wallet.modules.restoreaccount
 
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings.BirthdayHeightConfig
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.enablecoin.restoresettings.BirthdayHeightConfig
 
 class RestoreViewModel: ViewModel() {
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.restoreaccount.restoreblockchains
+package com.mrv.wallet.modules.restoreaccount.restoreblockchains
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -8,11 +8,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.toLiveData
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.description
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
+import com.mrv.wallet.R
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.description
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.modules.market.ImageSource
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.reactivex.BackpressureStrategy
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.privacy
+package com.mrv.wallet.modules.settings.privacy
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -21,27 +21,27 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.main.MainModule
-import io.horizontalsystems.bankwallet.modules.settings.privacy.tor.SecurityTorSettingsModule
-import io.horizontalsystems.bankwallet.modules.settings.privacy.tor.SecurityTorSettingsViewModel
-import io.horizontalsystems.bankwallet.modules.settings.security.SecurityCenterCell
-import io.horizontalsystems.bankwallet.modules.settings.security.ui.TorBlock
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsSwitch
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionUniversalLawrence
-import io.horizontalsystems.bankwallet.ui.extensions.ConfirmationDialog
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.main.MainModule
+import com.mrv.wallet.modules.settings.privacy.tor.SecurityTorSettingsModule
+import com.mrv.wallet.modules.settings.privacy.tor.SecurityTorSettingsViewModel
+import com.mrv.wallet.modules.settings.security.SecurityCenterCell
+import com.mrv.wallet.modules.settings.security.ui.TorBlock
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsSwitch
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.cell.SectionUniversalLawrence
+import com.mrv.wallet.ui.extensions.ConfirmationDialog
+import com.mrv.wallet.ui.helpers.LinkHelper
 import kotlin.system.exitProcess
 
 class PrivacySettingsFragment : BaseComposeFragment() {
@@ -167,16 +167,7 @@ fun PrivacyScreen(
             )
 
             VSpacer(12.dp)
-            SectionUniversalLawrence {
-                NymVpnBlock(
-                    onClick = {
-                        LinkHelper.openLinkInAppBrowser(context, viewModel.nymVpnLink)
-                    }
-                )
-            }
-            InfoText(
-                text = stringResource(R.string.NymVpn_Description),
-            )
+
         }
 
         Spacer(Modifier.height(28.dp))

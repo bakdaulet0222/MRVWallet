@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.receive.viewmodels
+package com.mrv.wallet.modules.receive.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.bitcoinCashCoinType
-import io.horizontalsystems.bankwallet.modules.receive.ui.AddressFormatItem
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.bitcoinCashCoinType
+import com.mrv.wallet.modules.receive.ui.AddressFormatItem
 import io.horizontalsystems.marketkit.models.TokenType
 
 class BchAddressTypeSelectViewModel(coinUid: String, walletManager: IWalletManager) : ViewModel() {

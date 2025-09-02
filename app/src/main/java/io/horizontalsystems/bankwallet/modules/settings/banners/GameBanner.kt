@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.banners
+package com.mrv.wallet.modules.settings.banners
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -22,10 +22,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.Bright
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.YellowD
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.BlueL
+import com.mrv.wallet.ui.compose.Bright
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.YellowD
 
 @Composable
 fun GameBanner(onClick: () -> Unit) {
@@ -58,7 +59,7 @@ fun GameBanner(onClick: () -> Unit) {
                 Text(
                     text = stringResource(R.string.SettingsBanner_Title),
                     style = ComposeAppTheme.typography.headline1,
-                    color = YellowD,
+                    color = BlueL,
                 )
                 Text(
                     text = stringResource(R.string.SettingsBanner_GameDescription),

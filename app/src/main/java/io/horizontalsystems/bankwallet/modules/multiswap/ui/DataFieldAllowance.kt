@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.ui
+package com.mrv.wallet.modules.multiswap.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -11,13 +11,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.entities.CoinValue
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsInfoDialog
-import io.horizontalsystems.bankwallet.modules.multiswap.QuoteInfoRow
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_lucian
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.entities.CoinValue
+import com.mrv.wallet.modules.evmfee.FeeSettingsInfoDialog
+import com.mrv.wallet.modules.multiswap.QuoteInfoRow
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_lucian
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

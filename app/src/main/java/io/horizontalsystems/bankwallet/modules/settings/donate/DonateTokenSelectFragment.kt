@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.donate
+package com.mrv.wallet.modules.settings.donate
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Spacer
@@ -12,23 +12,23 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.modules.send.SendFragment
-import io.horizontalsystems.bankwallet.modules.tokenselect.TokenSelectScreen
-import io.horizontalsystems.bankwallet.modules.tokenselect.TokenSelectViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.modules.send.SendFragment
+import com.mrv.wallet.modules.tokenselect.TokenSelectScreen
+import com.mrv.wallet.modules.tokenselect.TokenSelectViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
 
 class DonateTokenSelectFragment : BaseComposeFragment() {
 

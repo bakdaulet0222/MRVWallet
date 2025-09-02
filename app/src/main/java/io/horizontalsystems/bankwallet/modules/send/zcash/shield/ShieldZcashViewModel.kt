@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.zcash.shield
+package com.mrv.wallet.modules.send.zcash.shield
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -6,16 +6,16 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import cash.z.ecc.android.sdk.ext.collectWith
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.AppLogger
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.core.LocalizedException
-import io.horizontalsystems.bankwallet.core.adapters.zcash.ZcashAdapter
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.send.SendConfirmationData
-import io.horizontalsystems.bankwallet.modules.send.SendResult
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.AppLogger
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.core.LocalizedException
+import com.mrv.wallet.core.adapters.zcash.ZcashAdapter
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.send.SendConfirmationData
+import com.mrv.wallet.modules.send.SendResult
+import com.mrv.wallet.modules.xrate.XRateService
+import com.mrv.wallet.ui.compose.TranslatableString
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,19 +1,19 @@
-package io.horizontalsystems.bankwallet.modules.watchaddress.selectblockchains
+package com.mrv.wallet.modules.watchaddress.selectblockchains
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.badge
-import io.horizontalsystems.bankwallet.core.description
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.core.stats.statAccountType
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
-import io.horizontalsystems.bankwallet.modules.restoreaccount.restoreblockchains.CoinViewItem
-import io.horizontalsystems.bankwallet.modules.watchaddress.WatchAddressService
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.badge
+import com.mrv.wallet.core.description
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.core.stats.statAccountType
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.market.ImageSource
+import com.mrv.wallet.modules.restoreaccount.restoreblockchains.CoinViewItem
+import com.mrv.wallet.modules.watchaddress.WatchAddressService
 import io.horizontalsystems.marketkit.models.Token
 
 class SelectBlockchainsViewModel(

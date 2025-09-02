@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.addresschecker.ui
+package com.mrv.wallet.modules.settings.addresschecker.ui
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
@@ -45,25 +45,25 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.rememberAsyncImagePainter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.adapters.StellarAssetAdapter
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.send.address.ui.CheckAddressInput
-import io.horizontalsystems.bankwallet.modules.settings.addresschecker.CheckState
-import io.horizontalsystems.bankwallet.modules.settings.addresschecker.IssueType
-import io.horizontalsystems.bankwallet.modules.settings.addresschecker.UnifiedAddressCheckerViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantError
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.core.adapters.StellarAssetAdapter
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.send.address.ui.CheckAddressInput
+import com.mrv.wallet.modules.settings.addresschecker.CheckState
+import com.mrv.wallet.modules.settings.addresschecker.IssueType
+import com.mrv.wallet.modules.settings.addresschecker.UnifiedAddressCheckerViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.components.TextImportantError
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

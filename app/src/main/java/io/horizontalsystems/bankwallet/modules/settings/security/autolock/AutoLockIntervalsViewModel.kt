@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.settings.security.autolock
+package com.mrv.wallet.modules.settings.security.autolock
 
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.ILocalStorage
+import com.mrv.wallet.core.ILocalStorage
 
 class AutoLockIntervalsViewModel(
     private val localStorage: ILocalStorage

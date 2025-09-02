@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -6,18 +6,18 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.badge
-import io.horizontalsystems.bankwallet.core.defaultTokenQuery
-import io.horizontalsystems.bankwallet.core.eligibleTokens
-import io.horizontalsystems.bankwallet.core.nativeTokenQueries
-import io.horizontalsystems.bankwallet.core.order
-import io.horizontalsystems.bankwallet.core.supported
-import io.horizontalsystems.bankwallet.core.supports
-import io.horizontalsystems.bankwallet.core.swappable
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.receive.FullCoinsProvider
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.badge
+import com.mrv.wallet.core.defaultTokenQuery
+import com.mrv.wallet.core.eligibleTokens
+import com.mrv.wallet.core.nativeTokenQueries
+import com.mrv.wallet.core.order
+import com.mrv.wallet.core.supported
+import com.mrv.wallet.core.supports
+import com.mrv.wallet.core.swappable
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.receive.FullCoinsProvider
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

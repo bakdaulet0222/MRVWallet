@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.settings
+package com.mrv.wallet.modules.multiswap.settings
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.Caution
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.ui.InputButton
+import com.mrv.wallet.R
+import com.mrv.wallet.core.Caution
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.multiswap.settings.ui.InputButton
 import io.reactivex.Observable
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow

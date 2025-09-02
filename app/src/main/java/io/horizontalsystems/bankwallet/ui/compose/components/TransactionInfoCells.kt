@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import android.content.Intent
 import androidx.compose.foundation.Image
@@ -30,32 +30,32 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.shorten
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.StatSection
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.core.stats.statResendType
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsFragment
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsModule
-import io.horizontalsystems.bankwallet.modules.contacts.Mode
-import io.horizontalsystems.bankwallet.modules.info.TransactionDoubleSpendInfoFragment
-import io.horizontalsystems.bankwallet.modules.info.TransactionLockTimeInfoFragment
-import io.horizontalsystems.bankwallet.modules.transactionInfo.AmountType
-import io.horizontalsystems.bankwallet.modules.transactionInfo.ColorName
-import io.horizontalsystems.bankwallet.modules.transactionInfo.ColoredValue
-import io.horizontalsystems.bankwallet.modules.transactionInfo.TransactionInfoViewItem
-import io.horizontalsystems.bankwallet.modules.transactionInfo.options.SpeedUpCancelType
-import io.horizontalsystems.bankwallet.modules.transactionInfo.options.TransactionSpeedUpCancelFragment
-import io.horizontalsystems.bankwallet.modules.transactionInfo.resendbitcoin.ResendBitcoinFragment
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionStatus
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
-import io.horizontalsystems.bankwallet.ui.helpers.TextHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.shorten
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.StatSection
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.core.stats.statResendType
+import com.mrv.wallet.modules.contacts.ContactsFragment
+import com.mrv.wallet.modules.contacts.ContactsModule
+import com.mrv.wallet.modules.contacts.Mode
+import com.mrv.wallet.modules.info.TransactionDoubleSpendInfoFragment
+import com.mrv.wallet.modules.info.TransactionLockTimeInfoFragment
+import com.mrv.wallet.modules.transactionInfo.AmountType
+import com.mrv.wallet.modules.transactionInfo.ColorName
+import com.mrv.wallet.modules.transactionInfo.ColoredValue
+import com.mrv.wallet.modules.transactionInfo.TransactionInfoViewItem
+import com.mrv.wallet.modules.transactionInfo.options.SpeedUpCancelType
+import com.mrv.wallet.modules.transactionInfo.options.TransactionSpeedUpCancelFragment
+import com.mrv.wallet.modules.transactionInfo.resendbitcoin.ResendBitcoinFragment
+import com.mrv.wallet.modules.transactions.TransactionStatus
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.helpers.LinkHelper
+import com.mrv.wallet.ui.helpers.TextHelper
 import io.horizontalsystems.core.helpers.DateHelper
 import io.horizontalsystems.core.helpers.HudHelper
 import io.horizontalsystems.marketkit.models.BlockchainType
@@ -454,7 +454,7 @@ fun TransactionInfoCancelCell(
         Icon(
             painter = painterResource(R.drawable.ic_outgoingraw_24),
             contentDescription = null,
-            tint = ComposeAppTheme.colors.redL
+            tint = ComposeAppTheme.colors.laguna
         )
         Spacer(Modifier.width(16.dp))
         body_leah(text = stringResource(R.string.TransactionInfoOptions_Cancel_Button))

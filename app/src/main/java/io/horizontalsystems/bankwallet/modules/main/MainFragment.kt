@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.main
+package com.mrv.wallet.modules.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -39,39 +39,40 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.managers.RateAppManager
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEntity
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.core.stats.statTab
-import io.horizontalsystems.bankwallet.modules.balance.ui.BalanceScreen
-import io.horizontalsystems.bankwallet.modules.main.MainModule.MainNavigation
-import io.horizontalsystems.bankwallet.modules.manageaccount.dialogs.BackupRequiredDialog
-import io.horizontalsystems.bankwallet.modules.market.MarketScreen
-import io.horizontalsystems.bankwallet.modules.rateapp.RateApp
-import io.horizontalsystems.bankwallet.modules.releasenotes.ReleaseNotesFragment
-import io.horizontalsystems.bankwallet.modules.rooteddevice.RootedDeviceModule
-import io.horizontalsystems.bankwallet.modules.rooteddevice.RootedDeviceScreen
-import io.horizontalsystems.bankwallet.modules.rooteddevice.RootedDeviceViewModel
-import io.horizontalsystems.bankwallet.modules.sendtokenselect.SendTokenSelectFragment
-import io.horizontalsystems.bankwallet.modules.settings.main.SettingsScreen
-import io.horizontalsystems.bankwallet.modules.tor.TorStatusView
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionsModule
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionsScreen
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionsViewModel
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCAccountTypeNotSupportedDialog
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCManager.SupportState
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.Orange
-import io.horizontalsystems.bankwallet.ui.compose.components.BadgeText
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBottomNavigation
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBottomNavigationItem
-import io.horizontalsystems.bankwallet.ui.extensions.WalletSwitchBottomSheet
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.managers.RateAppManager
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEntity
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.core.stats.statTab
+import com.mrv.wallet.modules.balance.ui.BalanceScreen
+import com.mrv.wallet.modules.main.MainModule.MainNavigation
+import com.mrv.wallet.modules.manageaccount.dialogs.BackupRequiredDialog
+import com.mrv.wallet.modules.market.MarketScreen
+import com.mrv.wallet.modules.rateapp.RateApp
+import com.mrv.wallet.modules.releasenotes.ReleaseNotesFragment
+import com.mrv.wallet.modules.rooteddevice.RootedDeviceModule
+import com.mrv.wallet.modules.rooteddevice.RootedDeviceScreen
+import com.mrv.wallet.modules.rooteddevice.RootedDeviceViewModel
+import com.mrv.wallet.modules.sendtokenselect.SendTokenSelectFragment
+import com.mrv.wallet.modules.settings.main.SettingsScreen
+import com.mrv.wallet.modules.tor.TorStatusView
+import com.mrv.wallet.modules.transactions.TransactionsModule
+import com.mrv.wallet.modules.transactions.TransactionsScreen
+import com.mrv.wallet.modules.transactions.TransactionsViewModel
+import com.mrv.wallet.modules.walletconnect.WCAccountTypeNotSupportedDialog
+import com.mrv.wallet.modules.walletconnect.WCManager.SupportState
+import com.mrv.wallet.ui.compose.BlueL
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.Orange
+import com.mrv.wallet.ui.compose.components.BadgeText
+import com.mrv.wallet.ui.compose.components.HsBottomNavigation
+import com.mrv.wallet.ui.compose.components.HsBottomNavigationItem
+import com.mrv.wallet.ui.extensions.WalletSwitchBottomSheet
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -174,7 +175,7 @@ private fun MainScreen(
                             },
                             selected = item.selected,
                             enabled = item.enabled,
-                            selectedContentColor = Orange,
+                            selectedContentColor = BlueL,
                             unselectedContentColor = if (item.enabled) ComposeAppTheme.colors.grey else ComposeAppTheme.colors.andy,
                             onClick = {
                                 viewModel.onSelect(item.mainNavItem)

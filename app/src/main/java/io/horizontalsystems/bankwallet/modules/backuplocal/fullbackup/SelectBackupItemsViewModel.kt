@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup
+package com.mrv.wallet.modules.backuplocal.fullbackup
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup.SelectBackupItemsViewModel.UIState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.backuplocal.fullbackup.SelectBackupItemsViewModel.UIState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

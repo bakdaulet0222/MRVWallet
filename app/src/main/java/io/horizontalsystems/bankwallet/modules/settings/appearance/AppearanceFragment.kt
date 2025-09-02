@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.appearance
+package com.mrv.wallet.modules.settings.appearance
 
 import androidx.annotation.StringRes
 import androidx.compose.animation.AnimatedVisibility
@@ -40,31 +40,31 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.Select
-import io.horizontalsystems.bankwallet.ui.compose.components.AlertGroup
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryTransparent
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HeaderText
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsSwitch
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_leah
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.Select
+import com.mrv.wallet.ui.compose.components.AlertGroup
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryTransparent
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HeaderText
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsSwitch
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.ui.compose.components.subhead1_jacob
+import com.mrv.wallet.ui.compose.components.subhead1_leah
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 import kotlinx.coroutines.launch
 
 class AppearanceFragment : BaseComposeFragment() {
@@ -278,13 +278,13 @@ fun AppearanceScreen(navController: NavController) {
                     paddingBottom = 24.dp
                 )
 
-                HeaderText(text = stringResource(id = R.string.Appearance_AppIcon))
-                AppIconSection(uiState.appIconOptions) {
-                    scope.launch {
-                        selectedAppIcon = it
-                        sheetState.show()
-                    }
-                }
+//                HeaderText(text = stringResource(id = R.string.Appearance_AppIcon))
+//                AppIconSection(uiState.appIconOptions) {
+//                    scope.launch {
+//                        selectedAppIcon = it
+//                        sheetState.show()
+//                    }
+//                }
 
                 VSpacer(32.dp)
             }

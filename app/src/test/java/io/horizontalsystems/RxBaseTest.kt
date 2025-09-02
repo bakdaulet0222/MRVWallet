@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules
+package com.mrv.wallet.modules
 
 import io.reactivex.Scheduler
 import io.reactivex.android.plugins.RxAndroidPlugins

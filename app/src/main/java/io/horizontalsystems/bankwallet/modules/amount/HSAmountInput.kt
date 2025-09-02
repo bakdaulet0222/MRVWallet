@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.amount
+package com.mrv.wallet.modules.amount
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -35,17 +35,17 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.address.AmountUnique
-import io.horizontalsystems.bankwallet.ui.compose.ColoredTextStyle
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.animations.shake
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryDefault
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.body_grey50
+import com.mrv.wallet.R
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.address.AmountUnique
+import com.mrv.wallet.ui.compose.ColoredTextStyle
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.animations.shake
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryCircle
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryDefault
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.body_grey50
 import java.math.BigDecimal
 
 /**

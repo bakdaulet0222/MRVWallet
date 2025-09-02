@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.coin.investments
+package com.mrv.wallet.modules.coin.investments
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.IAppNumberFormatter
-import io.horizontalsystems.bankwallet.core.logoUrl
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.investments.CoinInvestmentsModule.FundViewItem
-import io.horizontalsystems.bankwallet.modules.coin.investments.CoinInvestmentsModule.ViewItem
+import com.mrv.wallet.core.IAppNumberFormatter
+import com.mrv.wallet.core.logoUrl
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.investments.CoinInvestmentsModule.FundViewItem
+import com.mrv.wallet.modules.coin.investments.CoinInvestmentsModule.ViewItem
 import io.horizontalsystems.core.helpers.DateHelper
 import io.horizontalsystems.marketkit.models.CoinInvestment
 import kotlinx.coroutines.delay

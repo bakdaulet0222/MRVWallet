@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
@@ -32,8 +32,9 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.Orange
+import com.mrv.wallet.ui.compose.BlueL
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.Orange
 
 @Composable
 fun ButtonPrimaryDefaultWithIcon(
@@ -161,7 +162,7 @@ fun ButtonPrimaryYellow(
         modifier = modifier,
         onClick = onClick,
         buttonColors = ButtonPrimaryDefaults.textButtonColors(
-            backgroundColor = ComposeAppTheme.colors.yellowD,
+            backgroundColor = ComposeAppTheme.colors.jacob,
             contentColor = ComposeAppTheme.colors.dark,
             disabledBackgroundColor = ComposeAppTheme.colors.blade,
             disabledContentColor = ComposeAppTheme.colors.andy,
@@ -198,7 +199,7 @@ fun ButtonPrimaryOrange(
         modifier = modifier,
         onClick = onClick,
         buttonColors = ButtonPrimaryDefaults.textButtonColors(
-            backgroundColor = Orange,
+            backgroundColor = BlueL,
             contentColor = ComposeAppTheme.colors.tyler,
             disabledBackgroundColor = ComposeAppTheme.colors.blade,
             disabledContentColor = ComposeAppTheme.colors.andy,
@@ -236,7 +237,7 @@ fun ButtonPrimaryYellowWithIcon(
         modifier = modifier,
         onClick = onClick,
         buttonColors = ButtonPrimaryDefaults.textButtonColors(
-            backgroundColor = ComposeAppTheme.colors.yellowD,
+            backgroundColor = ComposeAppTheme.colors.jacob,
             contentColor = ComposeAppTheme.colors.dark,
             disabledBackgroundColor = ComposeAppTheme.colors.blade,
             disabledContentColor = ComposeAppTheme.colors.andy,
@@ -299,7 +300,7 @@ fun ButtonPrimaryYellowWithSpinner(
         modifier = modifier,
         onClick = onClick,
         buttonColors = ButtonPrimaryDefaults.textButtonColors(
-            backgroundColor = ComposeAppTheme.colors.yellowD,
+            backgroundColor = ComposeAppTheme.colors.jacob,
             contentColor = ComposeAppTheme.colors.dark,
             disabledBackgroundColor = ComposeAppTheme.colors.blade,
             disabledContentColor = ComposeAppTheme.colors.andy,

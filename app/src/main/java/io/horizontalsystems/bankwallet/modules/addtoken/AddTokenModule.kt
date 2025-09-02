@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.addtoken
+package com.mrv.wallet.modules.addtoken
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery
 

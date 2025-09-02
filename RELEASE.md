@@ -1,6 +1,6 @@
-# Unstoppable Wallet Release
+# MRV Wallet Release
 
-This document describes the release process for `Unstoppable` app.
+This document describes the release process for `MRV` app.
 
 ### 1. Prepare dependent libraries
 
@@ -80,8 +80,8 @@ APK-FILE-NAME: Name of the apk file<br>
 ### 9. Create Release in GitHub Repository
 
 * Create new `Release`, add changelog and upload apk file. Make note in changelog if the 'Supported Android Versions' was changed
-* Compute the sha256 and md5 checksums of the apk file and attach them as separate files, named unstoppable-wallet-[version].apk.sha256 and unstoppable-wallet-[version].apk.md5 respectively, under the 'Assets' section.
+* Compute the sha256 and md5 checksums of the apk file and attach them as separate files, named MRV-wallet-[version].apk.sha256 and MRV-wallet-[version].apk.md5 respectively, under the 'Assets' section.
 
-### 10. Make sure Unstoppable Wallet is 'Reproducible' in [WalletScrutiny](https://walletscrutiny.com/android/io.horizontalsystems.bankwallet/)
+### 10. Make sure MRV Wallet is 'Reproducible' in [WalletScrutiny](https://walletscrutiny.com/android/com.mrv.wallet/)
 
-* After apk is uploaded to Google Play make sure that new version of Unstoppable Wallet is 'Reproducible' in WalletScrutiny.
+* After apk is uploaded to Google Play make sure that new version of MRV Wallet is 'Reproducible' in WalletScrutiny.

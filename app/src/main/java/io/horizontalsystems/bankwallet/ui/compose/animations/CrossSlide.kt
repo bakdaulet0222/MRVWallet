@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.animations
+package com.mrv.wallet.ui.compose.animations
 
 import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.animation.core.FiniteAnimationSpec

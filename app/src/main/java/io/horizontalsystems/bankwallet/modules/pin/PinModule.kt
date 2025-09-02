@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.pin
+package com.mrv.wallet.modules.pin
 
 object PinModule {
     const val PIN_COUNT = 6

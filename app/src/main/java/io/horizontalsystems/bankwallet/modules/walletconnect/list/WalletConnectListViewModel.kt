@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.list
+package com.mrv.wallet.modules.walletconnect.list
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -8,10 +8,10 @@ import androidx.lifecycle.viewModelScope
 import com.walletconnect.android.CoreClient
 import com.walletconnect.web3.wallet.client.Wallet
 import com.walletconnect.web3.wallet.client.Web3Wallet
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCDelegate
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCSessionManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.modules.walletconnect.WCDelegate
+import com.mrv.wallet.modules.walletconnect.WCSessionManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.MutableSharedFlow

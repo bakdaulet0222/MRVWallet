@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.stellar
+package com.mrv.wallet.modules.walletconnect.stellar
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.SectionViewItem
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.ValueType
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.ViewItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.modules.sendevmtransaction.SectionViewItem
+import com.mrv.wallet.modules.sendevmtransaction.ValueType
+import com.mrv.wallet.modules.sendevmtransaction.ViewItem
 import org.stellar.sdk.Transaction
 import org.stellar.sdk.operations.Operation
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.enablecoin.blockchaintokens
+package com.mrv.wallet.modules.enablecoin.blockchaintokens
 
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.horizontalsystems.marketkit.models.Token

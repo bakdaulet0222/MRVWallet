@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.markdown
+package com.mrv.wallet.modules.markdown
 
 import android.graphics.Typeface
 import android.text.SpannableStringBuilder

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.coin.tweets
+package com.mrv.wallet.modules.coin.tweets
 
-import io.horizontalsystems.bankwallet.core.managers.APIClient
+import com.mrv.wallet.core.managers.APIClient
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Header

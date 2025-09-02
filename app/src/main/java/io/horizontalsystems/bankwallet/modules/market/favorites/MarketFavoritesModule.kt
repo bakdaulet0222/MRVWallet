@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.market.favorites
+package com.mrv.wallet.modules.market.favorites
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.SignalsControlManager
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.modules.market.MarketViewItem
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.SignalsControlManager
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.modules.market.MarketViewItem
+import com.mrv.wallet.modules.market.TimeDuration
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
 import io.horizontalsystems.marketkit.models.Analytics
 
 object MarketFavoritesModule {

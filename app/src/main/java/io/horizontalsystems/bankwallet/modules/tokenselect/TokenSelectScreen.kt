@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.tokenselect
+package com.mrv.wallet.modules.tokenselect
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -27,21 +27,21 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.balance.BalanceViewItem2
-import io.horizontalsystems.bankwallet.modules.balance.ui.BalanceCardInner
-import io.horizontalsystems.bankwallet.modules.balance.ui.BalanceCardSubtitleType
-import io.horizontalsystems.bankwallet.ui.compose.ColoredTextStyle
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.ListEmptyView
-import io.horizontalsystems.bankwallet.ui.compose.components.ScrollableTabs
-import io.horizontalsystems.bankwallet.ui.compose.components.TabItem
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_andy
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.balance.BalanceViewItem2
+import com.mrv.wallet.modules.balance.ui.BalanceCardInner
+import com.mrv.wallet.modules.balance.ui.BalanceCardSubtitleType
+import com.mrv.wallet.ui.compose.ColoredTextStyle
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.ListEmptyView
+import com.mrv.wallet.ui.compose.components.ScrollableTabs
+import com.mrv.wallet.ui.compose.components.TabItem
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_andy
 
 @Composable
 fun TokenSelectScreen(

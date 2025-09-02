@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.btcblockchainsettings
+package com.mrv.wallet.modules.btcblockchainsettings
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.BtcRestoreMode
-import io.horizontalsystems.bankwallet.modules.btcblockchainsettings.BtcBlockchainSettingsModule.BlockchainSettingsIcon
-import io.horizontalsystems.bankwallet.modules.btcblockchainsettings.BtcBlockchainSettingsModule.ViewItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.BtcRestoreMode
+import com.mrv.wallet.modules.btcblockchainsettings.BtcBlockchainSettingsModule.BlockchainSettingsIcon
+import com.mrv.wallet.modules.btcblockchainsettings.BtcBlockchainSettingsModule.ViewItem
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow
 

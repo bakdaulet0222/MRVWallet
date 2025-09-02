@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.AppLogger
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountOrigin
-import io.horizontalsystems.bankwallet.entities.EnabledWallet
+import com.mrv.wallet.core.AppLogger
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountOrigin
+import com.mrv.wallet.entities.EnabledWallet
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.TokenQuery
 import io.horizontalsystems.stellarkit.TagQuery

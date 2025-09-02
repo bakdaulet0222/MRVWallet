@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.utils
+package com.mrv.wallet.core.utils
 
 import android.content.Context
 import android.content.pm.ApplicationInfo

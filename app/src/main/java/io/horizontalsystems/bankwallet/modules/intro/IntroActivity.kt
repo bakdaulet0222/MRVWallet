@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.intro
+package com.mrv.wallet.modules.intro
 
 import android.content.Context
 import android.content.Intent
@@ -27,16 +27,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseActivity
-import io.horizontalsystems.bankwallet.modules.main.MainModule
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.RadialBackground
-import io.horizontalsystems.bankwallet.ui.compose.components.SliderIndicator
-import io.horizontalsystems.bankwallet.ui.compose.components.body_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.title3_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseActivity
+import com.mrv.wallet.modules.main.MainModule
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.RadialBackground
+import com.mrv.wallet.ui.compose.components.SliderIndicator
+import com.mrv.wallet.ui.compose.components.body_grey
+import com.mrv.wallet.ui.compose.components.title3_leah
 import kotlinx.coroutines.launch
 
 class IntroActivity : BaseActivity() {

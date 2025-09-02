@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.xrate
+package com.mrv.wallet.modules.xrate
 
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.entities.CurrencyValue
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.rx2.asFlow

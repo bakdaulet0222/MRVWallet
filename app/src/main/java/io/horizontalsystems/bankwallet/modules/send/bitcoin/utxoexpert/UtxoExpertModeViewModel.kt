@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin.utxoexpert
+package com.mrv.wallet.modules.send.bitcoin.utxoexpert
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import cash.z.ecc.android.sdk.ext.collectWith
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ISendBitcoinAdapter
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.toHexString
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ISendBitcoinAdapter
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.toHexString
+import com.mrv.wallet.modules.xrate.XRateService
 import io.horizontalsystems.bitcoincore.storage.UnspentOutputInfo
 import io.horizontalsystems.core.helpers.DateHelper
 import io.horizontalsystems.marketkit.models.Token

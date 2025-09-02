@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.pin
+package com.mrv.wallet.modules.pin
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.pin.ui.PinSet
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.pin.ui.PinSet
 
 class EditDuressPinFragment : BaseComposeFragment(screenshotEnabled = false) {
 

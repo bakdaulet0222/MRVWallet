@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.widgets
+package com.mrv.wallet.widgets
 
 import com.google.gson.TypeAdapter
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonWriter
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 import java.math.BigDecimal
 
 data class MarketWidgetState(

@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.coin.reports
+package com.mrv.wallet.modules.coin.reports
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.reports.CoinReportsModule.ReportViewItem
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.reports.CoinReportsModule.ReportViewItem
 import io.horizontalsystems.core.helpers.DateHelper
 import io.horizontalsystems.marketkit.models.CoinReport
 import kotlinx.coroutines.delay

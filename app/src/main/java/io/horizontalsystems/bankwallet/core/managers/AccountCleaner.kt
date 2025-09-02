@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IAccountCleaner
-import io.horizontalsystems.bankwallet.core.adapters.BitcoinAdapter
-import io.horizontalsystems.bankwallet.core.adapters.BitcoinCashAdapter
-import io.horizontalsystems.bankwallet.core.adapters.DashAdapter
-import io.horizontalsystems.bankwallet.core.adapters.ECashAdapter
-import io.horizontalsystems.bankwallet.core.adapters.Eip20Adapter
-import io.horizontalsystems.bankwallet.core.adapters.EvmAdapter
-import io.horizontalsystems.bankwallet.core.adapters.SolanaAdapter
-import io.horizontalsystems.bankwallet.core.adapters.TronAdapter
-import io.horizontalsystems.bankwallet.core.adapters.zcash.ZcashAdapter
+import com.mrv.wallet.core.IAccountCleaner
+import com.mrv.wallet.core.adapters.BitcoinAdapter
+import com.mrv.wallet.core.adapters.BitcoinCashAdapter
+import com.mrv.wallet.core.adapters.DashAdapter
+import com.mrv.wallet.core.adapters.ECashAdapter
+import com.mrv.wallet.core.adapters.Eip20Adapter
+import com.mrv.wallet.core.adapters.EvmAdapter
+import com.mrv.wallet.core.adapters.SolanaAdapter
+import com.mrv.wallet.core.adapters.TronAdapter
+import com.mrv.wallet.core.adapters.zcash.ZcashAdapter
 
 class AccountCleaner : IAccountCleaner {
 

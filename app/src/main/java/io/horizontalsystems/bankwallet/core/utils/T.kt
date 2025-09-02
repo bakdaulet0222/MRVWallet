@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.utils
+package com.mrv.wallet.core.utils
 
 import android.util.Log
 import okhttp3.internal.format

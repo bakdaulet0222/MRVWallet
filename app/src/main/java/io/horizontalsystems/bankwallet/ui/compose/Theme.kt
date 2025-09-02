@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose
+package com.mrv.wallet.ui.compose
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.ExperimentalMaterialApi
@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.Density
 
 
 val lightPalette = Colors(
-    jacob = YellowL,
+    jacob = BlueL,
     remus = GreenL,
     lucian = RedL,
     tyler = Bright,
@@ -28,7 +28,7 @@ val lightPalette = Colors(
 )
 
 val darkPalette = Colors(
-    jacob = YellowD,
+    jacob = BlueD,
     remus = GreenD,
     lucian = RedD,
     tyler = Black,

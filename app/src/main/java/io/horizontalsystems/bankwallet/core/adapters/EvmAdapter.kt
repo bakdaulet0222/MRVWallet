@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BalanceData
-import io.horizontalsystems.bankwallet.core.ICoinManager
-import io.horizontalsystems.bankwallet.core.managers.EvmKitWrapper
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BalanceData
+import com.mrv.wallet.core.ICoinManager
+import com.mrv.wallet.core.managers.EvmKitWrapper
 import io.horizontalsystems.ethereumkit.core.EthereumKit
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.ethereumkit.models.Chain

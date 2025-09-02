@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.restorelocal
+package com.mrv.wallet.modules.restorelocal
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup.BackupViewItemFactory
-import io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup.SelectBackupItemsViewModel.OtherBackupViewItem
-import io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup.SelectBackupItemsViewModel.WalletBackupViewItem
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.backuplocal.fullbackup.BackupViewItemFactory
+import com.mrv.wallet.modules.backuplocal.fullbackup.SelectBackupItemsViewModel.OtherBackupViewItem
+import com.mrv.wallet.modules.backuplocal.fullbackup.SelectBackupItemsViewModel.WalletBackupViewItem
 
 object RestoreLocalModule {
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.chart
+package com.mrv.wallet.modules.chart
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow

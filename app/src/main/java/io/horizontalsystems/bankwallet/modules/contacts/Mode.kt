@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.contacts
+package com.mrv.wallet.modules.contacts
 
 import android.os.Parcelable
 import io.horizontalsystems.marketkit.models.BlockchainType

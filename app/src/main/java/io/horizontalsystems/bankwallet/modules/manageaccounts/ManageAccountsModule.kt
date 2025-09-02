@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.manageaccounts
+package com.mrv.wallet.modules.manageaccounts
 
 import android.os.Parcelable
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import kotlinx.parcelize.Parcelize
 
 object ManageAccountsModule {

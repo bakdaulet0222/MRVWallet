@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.market.earn.vault
+package com.mrv.wallet.modules.market.earn.vault
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.chart.ChartModule
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.chart.ChartModule
 import java.math.BigDecimal
 
 class VaultChartFormatter : ChartModule.ChartNumberFormatter {

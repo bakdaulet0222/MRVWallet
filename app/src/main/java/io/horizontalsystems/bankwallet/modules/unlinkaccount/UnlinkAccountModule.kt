@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.unlinkaccount
+package com.mrv.wallet.modules.unlinkaccount
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Account
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Account
 
 object UnlinkAccountModule {
     class Factory(private val account: Account) : ViewModelProvider.Factory {

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.settings
+package com.mrv.wallet.modules.multiswap.settings
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.multiswap.SwapConfirmViewModel
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.multiswap.SwapConfirmViewModel
 
 class SwapTransactionSettingsFragment : BaseComposeFragment() {
     @Composable

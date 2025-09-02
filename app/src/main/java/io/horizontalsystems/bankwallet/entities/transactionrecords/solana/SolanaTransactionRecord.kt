@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.solana
+package com.mrv.wallet.entities.transactionrecords.solana
 
-import io.horizontalsystems.bankwallet.core.adapters.BaseSolanaAdapter
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.core.adapters.BaseSolanaAdapter
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.solanakit.models.Transaction
 

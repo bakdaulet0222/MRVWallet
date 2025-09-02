@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.coin.indicators
+package com.mrv.wallet.modules.coin.indicators
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.modules.chart.ChartIndicatorManager
-import io.horizontalsystems.bankwallet.modules.chart.ChartIndicatorSetting
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.modules.chart.ChartIndicatorManager
+import com.mrv.wallet.modules.chart.ChartIndicatorSetting
 import kotlinx.coroutines.launch
 
 class ChartIndicatorsViewModel(

@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.IAddressParser
-import io.horizontalsystems.bankwallet.core.utils.AddressUriResult
-import io.horizontalsystems.bankwallet.ui.compose.components.TextPreprocessor
+import com.mrv.wallet.core.IAddressParser
+import com.mrv.wallet.core.utils.AddressUriResult
+import com.mrv.wallet.ui.compose.components.TextPreprocessor
 import java.math.BigDecimal
 import java.util.UUID
 

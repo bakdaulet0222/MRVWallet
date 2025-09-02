@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.sendtokenselect
+package com.mrv.wallet.modules.sendtokenselect
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
@@ -6,14 +6,14 @@ import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.modules.send.address.EnterAddressFragment
-import io.horizontalsystems.bankwallet.modules.tokenselect.TokenSelectScreen
-import io.horizontalsystems.bankwallet.modules.tokenselect.TokenSelectViewModel
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.modules.send.address.EnterAddressFragment
+import com.mrv.wallet.modules.tokenselect.TokenSelectScreen
+import com.mrv.wallet.modules.tokenselect.TokenSelectViewModel
 import io.horizontalsystems.core.helpers.HudHelper
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.TokenType

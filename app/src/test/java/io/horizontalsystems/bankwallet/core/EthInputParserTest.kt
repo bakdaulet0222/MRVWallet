@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
-import io.horizontalsystems.bankwallet.core.utils.EthInputParser
+import com.mrv.wallet.core.utils.EthInputParser
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

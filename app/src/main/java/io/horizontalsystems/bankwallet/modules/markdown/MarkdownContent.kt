@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.markdown
+package com.mrv.wallet.modules.markdown
 
 import android.view.ViewGroup
 import androidx.compose.animation.Crossfade
@@ -10,10 +10,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Loading
-import io.horizontalsystems.bankwallet.ui.compose.components.ListErrorView
+import com.mrv.wallet.R
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.overview.ui.Loading
+import com.mrv.wallet.ui.compose.components.ListErrorView
 
 @Composable
 fun MarkdownContent(

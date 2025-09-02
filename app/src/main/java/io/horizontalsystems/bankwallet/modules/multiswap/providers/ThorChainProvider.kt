@@ -1,27 +1,27 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.providers
+package com.mrv.wallet.modules.multiswap.providers
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.core.derivation
-import io.horizontalsystems.bankwallet.core.managers.APIClient
-import io.horizontalsystems.bankwallet.core.nativeTokenQueries
-import io.horizontalsystems.bankwallet.entities.CoinValue
-import io.horizontalsystems.bankwallet.modules.multiswap.ISwapFinalQuote
-import io.horizontalsystems.bankwallet.modules.multiswap.ISwapQuote
-import io.horizontalsystems.bankwallet.modules.multiswap.SwapFinalQuoteThorChain
-import io.horizontalsystems.bankwallet.modules.multiswap.SwapQuoteThorChain
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.ThornodeAPI.Response
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.FeeType
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionData
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionSettings
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.SwapSettingRecipient
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.SwapSettingSlippage
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldAllowance
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldRecipient
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldRecipientExtended
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldSlippage
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.core.derivation
+import com.mrv.wallet.core.managers.APIClient
+import com.mrv.wallet.core.nativeTokenQueries
+import com.mrv.wallet.entities.CoinValue
+import com.mrv.wallet.modules.multiswap.ISwapFinalQuote
+import com.mrv.wallet.modules.multiswap.ISwapQuote
+import com.mrv.wallet.modules.multiswap.SwapFinalQuoteThorChain
+import com.mrv.wallet.modules.multiswap.SwapQuoteThorChain
+import com.mrv.wallet.modules.multiswap.providers.ThornodeAPI.Response
+import com.mrv.wallet.modules.multiswap.sendtransaction.FeeType
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionData
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionSettings
+import com.mrv.wallet.modules.multiswap.settings.SwapSettingRecipient
+import com.mrv.wallet.modules.multiswap.settings.SwapSettingSlippage
+import com.mrv.wallet.modules.multiswap.ui.DataFieldAllowance
+import com.mrv.wallet.modules.multiswap.ui.DataFieldRecipient
+import com.mrv.wallet.modules.multiswap.ui.DataFieldRecipientExtended
+import com.mrv.wallet.modules.multiswap.ui.DataFieldSlippage
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.bitcoincore.storage.UtxoFilters
 import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
 import io.horizontalsystems.ethereumkit.contracts.ContractMethod
@@ -191,7 +191,7 @@ object ThorChainProvider : IMultiSwapProvider {
         tokenOut: Token,
         amountIn: BigDecimal,
         slippage: BigDecimal?,
-        recipient: io.horizontalsystems.bankwallet.entities.Address?
+        recipient: com.mrv.wallet.entities.Address?
     ): Response.QuoteSwap {
         val assetIn = assets.first { it.token == tokenIn }
         val assetOut = assets.first { it.token == tokenOut }

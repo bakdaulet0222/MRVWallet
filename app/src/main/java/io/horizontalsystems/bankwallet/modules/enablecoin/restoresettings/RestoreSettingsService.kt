@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings
+package com.mrv.wallet.modules.enablecoin.restoresettings
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.managers.RestoreSettingType
-import io.horizontalsystems.bankwallet.core.managers.RestoreSettings
-import io.horizontalsystems.bankwallet.core.managers.RestoreSettingsManager
-import io.horizontalsystems.bankwallet.core.managers.ZcashBirthdayProvider
-import io.horizontalsystems.bankwallet.core.restoreSettingTypes
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountOrigin
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.managers.RestoreSettingType
+import com.mrv.wallet.core.managers.RestoreSettings
+import com.mrv.wallet.core.managers.RestoreSettingsManager
+import com.mrv.wallet.core.managers.ZcashBirthdayProvider
+import com.mrv.wallet.core.restoreSettingTypes
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountOrigin
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import io.reactivex.subjects.PublishSubject

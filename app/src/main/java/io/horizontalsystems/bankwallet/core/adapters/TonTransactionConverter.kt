@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.ICoinManager
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionStatus
+import com.mrv.wallet.core.ICoinManager
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.transactions.TransactionStatus
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

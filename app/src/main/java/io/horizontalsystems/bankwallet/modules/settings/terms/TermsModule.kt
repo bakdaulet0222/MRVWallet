@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.settings.terms
+package com.mrv.wallet.modules.settings.terms
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
 
 object TermsModule {
 

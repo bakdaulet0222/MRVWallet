@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.zcash.shield
+package com.mrv.wallet.modules.send.zcash.shield
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -8,9 +8,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.amount.AmountInputType
-import io.horizontalsystems.bankwallet.modules.send.SendConfirmationScreen
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.amount.AmountInputType
+import com.mrv.wallet.modules.send.SendConfirmationScreen
 
 @Composable
 fun ShieldZcashScreen(

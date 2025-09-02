@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request.sendtransaction
+package com.mrv.wallet.modules.walletconnect.request.sendtransaction
 
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.ethereumkit.models.GasPrice

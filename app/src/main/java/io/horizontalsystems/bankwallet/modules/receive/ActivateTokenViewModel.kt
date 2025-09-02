@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.receive
+package com.mrv.wallet.modules.receive
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.adapters.StellarAssetAdapter
-import io.horizontalsystems.bankwallet.entities.CoinValue
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.adapters.StellarAssetAdapter
+import com.mrv.wallet.entities.CoinValue
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.xrate.XRateService
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery
 import io.horizontalsystems.marketkit.models.TokenType

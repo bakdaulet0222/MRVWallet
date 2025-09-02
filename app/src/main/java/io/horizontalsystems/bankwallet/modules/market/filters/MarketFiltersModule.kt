@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.market.filters
+package com.mrv.wallet.modules.market.filters
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
 import io.horizontalsystems.marketkit.models.Analytics.TechnicalAdvice.Advice
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.reactivex.Single

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin
+package com.mrv.wallet.modules.coin
 
 import java.math.BigDecimal
 

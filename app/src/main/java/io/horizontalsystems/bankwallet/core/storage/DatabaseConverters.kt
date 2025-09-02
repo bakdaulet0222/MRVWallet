@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.nft.NftUid
 import io.horizontalsystems.marketkit.models.BlockchainType
 import java.math.BigDecimal
 import java.util.Date

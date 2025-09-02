@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.info
+package com.mrv.wallet.modules.info
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -16,14 +16,14 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantError
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.extensions.BaseComposableBottomSheetFragment
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.TextImportantError
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.extensions.BaseComposableBottomSheetFragment
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 import io.horizontalsystems.core.findNavController
 import kotlinx.parcelize.Parcelize
 

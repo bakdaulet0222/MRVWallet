@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
-import io.horizontalsystems.bankwallet.core.ServiceState
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
+import com.mrv.wallet.core.ServiceState
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
 import io.horizontalsystems.marketkit.models.CoinPrice
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.coroutines.CoroutineScope

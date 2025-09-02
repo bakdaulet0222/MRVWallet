@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.intro
+package com.mrv.wallet.modules.intro
 
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ILocalStorage
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ILocalStorage
 
 class IntroViewModel(
         private val localStorage: ILocalStorage

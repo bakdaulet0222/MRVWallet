@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.profeatures.yakauthorization
+package com.mrv.wallet.modules.profeatures.yakauthorization
 
-import io.horizontalsystems.bankwallet.core.toRawHexString
-import io.horizontalsystems.bankwallet.modules.profeatures.HSProFeaturesAdapter
-import io.horizontalsystems.bankwallet.modules.profeatures.ProFeaturesAuthorizationManager
-import io.horizontalsystems.bankwallet.modules.profeatures.ProNft
+import com.mrv.wallet.core.toRawHexString
+import com.mrv.wallet.modules.profeatures.HSProFeaturesAdapter
+import com.mrv.wallet.modules.profeatures.ProFeaturesAuthorizationManager
+import com.mrv.wallet.modules.profeatures.ProNft
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

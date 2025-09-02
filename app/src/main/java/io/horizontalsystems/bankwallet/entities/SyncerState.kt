@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

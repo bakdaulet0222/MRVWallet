@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 data class FaqMap(
     val section: HashMap<String, String>,

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.vipsupport
+package com.mrv.wallet.modules.settings.vipsupport
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
@@ -18,13 +18,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellowWithSpinner
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellowWithSpinner
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.ui.helpers.LinkHelper
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

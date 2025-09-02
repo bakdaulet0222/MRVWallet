@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.coin.overview.ui
+package com.mrv.wallet.modules.coin.overview.ui
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.TabBalance
+import com.mrv.wallet.core.App
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.TabBalance
 import java.math.BigDecimal
 
 @Composable

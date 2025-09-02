@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.releasenotes
+package com.mrv.wallet.modules.releasenotes
 
 import android.os.Parcelable
 import androidx.activity.compose.BackHandler
@@ -22,19 +22,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.modules.markdown.MarkdownContent
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.HsIconButton
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_jacob
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.modules.markdown.MarkdownContent
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.HsIconButton
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.components.caption_jacob
+import com.mrv.wallet.ui.helpers.LinkHelper
 import kotlinx.parcelize.Parcelize
 
 class ReleaseNotesFragment : BaseComposeFragment() {
@@ -110,16 +110,16 @@ fun ReleaseNotesScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Spacer(Modifier.padding(start = 16.dp))
-                IconButton(
-                    R.drawable.ic_twitter_filled_24,
-                    viewModel.twitterUrl,
-                    stringResource(R.string.CoinPage_Twitter)
-                )
-                IconButton(
-                    R.drawable.ic_telegram_filled_24,
-                    viewModel.telegramUrl,
-                    stringResource(R.string.CoinPage_Telegram)
-                )
+//                IconButton(
+//                    R.drawable.ic_twitter_filled_24,
+//                    viewModel.twitterUrl,
+//                    stringResource(R.string.CoinPage_Twitter)
+//                )
+//                IconButton(
+//                    R.drawable.ic_telegram_filled_24,
+//                    viewModel.telegramUrl,
+//                    stringResource(R.string.CoinPage_Telegram)
+//                )
 
                 Spacer(Modifier.weight(1f))
 

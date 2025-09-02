@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.IAdapter
-import io.horizontalsystems.bankwallet.core.IBalanceAdapter
-import io.horizontalsystems.bankwallet.core.IReceiveAdapter
-import io.horizontalsystems.bankwallet.core.ISendTronAdapter
-import io.horizontalsystems.bankwallet.core.managers.TronKitWrapper
+import com.mrv.wallet.core.IAdapter
+import com.mrv.wallet.core.IBalanceAdapter
+import com.mrv.wallet.core.IReceiveAdapter
+import com.mrv.wallet.core.ISendTronAdapter
+import com.mrv.wallet.core.managers.TronKitWrapper
 import io.horizontalsystems.tronkit.models.Address
 import io.horizontalsystems.tronkit.models.Contract
 import io.horizontalsystems.tronkit.network.CreatedTransaction

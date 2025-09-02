@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.adapters.nft.INftAdapter
-import io.horizontalsystems.bankwallet.core.storage.NftStorage
-import io.horizontalsystems.bankwallet.entities.nft.NftAddressMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftKey
+import com.mrv.wallet.core.adapters.nft.INftAdapter
+import com.mrv.wallet.core.storage.NftStorage
+import com.mrv.wallet.entities.nft.NftAddressMetadata
+import com.mrv.wallet.entities.nft.NftKey
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

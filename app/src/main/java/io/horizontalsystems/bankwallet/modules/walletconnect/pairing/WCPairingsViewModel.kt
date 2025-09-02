@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.pairing
+package com.mrv.wallet.modules.walletconnect.pairing
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.walletconnect.android.Core
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCDelegate
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.modules.walletconnect.WCDelegate
 
 class WCPairingsViewModel : ViewModelUiState<WCPairingsUiState>() {
 

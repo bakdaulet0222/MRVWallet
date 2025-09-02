@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 import android.os.Parcelable
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import kotlinx.parcelize.Parcelize
 import java.math.BigDecimal
 

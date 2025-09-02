@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import android.util.Log
-import io.horizontalsystems.bankwallet.core.storage.LogsDao
-import io.horizontalsystems.bankwallet.entities.LogEntry
+import com.mrv.wallet.core.storage.LogsDao
+import com.mrv.wallet.entities.LogEntry
 import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.Executors

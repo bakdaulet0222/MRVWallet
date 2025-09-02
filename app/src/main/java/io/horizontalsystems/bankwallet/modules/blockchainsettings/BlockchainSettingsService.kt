@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.blockchainsettings
+package com.mrv.wallet.modules.blockchainsettings
 
-import io.horizontalsystems.bankwallet.core.managers.BtcBlockchainManager
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.core.managers.EvmSyncSourceManager
-import io.horizontalsystems.bankwallet.core.managers.MoneroNodeManager
-import io.horizontalsystems.bankwallet.core.managers.SolanaRpcSourceManager
-import io.horizontalsystems.bankwallet.modules.blockchainsettings.BlockchainSettingsModule.BlockchainItem
+import com.mrv.wallet.core.managers.BtcBlockchainManager
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.core.managers.EvmSyncSourceManager
+import com.mrv.wallet.core.managers.MoneroNodeManager
+import com.mrv.wallet.core.managers.SolanaRpcSourceManager
+import com.mrv.wallet.modules.blockchainsettings.BlockchainSettingsModule.BlockchainItem
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject
 import kotlinx.coroutines.CoroutineScope

@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.core.ethereum
+package com.mrv.wallet.core.ethereum
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.EvmError
-import io.horizontalsystems.bankwallet.core.Warning
-import io.horizontalsystems.bankwallet.core.convertedError
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsError
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsWarning
+import com.mrv.wallet.R
+import com.mrv.wallet.core.EvmError
+import com.mrv.wallet.core.Warning
+import com.mrv.wallet.core.convertedError
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.modules.evmfee.FeeSettingsError
+import com.mrv.wallet.modules.evmfee.FeeSettingsWarning
 
 class CautionViewItemFactory(
     private val baseCoinService: EvmCoinService

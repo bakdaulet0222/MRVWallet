@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.managers.SpamManager
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.entities.LastBlockInfo
-import io.horizontalsystems.bankwallet.entities.nft.NftAssetBriefMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.nftUids
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsRepository
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.managers.SpamManager
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.entities.LastBlockInfo
+import com.mrv.wallet.entities.nft.NftAssetBriefMetadata
+import com.mrv.wallet.entities.nft.NftUid
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.entities.transactionrecords.nftUids
+import com.mrv.wallet.modules.contacts.ContactsRepository
+import com.mrv.wallet.modules.contacts.model.Contact
 import io.horizontalsystems.marketkit.models.Blockchain
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

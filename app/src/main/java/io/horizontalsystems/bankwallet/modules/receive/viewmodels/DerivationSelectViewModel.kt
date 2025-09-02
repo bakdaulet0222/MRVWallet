@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.receive.viewmodels
+package com.mrv.wallet.modules.receive.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.accountTypeDerivation
-import io.horizontalsystems.bankwallet.modules.receive.ui.AddressFormatItem
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.accountTypeDerivation
+import com.mrv.wallet.modules.receive.ui.AddressFormatItem
 import io.horizontalsystems.marketkit.models.TokenType
 
 class DerivationSelectViewModel(coinUid: String, walletManager: IWalletManager) : ViewModel() {

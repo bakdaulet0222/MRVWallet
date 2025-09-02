@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
-import io.horizontalsystems.bankwallet.entities.ViewState
+import com.mrv.wallet.entities.ViewState
 
 data class TransactionsUiState(
     val transactions: Map<String, List<TransactionViewItem>>?,

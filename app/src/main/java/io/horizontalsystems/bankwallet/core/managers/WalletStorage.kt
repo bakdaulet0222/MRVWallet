@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IEnabledWalletStorage
-import io.horizontalsystems.bankwallet.core.IWalletStorage
-import io.horizontalsystems.bankwallet.core.customCoinUid
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.EnabledWallet
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.IEnabledWalletStorage
+import com.mrv.wallet.core.IWalletStorage
+import com.mrv.wallet.core.customCoinUid
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.EnabledWallet
+import com.mrv.wallet.entities.Wallet
 import io.horizontalsystems.marketkit.models.Coin
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

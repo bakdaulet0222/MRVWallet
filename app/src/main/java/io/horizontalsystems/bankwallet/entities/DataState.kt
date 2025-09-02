@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 sealed class DataState<out T> {
     data class Success<out T>(val data: T) : DataState<T>()

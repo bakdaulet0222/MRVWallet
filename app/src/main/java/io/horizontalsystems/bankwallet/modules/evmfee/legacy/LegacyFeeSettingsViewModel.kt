@@ -1,23 +1,23 @@
-package io.horizontalsystems.bankwallet.modules.evmfee.legacy
+package com.mrv.wallet.modules.evmfee.legacy
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ethereum.EvmCoinService
-import io.horizontalsystems.bankwallet.core.feePriceScale
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSummaryViewItem
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeViewItem
-import io.horizontalsystems.bankwallet.modules.evmfee.GasPriceInfo
-import io.horizontalsystems.bankwallet.modules.evmfee.IEvmFeeService
-import io.horizontalsystems.bankwallet.modules.evmfee.Transaction
-import io.horizontalsystems.bankwallet.modules.fee.FeeItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ethereum.EvmCoinService
+import com.mrv.wallet.core.feePriceScale
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.evmfee.FeeSummaryViewItem
+import com.mrv.wallet.modules.evmfee.FeeViewItem
+import com.mrv.wallet.modules.evmfee.GasPriceInfo
+import com.mrv.wallet.modules.evmfee.IEvmFeeService
+import com.mrv.wallet.modules.evmfee.Transaction
+import com.mrv.wallet.modules.fee.FeeItem
 import kotlinx.coroutines.launch
 
 class LegacyFeeSettingsViewModel(

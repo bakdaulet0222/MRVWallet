@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.backupalert
+package com.mrv.wallet.modules.backupalert
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Account
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Account
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 

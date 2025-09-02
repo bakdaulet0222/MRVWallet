@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.keystore
+package com.mrv.wallet.modules.keystore
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

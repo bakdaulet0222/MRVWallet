@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.chart
+package com.mrv.wallet.modules.chart
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
+import com.mrv.wallet.core.ILocalStorage
 import io.horizontalsystems.chartview.models.ChartIndicator
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

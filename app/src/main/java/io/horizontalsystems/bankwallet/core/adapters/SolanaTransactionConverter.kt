@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.ICoinManager
-import io.horizontalsystems.bankwallet.core.managers.SolanaKitWrapper
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
-import io.horizontalsystems.bankwallet.entities.transactionrecords.solana.SolanaIncomingTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.solana.SolanaOutgoingTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.solana.SolanaTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.solana.SolanaUnknownTransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.core.ICoinManager
+import com.mrv.wallet.core.managers.SolanaKitWrapper
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.nft.NftUid
+import com.mrv.wallet.entities.transactionrecords.solana.SolanaIncomingTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.solana.SolanaOutgoingTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.solana.SolanaTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.solana.SolanaUnknownTransactionRecord
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

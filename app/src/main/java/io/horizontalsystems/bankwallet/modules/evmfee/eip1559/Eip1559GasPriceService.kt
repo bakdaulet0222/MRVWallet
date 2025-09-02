@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.evmfee.eip1559
+package com.mrv.wallet.modules.evmfee.eip1559
 
-import io.horizontalsystems.bankwallet.core.Warning
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.evmfee.Bound
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsError
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsWarning
-import io.horizontalsystems.bankwallet.modules.evmfee.GasPriceInfo
-import io.horizontalsystems.bankwallet.modules.evmfee.IEvmGasPriceService
+import com.mrv.wallet.core.Warning
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.evmfee.Bound
+import com.mrv.wallet.modules.evmfee.FeeSettingsError
+import com.mrv.wallet.modules.evmfee.FeeSettingsWarning
+import com.mrv.wallet.modules.evmfee.GasPriceInfo
+import com.mrv.wallet.modules.evmfee.IEvmGasPriceService
 import io.horizontalsystems.ethereumkit.core.EthereumKit
 import io.horizontalsystems.ethereumkit.core.eip1559.Eip1559GasPriceProvider
 import io.horizontalsystems.ethereumkit.core.eip1559.FeeHistory

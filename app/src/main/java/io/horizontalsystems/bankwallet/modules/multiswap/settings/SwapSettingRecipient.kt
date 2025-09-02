@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.settings
+package com.mrv.wallet.modules.multiswap.settings
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.ui.RecipientAddress
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.modules.multiswap.settings.ui.RecipientAddress
 import io.horizontalsystems.marketkit.models.Token
 
 data class SwapSettingRecipient(

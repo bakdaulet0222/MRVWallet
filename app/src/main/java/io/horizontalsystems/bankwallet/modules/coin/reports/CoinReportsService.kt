@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.coin.reports
+package com.mrv.wallet.modules.coin.reports
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.DataState
 import io.horizontalsystems.marketkit.models.CoinReport
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject

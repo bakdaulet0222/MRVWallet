@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.send.evm
+package com.mrv.wallet.modules.send.evm
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.Address
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

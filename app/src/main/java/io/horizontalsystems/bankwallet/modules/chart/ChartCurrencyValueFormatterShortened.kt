@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.chart
+package com.mrv.wallet.modules.chart
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Currency
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Currency
 import java.math.BigDecimal
 
 class ChartCurrencyValueFormatterShortened : ChartModule.ChartNumberFormatter {

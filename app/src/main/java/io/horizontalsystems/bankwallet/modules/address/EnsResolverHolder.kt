@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import org.web3j.ens.EnsResolver
 import org.web3j.protocol.Web3j
 import org.web3j.protocol.http.HttpService

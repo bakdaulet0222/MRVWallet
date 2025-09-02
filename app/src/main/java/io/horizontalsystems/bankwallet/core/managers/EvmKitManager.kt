@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.UnsupportedAccountException
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.UnsupportedAccountException
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
 import io.horizontalsystems.core.BackgroundManager
 import io.horizontalsystems.core.BackgroundManagerState
 import io.horizontalsystems.erc20kit.core.Erc20Kit

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.balance.ui
+package com.mrv.wallet.modules.balance.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -19,17 +19,17 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.navigateWithTermsAccepted
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryDefault
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryOrange
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryTransparent
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
+import com.mrv.wallet.R
+import com.mrv.wallet.core.navigateWithTermsAccepted
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryDefault
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryOrange
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryTransparent
+import com.mrv.wallet.ui.compose.components.VSpacer
 
 @Composable
 fun BalanceNoAccount(navController: NavController) {

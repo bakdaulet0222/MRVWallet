@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.coin.overview.ui
+package com.mrv.wallet.modules.coin.overview.ui
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
-import io.horizontalsystems.bankwallet.ui.compose.Colors
+import com.mrv.wallet.ui.compose.Colors
 import io.horizontalsystems.chartview.ChartData
 import io.horizontalsystems.chartview.CurveAnimator2
 import io.horizontalsystems.chartview.CurveAnimatorBars

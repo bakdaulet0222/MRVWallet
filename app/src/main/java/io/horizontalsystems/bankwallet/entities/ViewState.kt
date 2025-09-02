@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 sealed class ViewState {
     class Error(val t: Throwable) : ViewState()

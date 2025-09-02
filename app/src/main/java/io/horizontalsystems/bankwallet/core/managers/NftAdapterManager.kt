@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.adapters.nft.EvmNftAdapter
-import io.horizontalsystems.bankwallet.core.adapters.nft.INftAdapter
-import io.horizontalsystems.bankwallet.core.supportedNftTypes
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.entities.nft.NftKey
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.adapters.nft.EvmNftAdapter
+import com.mrv.wallet.core.adapters.nft.INftAdapter
+import com.mrv.wallet.core.supportedNftTypes
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.entities.nft.NftKey
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

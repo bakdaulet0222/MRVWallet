@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.bankwallet.entities.StatRecord
+import com.mrv.wallet.entities.StatRecord
 
 @Dao
 interface StatsDao {

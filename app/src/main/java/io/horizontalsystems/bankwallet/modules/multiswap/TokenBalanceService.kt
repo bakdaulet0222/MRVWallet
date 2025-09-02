@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.IBalanceAdapter
-import io.horizontalsystems.bankwallet.core.ServiceState
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.IBalanceAdapter
+import com.mrv.wallet.core.ServiceState
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

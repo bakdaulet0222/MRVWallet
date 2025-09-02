@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.recoveryphrase
+package com.mrv.wallet.modules.manageaccount.recoveryphrase
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
 
 class RecoveryPhraseViewModel(account: Account) : ViewModel() {
     val words: List<String>

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.entities.nft
+package com.mrv.wallet.entities.nft
 
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.ForeignKey
-import io.horizontalsystems.bankwallet.core.storage.AccountRecord
+import com.mrv.wallet.core.storage.AccountRecord
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 @Entity(

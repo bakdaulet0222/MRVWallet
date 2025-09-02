@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.ui.selector
+package com.mrv.wallet.ui.selector
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
 
 class ViewItemWrapper<T>(val title: String, val item: T, val color: Int? = null, val subtitle: String? = null) {
     override fun equals(other: Any?) = when {

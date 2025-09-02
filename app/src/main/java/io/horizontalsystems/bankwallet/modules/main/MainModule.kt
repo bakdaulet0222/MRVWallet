@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.main
+package com.mrv.wallet.modules.main
 
 import android.app.Activity
 import android.content.Context
@@ -7,12 +7,12 @@ import android.net.Uri
 import android.os.Parcelable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.ActionCompletedDelegate
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.balance.OpenSendTokenSelect
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCManager
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.ActionCompletedDelegate
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.balance.OpenSendTokenSelect
+import com.mrv.wallet.modules.walletconnect.WCManager
 import kotlinx.parcelize.Parcelize
 
 object MainModule {

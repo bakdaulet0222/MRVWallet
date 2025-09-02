@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

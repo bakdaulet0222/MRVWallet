@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.blockchainsettings
+package com.mrv.wallet.modules.blockchainsettings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.MoneroNodeManager.MoneroNode
-import io.horizontalsystems.bankwallet.core.order
-import io.horizontalsystems.bankwallet.entities.BtcRestoreMode
-import io.horizontalsystems.bankwallet.entities.EvmSyncSource
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.MoneroNodeManager.MoneroNode
+import com.mrv.wallet.core.order
+import com.mrv.wallet.entities.BtcRestoreMode
+import com.mrv.wallet.entities.EvmSyncSource
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.horizontalsystems.solanakit.models.RpcSource
 

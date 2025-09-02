@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.coin.tweets
+package com.mrv.wallet.modules.coin.tweets
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.twitter.twittertext.Extractor
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.core.App
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.marketkit.models.FullCoin
 
 object CoinTweetsModule {

@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.rooteddevice
+package com.mrv.wallet.modules.rooteddevice
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.utils.RootUtil
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.utils.RootUtil
 
 class RootedDeviceViewModel(
     private val localStorage: ILocalStorage,

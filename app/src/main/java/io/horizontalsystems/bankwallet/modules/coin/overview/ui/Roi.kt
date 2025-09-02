@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.overview.ui
+package com.mrv.wallet.modules.coin.overview.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -17,19 +17,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.modules.coin.RoiViewItem
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.HFillSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.captionSB_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.CellUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionUniversalLawrence
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.modules.coin.RoiViewItem
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.HFillSpacer
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.captionSB_leah
+import com.mrv.wallet.ui.compose.components.caption_grey
+import com.mrv.wallet.ui.compose.components.cell.CellUniversal
+import com.mrv.wallet.ui.compose.components.cell.SectionUniversalLawrence
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_leah
 import io.horizontalsystems.marketkit.models.HsTimePeriod
 import java.math.BigDecimal
 

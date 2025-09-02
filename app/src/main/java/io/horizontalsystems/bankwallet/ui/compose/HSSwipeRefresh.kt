@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose
+package com.mrv.wallet.ui.compose
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

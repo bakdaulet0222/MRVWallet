@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.receive.viewmodels
+package com.mrv.wallet.modules.receive.viewmodels
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.UsedAddress
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.accountTypeDerivation
-import io.horizontalsystems.bankwallet.core.bitcoinCashCoinType
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveModule
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveModule.AdditionalData
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.UsedAddress
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.accountTypeDerivation
+import com.mrv.wallet.core.bitcoinCashCoinType
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.receive.ReceiveModule
+import com.mrv.wallet.modules.receive.ReceiveModule.AdditionalData
 import io.horizontalsystems.marketkit.models.TokenType
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

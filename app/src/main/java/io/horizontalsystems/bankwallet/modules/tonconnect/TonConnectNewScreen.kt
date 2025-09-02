@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.tonconnect
+package com.mrv.wallet.modules.tonconnect
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
@@ -29,23 +29,23 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
 import com.tonapps.wallet.data.tonconnect.entities.DAppRequestEntity
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.authorizedAction
-import io.horizontalsystems.bankwallet.modules.evmfee.ButtonsGroupWithShade
-import io.horizontalsystems.bankwallet.modules.walletconnect.session.ui.DropDownCell
-import io.horizontalsystems.bankwallet.modules.walletconnect.session.ui.TitleValueCell
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryDefault
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.components.SelectorDialogCompose
-import io.horizontalsystems.bankwallet.ui.compose.components.SelectorItem
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantError
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
+import com.mrv.wallet.R
+import com.mrv.wallet.core.authorizedAction
+import com.mrv.wallet.modules.evmfee.ButtonsGroupWithShade
+import com.mrv.wallet.modules.walletconnect.session.ui.DropDownCell
+import com.mrv.wallet.modules.walletconnect.session.ui.TitleValueCell
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryDefault
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.components.SelectorDialogCompose
+import com.mrv.wallet.ui.compose.components.SelectorItem
+import com.mrv.wallet.ui.compose.components.TextImportantError
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.VSpacer
 
 @Composable
 fun TonConnectNewScreen(

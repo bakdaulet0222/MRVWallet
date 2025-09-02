@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.tor.torutils
+package com.mrv.wallet.core.tor.torutils
 
 import java.net.ConnectException
 import java.net.InetSocketAddress

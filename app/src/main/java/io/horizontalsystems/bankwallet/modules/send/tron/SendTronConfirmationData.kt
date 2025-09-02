@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.send.tron
+package com.mrv.wallet.modules.send.tron
 
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.modules.contacts.model.Contact
 import io.horizontalsystems.marketkit.models.Coin
 import java.math.BigDecimal
 

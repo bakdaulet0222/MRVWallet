@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.evm.processing
+package com.mrv.wallet.modules.send.evm.processing
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -25,27 +25,27 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.evmfee.ButtonsGroupWithShade
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.HSCircularProgressIndicator
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.HsImage
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoText
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.components.PremiumHeader
-import io.horizontalsystems.bankwallet.ui.compose.components.TransactionInfoCancelCell
-import io.horizontalsystems.bankwallet.ui.compose.components.TransactionInfoSpeedUpCell
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.body_lucian
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionPremiumUniversalLawrence
-import io.horizontalsystems.bankwallet.ui.compose.components.headline1_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.evmfee.ButtonsGroupWithShade
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.HSCircularProgressIndicator
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.HsImage
+import com.mrv.wallet.ui.compose.components.InfoText
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.components.PremiumHeader
+import com.mrv.wallet.ui.compose.components.TransactionInfoCancelCell
+import com.mrv.wallet.ui.compose.components.TransactionInfoSpeedUpCell
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.body_lucian
+import com.mrv.wallet.ui.compose.components.cell.SectionPremiumUniversalLawrence
+import com.mrv.wallet.ui.compose.components.headline1_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class SendEvmProcessingFragment : BaseComposeFragment() {

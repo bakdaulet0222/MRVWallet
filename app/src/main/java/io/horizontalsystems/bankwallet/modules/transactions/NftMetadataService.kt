@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
-import io.horizontalsystems.bankwallet.core.managers.NftMetadataManager
-import io.horizontalsystems.bankwallet.entities.nft.NftAssetBriefMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
+import com.mrv.wallet.core.managers.NftMetadataManager
+import com.mrv.wallet.entities.nft.NftAssetBriefMetadata
+import com.mrv.wallet.entities.nft.NftUid
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 

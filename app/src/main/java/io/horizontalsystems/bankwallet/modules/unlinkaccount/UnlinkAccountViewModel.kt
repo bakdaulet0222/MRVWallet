@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.unlinkaccount
+package com.mrv.wallet.modules.unlinkaccount
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.ui.compose.TranslatableString
 
 class UnlinkAccountViewModel(
     private val account: Account,

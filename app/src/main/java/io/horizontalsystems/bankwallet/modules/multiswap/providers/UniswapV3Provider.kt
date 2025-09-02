@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.providers
+package com.mrv.wallet.modules.multiswap.providers
 
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.uniswapkit.models.DexType
 

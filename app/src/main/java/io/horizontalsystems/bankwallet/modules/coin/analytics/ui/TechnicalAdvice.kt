@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.analytics.ui
+package com.mrv.wallet.modules.coin.analytics.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -22,13 +22,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.coin.analytics.title
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.CellUniversal
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.coin.analytics.title
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.caption_grey
+import com.mrv.wallet.ui.compose.components.cell.CellUniversal
 import io.horizontalsystems.marketkit.models.Analytics.TechnicalAdvice.Advice
 
 @Composable

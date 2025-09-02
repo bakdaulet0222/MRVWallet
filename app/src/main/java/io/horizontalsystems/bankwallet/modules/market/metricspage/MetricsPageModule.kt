@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.market.metricspage
+package com.mrv.wallet.modules.market.metricspage
 
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.chart.ChartCurrencyValueFormatterShortened
-import io.horizontalsystems.bankwallet.modules.chart.ChartModule
-import io.horizontalsystems.bankwallet.modules.chart.ChartViewModel
-import io.horizontalsystems.bankwallet.modules.market.MarketDataValue
-import io.horizontalsystems.bankwallet.modules.market.MarketModule
-import io.horizontalsystems.bankwallet.modules.market.tvl.GlobalMarketRepository
-import io.horizontalsystems.bankwallet.modules.metricchart.MetricsType
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.chart.ChartCurrencyValueFormatterShortened
+import com.mrv.wallet.modules.chart.ChartModule
+import com.mrv.wallet.modules.chart.ChartViewModel
+import com.mrv.wallet.modules.market.MarketDataValue
+import com.mrv.wallet.modules.market.MarketModule
+import com.mrv.wallet.modules.market.tvl.GlobalMarketRepository
+import com.mrv.wallet.modules.metricchart.MetricsType
 import io.horizontalsystems.marketkit.models.FullCoin
 import java.math.BigDecimal
 

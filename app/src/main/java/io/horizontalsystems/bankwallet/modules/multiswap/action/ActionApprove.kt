@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.action
+package com.mrv.wallet.modules.multiswap.action
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromBottomForResult
-import io.horizontalsystems.bankwallet.modules.eip20approve.Eip20ApproveConfirmFragment
-import io.horizontalsystems.bankwallet.modules.eip20approve.Eip20ApproveFragment
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromBottomForResult
+import com.mrv.wallet.modules.eip20approve.Eip20ApproveConfirmFragment
+import com.mrv.wallet.modules.eip20approve.Eip20ApproveFragment
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

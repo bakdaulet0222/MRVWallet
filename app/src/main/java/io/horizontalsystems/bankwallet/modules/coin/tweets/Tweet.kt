@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.tweets
+package com.mrv.wallet.modules.coin.tweets
 
 import java.util.*
 

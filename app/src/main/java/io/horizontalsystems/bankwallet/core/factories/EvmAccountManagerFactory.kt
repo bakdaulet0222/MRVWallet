@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.managers.EvmAccountManager
-import io.horizontalsystems.bankwallet.core.managers.EvmKitManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.core.managers.TokenAutoEnableManager
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.managers.EvmAccountManager
+import com.mrv.wallet.core.managers.EvmKitManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.managers.TokenAutoEnableManager
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class EvmAccountManagerFactory(

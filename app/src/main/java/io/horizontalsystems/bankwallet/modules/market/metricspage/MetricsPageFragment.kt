@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.market.metricspage
+package com.mrv.wallet.modules.market.metricspage
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -17,33 +17,33 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.core.stats.statPage
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.chart.ChartViewModel
-import io.horizontalsystems.bankwallet.modules.coin.CoinFragment
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Chart
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Loading
-import io.horizontalsystems.bankwallet.modules.metricchart.MetricsType
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.HSSwipeRefresh
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryWithIcon
-import io.horizontalsystems.bankwallet.ui.compose.components.DescriptionCard
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HeaderSorting
-import io.horizontalsystems.bankwallet.ui.compose.components.ListErrorView
-import io.horizontalsystems.bankwallet.ui.compose.components.MarketCoinClear
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.hsRememberLazyListState
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.core.stats.statPage
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.chart.ChartViewModel
+import com.mrv.wallet.modules.coin.CoinFragment
+import com.mrv.wallet.modules.coin.overview.ui.Chart
+import com.mrv.wallet.modules.coin.overview.ui.Loading
+import com.mrv.wallet.modules.metricchart.MetricsType
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.HSSwipeRefresh
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryWithIcon
+import com.mrv.wallet.ui.compose.components.DescriptionCard
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HeaderSorting
+import com.mrv.wallet.ui.compose.components.ListErrorView
+import com.mrv.wallet.ui.compose.components.MarketCoinClear
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.hsRememberLazyListState
 
 class MetricsPageFragment : BaseComposeFragment() {
 

@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.moneronetwork
+package com.mrv.wallet.modules.moneronetwork
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.managers.MoneroNodeManager
-import io.horizontalsystems.bankwallet.core.managers.MoneroNodeManager.MoneroNode
+import com.mrv.wallet.core.managers.MoneroNodeManager
+import com.mrv.wallet.core.managers.MoneroNodeManager.MoneroNode
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 

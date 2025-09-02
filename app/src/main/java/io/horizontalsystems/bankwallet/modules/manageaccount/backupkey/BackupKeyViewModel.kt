@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.backupkey
+package com.mrv.wallet.modules.manageaccount.backupkey
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.manageaccount.recoveryphrase.RecoveryPhraseModule
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.manageaccount.recoveryphrase.RecoveryPhraseModule
 
 class BackupKeyViewModel(val account: Account) : ViewModel() {
 

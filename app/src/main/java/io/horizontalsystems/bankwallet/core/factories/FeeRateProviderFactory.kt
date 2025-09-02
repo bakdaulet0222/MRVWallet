@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IFeeRateProvider
-import io.horizontalsystems.bankwallet.core.providers.*
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IFeeRateProvider
+import com.mrv.wallet.core.providers.*
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 object FeeRateProviderFactory {

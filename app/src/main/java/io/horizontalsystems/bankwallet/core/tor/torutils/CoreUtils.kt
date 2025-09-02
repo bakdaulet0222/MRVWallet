@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.tor.torutils
+package com.mrv.wallet.core.tor.torutils
 
-import io.horizontalsystems.bankwallet.core.tor.torcore.TorConstants
+import com.mrv.wallet.core.tor.torcore.TorConstants
 import java.io.BufferedReader
 import java.io.File
 import java.io.IOException

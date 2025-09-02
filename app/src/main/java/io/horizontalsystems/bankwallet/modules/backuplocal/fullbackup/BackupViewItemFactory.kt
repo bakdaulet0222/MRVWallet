@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup
+package com.mrv.wallet.modules.backuplocal.fullbackup
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
 
 class BackupViewItemFactory {
 

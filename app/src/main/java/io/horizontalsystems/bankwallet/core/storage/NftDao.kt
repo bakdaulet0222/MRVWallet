@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
 import androidx.room.*
-import io.horizontalsystems.bankwallet.entities.nft.NftAssetRecord
-import io.horizontalsystems.bankwallet.entities.nft.NftCollectionRecord
-import io.horizontalsystems.bankwallet.entities.nft.NftMetadataSyncRecord
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
-import io.horizontalsystems.bankwallet.entities.nft.*
+import com.mrv.wallet.entities.nft.NftAssetRecord
+import com.mrv.wallet.entities.nft.NftCollectionRecord
+import com.mrv.wallet.entities.nft.NftMetadataSyncRecord
+import com.mrv.wallet.entities.nft.NftUid
+import com.mrv.wallet.entities.nft.*
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 @Dao

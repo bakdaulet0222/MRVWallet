@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect
+package com.mrv.wallet.modules.walletconnect
 
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.walletconnect.handler.IWCHandler
-import io.horizontalsystems.bankwallet.modules.walletconnect.handler.MethodData
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.AbstractWCAction
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.WCChainData
-import io.horizontalsystems.bankwallet.modules.walletconnect.session.ValidationError
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.walletconnect.handler.IWCHandler
+import com.mrv.wallet.modules.walletconnect.handler.MethodData
+import com.mrv.wallet.modules.walletconnect.request.AbstractWCAction
+import com.mrv.wallet.modules.walletconnect.request.WCChainData
+import com.mrv.wallet.modules.walletconnect.session.ValidationError
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 

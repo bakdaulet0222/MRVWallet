@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin
+package com.mrv.wallet.modules.send.bitcoin
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ISendBitcoinAdapter
-import io.horizontalsystems.bankwallet.core.factories.FeeRateProviderFactory
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.amount.AmountValidator
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ISendBitcoinAdapter
+import com.mrv.wallet.core.factories.FeeRateProviderFactory
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.amount.AmountValidator
+import com.mrv.wallet.modules.xrate.XRateService
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 object SendBitcoinModule {

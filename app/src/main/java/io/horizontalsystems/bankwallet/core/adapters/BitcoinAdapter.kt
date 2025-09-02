@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.UnsupportedAccountException
-import io.horizontalsystems.bankwallet.core.UsedAddress
-import io.horizontalsystems.bankwallet.core.derivation
-import io.horizontalsystems.bankwallet.core.purpose
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.UnsupportedAccountException
+import com.mrv.wallet.core.UsedAddress
+import com.mrv.wallet.core.derivation
+import com.mrv.wallet.core.purpose
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
 import io.horizontalsystems.bitcoincore.BitcoinCore
 import io.horizontalsystems.bitcoincore.models.BalanceInfo
 import io.horizontalsystems.bitcoincore.models.BlockInfo

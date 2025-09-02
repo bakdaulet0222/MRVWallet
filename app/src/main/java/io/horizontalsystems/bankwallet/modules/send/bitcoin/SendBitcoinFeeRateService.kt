@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin
+package com.mrv.wallet.modules.send.bitcoin
 
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.core.IFeeRateProvider
-import io.horizontalsystems.bankwallet.modules.send.SendErrorFetchFeeRateFailed
-import io.horizontalsystems.bankwallet.modules.send.SendErrorLowFee
-import io.horizontalsystems.bankwallet.modules.send.SendWarningRiskOfGettingStuck
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.core.IFeeRateProvider
+import com.mrv.wallet.modules.send.SendErrorFetchFeeRateFailed
+import com.mrv.wallet.modules.send.SendErrorLowFee
+import com.mrv.wallet.modules.send.SendWarningRiskOfGettingStuck
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

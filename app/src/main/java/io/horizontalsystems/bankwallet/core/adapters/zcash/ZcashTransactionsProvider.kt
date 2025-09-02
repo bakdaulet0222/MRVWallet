@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.adapters.zcash
+package com.mrv.wallet.core.adapters.zcash
 
 import cash.z.ecc.android.sdk.SdkSynchronizer
 import cash.z.ecc.android.sdk.model.AccountUuid
 import cash.z.ecc.android.sdk.model.TransactionOverview
 import cash.z.ecc.android.sdk.model.TransactionRecipient
-import io.horizontalsystems.bankwallet.modules.transactions.FilterTransactionType
+import com.mrv.wallet.modules.transactions.FilterTransactionType
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Single

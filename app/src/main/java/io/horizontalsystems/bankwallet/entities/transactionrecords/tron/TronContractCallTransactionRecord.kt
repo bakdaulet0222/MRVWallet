@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.tron
+package com.mrv.wallet.entities.transactionrecords.tron
 
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.EvmTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.TransferEvent
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.transactionrecords.evm.EvmTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.evm.TransferEvent
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.tronkit.models.Transaction
 

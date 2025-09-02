@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.xtransaction.helpers
+package com.mrv.wallet.modules.xtransaction.helpers
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.contacts.model.Contact
 import io.horizontalsystems.marketkit.models.BlockchainType
 import java.math.BigDecimal
 

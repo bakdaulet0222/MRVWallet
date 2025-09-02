@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.tron
+package com.mrv.wallet.entities.transactionrecords.tron
 
-import io.horizontalsystems.bankwallet.core.adapters.BaseTronAdapter
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionStatus
+import com.mrv.wallet.core.adapters.BaseTronAdapter
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.transactions.TransactionStatus
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.tronkit.models.Transaction
 

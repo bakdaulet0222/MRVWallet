@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.settings.subscription
+package com.mrv.wallet.modules.settings.subscription
 
 import android.content.Context
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
+import com.mrv.wallet.core.ViewModelUiState
 import io.horizontalsystems.subscriptions.core.UserSubscription
 import io.horizontalsystems.subscriptions.core.UserSubscriptionManager
 import kotlinx.coroutines.launch

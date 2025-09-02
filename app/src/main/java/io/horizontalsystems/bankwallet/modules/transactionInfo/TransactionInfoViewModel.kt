@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.transactionInfo
+package com.mrv.wallet.modules.transactionInfo
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsRepository
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.contacts.ContactsRepository
+import com.mrv.wallet.modules.transactions.TransactionSource
 import kotlinx.coroutines.launch
 
 class TransactionInfoViewModel(

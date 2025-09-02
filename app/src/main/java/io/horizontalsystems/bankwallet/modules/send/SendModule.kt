@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.send
+package com.mrv.wallet.modules.send
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.entities.CoinValue
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.entities.CoinValue
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.ui.compose.TranslatableString
 import java.math.BigDecimal
 
 object SendModule {

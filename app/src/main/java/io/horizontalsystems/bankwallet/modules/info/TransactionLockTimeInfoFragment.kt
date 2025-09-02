@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.info
+package com.mrv.wallet.modules.info
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.Column
@@ -13,14 +13,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.info.ui.InfoHeader
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.InfoTextBody
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.info.ui.InfoHeader
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.InfoTextBody
+import com.mrv.wallet.ui.compose.components.MenuItem
 import kotlinx.parcelize.Parcelize
 
 class TransactionLockTimeInfoFragment : BaseComposeFragment() {

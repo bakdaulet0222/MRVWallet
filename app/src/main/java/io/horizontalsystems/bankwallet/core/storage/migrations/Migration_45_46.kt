@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.storage.migrations
+package com.mrv.wallet.core.storage.migrations
 
 import android.os.Parcelable
 import androidx.room.migration.Migration

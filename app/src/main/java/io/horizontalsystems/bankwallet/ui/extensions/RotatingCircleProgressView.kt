@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.extensions
+package com.mrv.wallet.ui.extensions
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,8 +7,8 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
 import android.view.animation.DecelerateInterpolator
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.helpers.LayoutHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.helpers.LayoutHelper
 import kotlin.math.max
 
 class RotatingCircleProgressView : View {

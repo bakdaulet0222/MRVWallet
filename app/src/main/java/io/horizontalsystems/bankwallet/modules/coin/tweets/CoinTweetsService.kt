@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.coin.tweets
+package com.mrv.wallet.modules.coin.tweets
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.DataState
 import io.horizontalsystems.marketkit.models.LinkType
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable

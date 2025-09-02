@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.basecurrency
+package com.mrv.wallet.modules.basecurrency
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Currency
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Currency
 
 object BaseCurrencySettingsModule {
     class Factory : ViewModelProvider.Factory {

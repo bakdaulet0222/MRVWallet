@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.send.ton
+package com.mrv.wallet.modules.send.ton
 
-import io.horizontalsystems.bankwallet.core.ISendTonAdapter
+import com.mrv.wallet.core.ISendTonAdapter
 import io.horizontalsystems.tonkit.FriendlyAddress
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.address
+package com.mrv.wallet.modules.address
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.title
-import io.horizontalsystems.bankwallet.core.utils.AddressUriParser
-import io.horizontalsystems.bankwallet.core.utils.AddressUriResult
-import io.horizontalsystems.bankwallet.core.utils.ToncoinUriParser
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsRepository
+import com.mrv.wallet.core.title
+import com.mrv.wallet.core.utils.AddressUriParser
+import com.mrv.wallet.core.utils.AddressUriResult
+import com.mrv.wallet.core.utils.ToncoinUriParser
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.contacts.ContactsRepository
 import io.horizontalsystems.marketkit.models.BlockchainType
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

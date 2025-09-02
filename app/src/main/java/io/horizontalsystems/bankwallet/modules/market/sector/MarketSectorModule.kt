@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.market.sector
+package com.mrv.wallet.modules.market.sector
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.chart.ChartCurrencyValueFormatterShortened
-import io.horizontalsystems.bankwallet.modules.chart.ChartModule
-import io.horizontalsystems.bankwallet.modules.chart.ChartViewModel
-import io.horizontalsystems.bankwallet.modules.market.TopMarket
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.chart.ChartCurrencyValueFormatterShortened
+import com.mrv.wallet.modules.chart.ChartModule
+import com.mrv.wallet.modules.chart.ChartViewModel
+import com.mrv.wallet.modules.market.TopMarket
 import io.horizontalsystems.marketkit.models.CoinCategory
 
 object MarketSectorModule {

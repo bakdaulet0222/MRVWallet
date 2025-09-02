@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.extensions
+package com.mrv.wallet.ui.extensions
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -21,18 +21,18 @@ import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.FragmentManager
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.HsImage
-import io.horizontalsystems.bankwallet.ui.compose.components.HsSwitch
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.SectionUniversalItem
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.helpers.TextHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.market.ImageSource
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.HsImage
+import com.mrv.wallet.ui.compose.components.HsSwitch
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.SectionUniversalItem
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.headline2_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.helpers.TextHelper
 import io.horizontalsystems.core.helpers.HudHelper
 import java.util.UUID
 

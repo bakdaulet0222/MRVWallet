@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
-import io.horizontalsystems.bankwallet.entities.EvmSyncSourceRecord
+import com.mrv.wallet.entities.EvmSyncSourceRecord
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class EvmSyncSourceStorage(appDatabase: AppDatabase) {

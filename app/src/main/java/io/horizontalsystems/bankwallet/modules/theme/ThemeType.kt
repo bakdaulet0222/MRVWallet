@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.theme
+package com.mrv.wallet.modules.theme
 
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
 
 enum class ThemeType(
     val value: String,

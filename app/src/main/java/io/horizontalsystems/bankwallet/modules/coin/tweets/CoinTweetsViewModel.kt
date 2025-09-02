@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.coin.tweets
+package com.mrv.wallet.modules.coin.tweets
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.twitter.twittertext.Extractor
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.core.helpers.DateHelper
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow

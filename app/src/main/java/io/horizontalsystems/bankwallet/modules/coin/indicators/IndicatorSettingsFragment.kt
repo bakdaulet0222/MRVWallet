@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.coin.indicators
+package com.mrv.wallet.modules.coin.indicators
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalView
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.chart.ChartIndicatorSetting
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.chart.ChartIndicatorSetting
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.parcelize.Parcelize
 

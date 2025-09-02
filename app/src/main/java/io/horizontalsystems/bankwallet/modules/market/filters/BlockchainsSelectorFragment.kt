@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.market.filters
+package com.mrv.wallet.modules.market.filters
 
 import android.os.Bundle
 import androidx.activity.OnBackPressedCallback
@@ -18,19 +18,19 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.navGraphViewModels
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.evmfee.ButtonsGroupWithShade
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.MenuItem
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.CellBlockchainChecked
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.CellUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionUniversalLawrence
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.evmfee.ButtonsGroupWithShade
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.MenuItem
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_grey
+import com.mrv.wallet.ui.compose.components.cell.CellBlockchainChecked
+import com.mrv.wallet.ui.compose.components.cell.CellUniversal
+import com.mrv.wallet.ui.compose.components.cell.SectionUniversalLawrence
 import io.horizontalsystems.core.findNavController
 
 class BlockchainsSelectorFragment : BaseComposeFragment() {

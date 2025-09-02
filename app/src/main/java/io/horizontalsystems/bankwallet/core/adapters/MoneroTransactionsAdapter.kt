@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.ITransactionsAdapter
-import io.horizontalsystems.bankwallet.core.adapters.MoneroAdapter.Companion.DECIMALS
-import io.horizontalsystems.bankwallet.entities.LastBlockInfo
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.bitcoin.BitcoinIncomingTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.bitcoin.BitcoinOutgoingTransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.FilterTransactionType
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.ITransactionsAdapter
+import com.mrv.wallet.core.adapters.MoneroAdapter.Companion.DECIMALS
+import com.mrv.wallet.entities.LastBlockInfo
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.entities.transactionrecords.bitcoin.BitcoinIncomingTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.bitcoin.BitcoinOutgoingTransactionRecord
+import com.mrv.wallet.modules.transactions.FilterTransactionType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.monerokit.MoneroKit
 import io.horizontalsystems.monerokit.model.TransactionInfo

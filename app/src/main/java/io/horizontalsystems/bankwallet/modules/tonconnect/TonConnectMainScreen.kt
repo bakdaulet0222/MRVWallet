@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.tonconnect
+package com.mrv.wallet.modules.tonconnect
 
 import android.app.Activity
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -21,19 +21,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.Caution
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.core.utils.ModuleField
-import io.horizontalsystems.bankwallet.modules.contacts.screen.ConfirmationBottomSheet
-import io.horizontalsystems.bankwallet.modules.evmfee.ButtonsGroupWithShade
-import io.horizontalsystems.bankwallet.modules.qrscanner.QRScannerActivity
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.ListEmptyView
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.Caution
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.core.utils.ModuleField
+import com.mrv.wallet.modules.contacts.screen.ConfirmationBottomSheet
+import com.mrv.wallet.modules.evmfee.ButtonsGroupWithShade
+import com.mrv.wallet.modules.qrscanner.QRScannerActivity
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.ListEmptyView
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

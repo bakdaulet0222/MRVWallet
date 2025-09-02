@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.settings.appearance
+package com.mrv.wallet.modules.settings.appearance
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.theme.ThemeService
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.theme.ThemeService
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
 
 object AppearanceModule {
 

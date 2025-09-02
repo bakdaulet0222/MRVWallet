@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 import android.os.Parcelable
-import io.horizontalsystems.bankwallet.core.badge
-import io.horizontalsystems.bankwallet.core.meta
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.core.badge
+import com.mrv.wallet.core.meta
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.parcelize.Parcelize
 import java.util.Objects

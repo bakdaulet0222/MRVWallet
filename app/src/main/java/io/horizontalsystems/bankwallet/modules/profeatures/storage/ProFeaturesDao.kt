@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.profeatures.storage
+package com.mrv.wallet.modules.profeatures.storage
 
 import androidx.room.Dao
 import androidx.room.Insert

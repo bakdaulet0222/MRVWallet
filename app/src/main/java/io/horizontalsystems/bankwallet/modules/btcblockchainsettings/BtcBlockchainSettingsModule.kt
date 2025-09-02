@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.btcblockchainsettings
+package com.mrv.wallet.modules.btcblockchainsettings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import io.horizontalsystems.marketkit.models.Blockchain
 
 object BtcBlockchainSettingsModule {

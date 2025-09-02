@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.market.favorites
+package com.mrv.wallet.modules.market.favorites
 
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.PriceManager
-import io.horizontalsystems.bankwallet.core.managers.SignalsControlManager
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
-import io.horizontalsystems.bankwallet.modules.market.filters.TimePeriod
-import io.horizontalsystems.bankwallet.modules.market.sort
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.PriceManager
+import com.mrv.wallet.core.managers.SignalsControlManager
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.TimeDuration
+import com.mrv.wallet.modules.market.filters.TimePeriod
+import com.mrv.wallet.modules.market.sort
 import io.horizontalsystems.core.BackgroundManager
 import io.horizontalsystems.core.BackgroundManagerState
 import io.horizontalsystems.marketkit.models.Analytics

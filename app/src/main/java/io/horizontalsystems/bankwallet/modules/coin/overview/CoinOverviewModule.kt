@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.coin.overview
+package com.mrv.wallet.modules.coin.overview
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.chart.ChartCurrencyValueFormatterSignificant
-import io.horizontalsystems.bankwallet.modules.chart.ChartModule
-import io.horizontalsystems.bankwallet.modules.chart.ChartViewModel
-import io.horizontalsystems.bankwallet.modules.coin.CoinDataItem
-import io.horizontalsystems.bankwallet.modules.coin.CoinLink
-import io.horizontalsystems.bankwallet.modules.coin.CoinViewFactory
-import io.horizontalsystems.bankwallet.modules.coin.RoiViewItem
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.chart.ChartCurrencyValueFormatterSignificant
+import com.mrv.wallet.modules.chart.ChartModule
+import com.mrv.wallet.modules.chart.ChartViewModel
+import com.mrv.wallet.modules.coin.CoinDataItem
+import com.mrv.wallet.modules.coin.CoinLink
+import com.mrv.wallet.modules.coin.CoinViewFactory
+import com.mrv.wallet.modules.coin.RoiViewItem
 import io.horizontalsystems.marketkit.models.FullCoin
 import io.horizontalsystems.marketkit.models.MarketInfoOverview
 import io.horizontalsystems.marketkit.models.Token

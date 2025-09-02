@@ -1,16 +1,16 @@
-package io.horizontalsystems.bankwallet.modules.settings.main
+package com.mrv.wallet.modules.settings.main
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.IBackupManager
-import io.horizontalsystems.bankwallet.core.ITermsManager
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.modules.settings.main.MainSettingsModule.CounterType
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCManager
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCSessionManager
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.IBackupManager
+import com.mrv.wallet.core.ITermsManager
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.modules.settings.main.MainSettingsModule.CounterType
+import com.mrv.wallet.modules.walletconnect.WCManager
+import com.mrv.wallet.modules.walletconnect.WCSessionManager
 import io.horizontalsystems.core.IPinComponent
 import io.horizontalsystems.core.ISystemInfoManager
 import io.horizontalsystems.subscriptions.core.AdvancedSearch
@@ -43,12 +43,10 @@ class MainSettingsViewModel(
             return appVersion
         }
 
-    val companyWebPage = appConfigProvider.companyWebPageLink
-
     val walletConnectSupportState: WCManager.SupportState
         get() = wcManager.getWalletConnectSupportState()
 
-    private val appWebPageLink = appConfigProvider.appWebPageLink
+    private val appWebPageLink = ""
     private val hasNonStandardAccount: Boolean
         get() = accountManager.hasNonStandardAccount
 

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.coin.detectors
+package com.mrv.wallet.modules.coin.detectors
 
 import android.os.Parcelable
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 import kotlinx.parcelize.Parcelize
 
 object DetectorsModule {

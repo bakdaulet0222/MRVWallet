@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.watchaddress
+package com.mrv.wallet.modules.watchaddress
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.address.AddressHandlerFactory
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.address.AddressHandlerFactory
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 object WatchAddressModule {

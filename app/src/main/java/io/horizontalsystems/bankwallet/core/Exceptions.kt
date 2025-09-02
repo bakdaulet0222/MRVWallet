@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import androidx.compose.runtime.Composable
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ethereum.CautionViewItem
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ethereum.CautionViewItem
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
 import io.horizontalsystems.ethereumkit.core.AddressValidator
 

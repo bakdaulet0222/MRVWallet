@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.evmfee
+package com.mrv.wallet.modules.evmfee
 
-import io.horizontalsystems.bankwallet.core.EvmError
-import io.horizontalsystems.bankwallet.core.convertedError
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.EvmError
+import com.mrv.wallet.core.convertedError
+import com.mrv.wallet.entities.DataState
 import io.horizontalsystems.ethereumkit.core.EthereumKit
 import io.horizontalsystems.ethereumkit.models.GasPrice
 import io.horizontalsystems.ethereumkit.models.TransactionData

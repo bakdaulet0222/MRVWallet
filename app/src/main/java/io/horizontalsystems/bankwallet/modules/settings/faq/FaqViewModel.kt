@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.settings.faq
+package com.mrv.wallet.modules.settings.faq
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.Faq
-import io.horizontalsystems.bankwallet.entities.FaqSection
-import io.horizontalsystems.bankwallet.entities.ViewState
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.Faq
+import com.mrv.wallet.entities.FaqSection
+import com.mrv.wallet.entities.ViewState
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow
 

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.coin.investments
+package com.mrv.wallet.modules.coin.investments
 
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.entities.DataState
 import io.horizontalsystems.marketkit.models.CoinInvestment
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject

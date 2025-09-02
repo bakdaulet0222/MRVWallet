@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.send.evm.settings
+package com.mrv.wallet.modules.send.evm.settings
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.Warning
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.Warning
 import kotlinx.coroutines.launch
 
 class SendEvmNonceViewModel(

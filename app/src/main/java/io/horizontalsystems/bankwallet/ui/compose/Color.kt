@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose
+package com.mrv.wallet.ui.compose
 
 import androidx.compose.ui.graphics.Color
 
@@ -16,13 +16,15 @@ val GreenD = Color(0xFF0AC18E)
 val GreenL = Color(0xFF0AA177)
 val YellowD = Color(0xFFFFB700)
 val YellowL = Color(0xFFFF9D00)
+val BlueL = Color(0xFF99C4FB)
+val BlueD = Color(0xFF6D9ACC)
 val RedD = Color(0xFFFF1539)
 val RedL = Color(0xFFFF1500)
 val Orange = Color(0xFFFE4A11)
 val Sunset = Color(0xFFFF2C00)
 
-val Yellow50 = Color(0x80FFB700)
-val Yellow20 = Color(0x33FFB700)
+val Yellow50 = Color(0x8064A4F6)
+val Yellow20 = Color(0x4066A6F8)
 val Green50 = Color(0x800AC18E)
 val Green20 = Color(0x330AC18E)
 val Red50 = Color(0x80FF1539)

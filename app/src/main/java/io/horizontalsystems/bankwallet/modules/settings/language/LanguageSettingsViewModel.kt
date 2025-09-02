@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.settings.language
+package com.mrv.wallet.modules.settings.language
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.managers.LanguageManager
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.managers.LanguageManager
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
 import io.horizontalsystems.core.helpers.LocaleType
 
 class LanguageSettingsViewModel(

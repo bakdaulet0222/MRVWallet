@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.receive.viewmodels
+package com.mrv.wallet.modules.receive.viewmodels
 
-import io.horizontalsystems.bankwallet.core.ServiceState
-import io.horizontalsystems.bankwallet.core.factories.uriScheme
-import io.horizontalsystems.bankwallet.core.utils.AddressUriParser
-import io.horizontalsystems.bankwallet.entities.AddressUri
+import com.mrv.wallet.core.ServiceState
+import com.mrv.wallet.core.factories.uriScheme
+import com.mrv.wallet.core.utils.AddressUriParser
+import com.mrv.wallet.entities.AddressUri
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenType
 import java.math.BigDecimal

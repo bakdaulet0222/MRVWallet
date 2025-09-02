@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 import android.util.Log
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.AllBridgeProvider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.IMultiSwapProvider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.OneInchProvider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.PancakeSwapProvider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.PancakeSwapV3Provider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.QuickSwapProvider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.ThorChainProvider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.UniswapProvider
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.UniswapV3Provider
+import com.mrv.wallet.modules.multiswap.providers.AllBridgeProvider
+import com.mrv.wallet.modules.multiswap.providers.IMultiSwapProvider
+import com.mrv.wallet.modules.multiswap.providers.OneInchProvider
+import com.mrv.wallet.modules.multiswap.providers.PancakeSwapProvider
+import com.mrv.wallet.modules.multiswap.providers.PancakeSwapV3Provider
+import com.mrv.wallet.modules.multiswap.providers.QuickSwapProvider
+import com.mrv.wallet.modules.multiswap.providers.ThorChainProvider
+import com.mrv.wallet.modules.multiswap.providers.UniswapProvider
+import com.mrv.wallet.modules.multiswap.providers.UniswapV3Provider
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.ITransactionsAdapter
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.ITransactionsAdapter
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.contacts.model.Contact
 import io.reactivex.Observable
 import io.reactivex.Single
 import io.reactivex.subjects.PublishSubject

@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.tonconnect
+package com.mrv.wallet.modules.tonconnect
 
 import androidx.lifecycle.viewModelScope
 import com.tonapps.wallet.data.tonconnect.entities.DAppManifestEntity
 import com.tonapps.wallet.data.tonconnect.entities.DAppRequestEntity
 import com.tonapps.wallet.data.tonconnect.entities.reply.DAppConnectEventError
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.toTonWalletFullAccess
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.toTonWalletFullAccess
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

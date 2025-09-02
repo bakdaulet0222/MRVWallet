@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.BalanceData
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.adapters.BaseTronAdapter
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.balance.BalanceModule.BalanceWarning
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.BalanceData
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.adapters.BaseTronAdapter
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.balance.BalanceModule.BalanceWarning
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.tor.torcore
+package com.mrv.wallet.core.tor.torcore
 
 import android.text.TextUtils
-import io.horizontalsystems.bankwallet.core.tor.ConnectionStatus
-import io.horizontalsystems.bankwallet.core.tor.Tor
+import com.mrv.wallet.core.tor.ConnectionStatus
+import com.mrv.wallet.core.tor.Tor
 import io.reactivex.Observable
 import net.freehaven.tor.control.EventHandler
 import net.freehaven.tor.control.TorControlConnection

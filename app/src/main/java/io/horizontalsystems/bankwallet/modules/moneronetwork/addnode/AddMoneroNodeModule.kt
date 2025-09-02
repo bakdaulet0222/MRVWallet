@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.moneronetwork.addnode
+package com.mrv.wallet.modules.moneronetwork.addnode
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object AddMoneroNodeModule {
 

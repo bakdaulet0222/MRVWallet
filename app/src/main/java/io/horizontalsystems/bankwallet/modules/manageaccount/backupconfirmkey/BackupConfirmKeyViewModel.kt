@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.backupconfirmkey
+package com.mrv.wallet.modules.manageaccount.backupconfirmkey
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.IRandomProvider
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.IRandomProvider
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
 
 class BackupConfirmKeyViewModel(
     private val account: Account,

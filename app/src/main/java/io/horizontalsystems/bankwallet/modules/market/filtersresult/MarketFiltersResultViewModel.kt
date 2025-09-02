@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.market.filtersresult
+package com.mrv.wallet.modules.market.filtersresult
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.market.MarketViewItem
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.favorites.MarketItemWrapper
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.market.MarketViewItem
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.favorites.MarketItemWrapper
+import com.mrv.wallet.ui.compose.Select
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow
 

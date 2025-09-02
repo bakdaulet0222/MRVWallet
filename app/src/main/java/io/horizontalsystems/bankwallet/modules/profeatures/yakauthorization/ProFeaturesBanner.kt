@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.profeatures.yakauthorization
+package com.mrv.wallet.modules.profeatures.yakauthorization
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -15,8 +15,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 
 @Composable
 fun ProFeaturesBanner(

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.storage
+package com.mrv.wallet.modules.walletconnect.storage
 
-import io.horizontalsystems.bankwallet.core.storage.AppDatabase
+import com.mrv.wallet.core.storage.AppDatabase
 
 class WCSessionStorage(appDatabase: AppDatabase) {
 

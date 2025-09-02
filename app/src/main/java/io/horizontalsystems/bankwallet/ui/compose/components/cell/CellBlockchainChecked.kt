@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components.cell
+package com.mrv.wallet.ui.compose.components.cell
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.padding
@@ -10,10 +10,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.body_leah
 import io.horizontalsystems.marketkit.models.Blockchain
 
 @Composable

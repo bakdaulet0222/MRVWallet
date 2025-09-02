@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin
+package com.mrv.wallet.modules.send.bitcoin
 
-import io.horizontalsystems.bankwallet.core.ISendBitcoinAdapter
-import io.horizontalsystems.bankwallet.core.adapters.BitcoinFeeInfo
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.core.ISendBitcoinAdapter
+import com.mrv.wallet.core.adapters.BitcoinFeeInfo
+import com.mrv.wallet.entities.Address
 import io.horizontalsystems.bitcoincore.core.IPluginData
 import io.horizontalsystems.bitcoincore.storage.UnspentOutputInfo
 import io.horizontalsystems.bitcoincore.storage.UtxoFilters

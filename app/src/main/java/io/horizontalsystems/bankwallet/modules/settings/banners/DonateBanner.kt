@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.banners
+package com.mrv.wallet.modules.settings.banners
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -29,10 +29,12 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.Bright
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.YellowD
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.BlueD
+import com.mrv.wallet.ui.compose.BlueL
+import com.mrv.wallet.ui.compose.Bright
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.YellowD
 
 @Composable
 fun DonateBanner(onClick: () -> Unit) {
@@ -72,7 +74,7 @@ fun DonateBanner(onClick: () -> Unit) {
                     maxLines = 2,
                     text = stringResource(R.string.SettingsBanner_SupportTheProject),
                     style = ComposeAppTheme.typography.subhead,
-                    color = YellowD,
+                    color = BlueL,
                 )
             }
 

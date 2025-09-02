@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.pin.core
+package com.mrv.wallet.modules.pin.core
 
 import androidx.room.Dao
 import androidx.room.Entity
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.bankwallet.core.storage.SecretString
+import com.mrv.wallet.core.storage.SecretString
 
 class PinDbStorage(private val pinDao: PinDao) {
 

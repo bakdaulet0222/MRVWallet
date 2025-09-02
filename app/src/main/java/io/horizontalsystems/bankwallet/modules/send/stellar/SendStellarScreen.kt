@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.stellar
+package com.mrv.wallet.modules.send.stellar
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -12,24 +12,24 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.slideFromBottomForResult
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.modules.address.AddressParserModule
-import io.horizontalsystems.bankwallet.modules.address.AddressParserViewModel
-import io.horizontalsystems.bankwallet.modules.address.HSAddressCell
-import io.horizontalsystems.bankwallet.modules.amount.AmountInputModeViewModel
-import io.horizontalsystems.bankwallet.modules.amount.HSAmountInput
-import io.horizontalsystems.bankwallet.modules.availablebalance.AvailableBalance
-import io.horizontalsystems.bankwallet.modules.fee.HSFee
-import io.horizontalsystems.bankwallet.modules.memo.HSMemoInput
-import io.horizontalsystems.bankwallet.modules.send.AddressRiskyBottomSheetAlert
-import io.horizontalsystems.bankwallet.modules.send.SendConfirmationFragment
-import io.horizontalsystems.bankwallet.modules.send.SendScreen
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
+import com.mrv.wallet.R
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.slideFromBottomForResult
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.modules.address.AddressParserModule
+import com.mrv.wallet.modules.address.AddressParserViewModel
+import com.mrv.wallet.modules.address.HSAddressCell
+import com.mrv.wallet.modules.amount.AmountInputModeViewModel
+import com.mrv.wallet.modules.amount.HSAmountInput
+import com.mrv.wallet.modules.availablebalance.AvailableBalance
+import com.mrv.wallet.modules.fee.HSFee
+import com.mrv.wallet.modules.memo.HSMemoInput
+import com.mrv.wallet.modules.send.AddressRiskyBottomSheetAlert
+import com.mrv.wallet.modules.send.SendConfirmationFragment
+import com.mrv.wallet.modules.send.SendScreen
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.VSpacer
 import java.math.BigDecimal
 
 @Composable

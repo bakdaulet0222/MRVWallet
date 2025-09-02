@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.transactionInfo.options
+package com.mrv.wallet.modules.transactionInfo.options
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

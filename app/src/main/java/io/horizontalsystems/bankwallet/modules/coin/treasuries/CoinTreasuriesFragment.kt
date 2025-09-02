@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.treasuries
+package com.mrv.wallet.modules.coin.treasuries
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.layout.Box
@@ -22,28 +22,28 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Loading
-import io.horizontalsystems.bankwallet.modules.market.tvl.TvlModule
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.HSSwipeRefresh
-import io.horizontalsystems.bankwallet.ui.compose.Select
-import io.horizontalsystems.bankwallet.ui.compose.components.AlertGroup
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.CellFooter
-import io.horizontalsystems.bankwallet.ui.compose.components.HeaderSorting
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.HsImage
-import io.horizontalsystems.bankwallet.ui.compose.components.ListErrorView
-import io.horizontalsystems.bankwallet.ui.compose.components.MarketCoinFirstRow
-import io.horizontalsystems.bankwallet.ui.compose.components.SectionItemBorderedRowUniversalClear
-import io.horizontalsystems.bankwallet.ui.compose.components.SortMenu
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_jacob
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.overview.ui.Loading
+import com.mrv.wallet.modules.market.tvl.TvlModule
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.HSSwipeRefresh
+import com.mrv.wallet.ui.compose.Select
+import com.mrv.wallet.ui.compose.components.AlertGroup
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryCircle
+import com.mrv.wallet.ui.compose.components.CellFooter
+import com.mrv.wallet.ui.compose.components.HeaderSorting
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.HsImage
+import com.mrv.wallet.ui.compose.components.ListErrorView
+import com.mrv.wallet.ui.compose.components.MarketCoinFirstRow
+import com.mrv.wallet.ui.compose.components.SectionItemBorderedRowUniversalClear
+import com.mrv.wallet.ui.compose.components.SortMenu
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_jacob
 import io.horizontalsystems.marketkit.models.Coin
 
 class CoinTreasuriesFragment : BaseComposeFragment() {

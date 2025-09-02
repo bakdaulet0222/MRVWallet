@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.analytics.ui
+package com.mrv.wallet.modules.coin.analytics.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -28,26 +28,26 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.doOnLayout
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule.BoxItem
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule.OverallScore
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule.ScoreCategory
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.components.ChartBars
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.HsIconButton
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.StackBarSlice
-import io.horizontalsystems.bankwallet.ui.compose.components.StackedBarChart
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.headline1_bran
-import io.horizontalsystems.bankwallet.ui.compose.components.microSB_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule.BoxItem
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule.OverallScore
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule.ScoreCategory
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.components.ChartBars
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.HsIconButton
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.StackBarSlice
+import com.mrv.wallet.ui.compose.components.StackedBarChart
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.headline1_bran
+import com.mrv.wallet.ui.compose.components.microSB_leah
+import com.mrv.wallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.ui.compose.components.subhead1_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 import io.horizontalsystems.chartview.ChartMinimal
 
 @Composable
@@ -88,8 +88,8 @@ fun AnalyticsBlockHeader(
 private fun PremiumBadge() {
     val yellowGradient = Brush.linearGradient(
         colors = listOf(
-            Color(0xFFFFD000),
-            Color(0xFFFFA800),
+            Color(0xFF99C4FB),
+            Color(0xFF4A8FE8),
         ),
     )
     Box(

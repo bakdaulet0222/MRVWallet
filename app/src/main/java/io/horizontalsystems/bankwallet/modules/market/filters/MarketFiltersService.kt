@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.market.filters
+package com.mrv.wallet.modules.market.filters
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.modules.market.priceChangeValue
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.modules.market.priceChangeValue
 import io.horizontalsystems.marketkit.models.Analytics.TechnicalAdvice.Advice
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.horizontalsystems.marketkit.models.BlockchainType

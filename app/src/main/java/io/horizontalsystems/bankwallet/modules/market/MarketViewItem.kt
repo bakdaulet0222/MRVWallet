@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.market
+package com.mrv.wallet.modules.market
 
 import androidx.compose.runtime.Immutable
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
 import io.horizontalsystems.marketkit.models.Analytics.TechnicalAdvice.Advice
 import io.horizontalsystems.marketkit.models.FullCoin
 

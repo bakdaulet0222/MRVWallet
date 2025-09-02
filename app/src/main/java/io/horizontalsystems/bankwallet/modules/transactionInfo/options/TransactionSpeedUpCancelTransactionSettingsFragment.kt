@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.transactionInfo.options
+package com.mrv.wallet.modules.transactionInfo.options
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
 
 class TransactionSpeedUpCancelTransactionSettingsFragment : BaseComposeFragment() {
     @Composable

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.tor
+package com.mrv.wallet.modules.tor
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object TorConnectionModule {
 

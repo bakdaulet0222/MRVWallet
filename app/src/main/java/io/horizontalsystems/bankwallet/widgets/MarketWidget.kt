@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.widgets
+package com.mrv.wallet.widgets
 
 import android.content.Context
 import android.content.Intent
@@ -46,9 +46,9 @@ import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
 import androidx.glance.text.TextAlign
 import androidx.glance.text.TextStyle
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.market.Value
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.market.Value
 import java.math.BigDecimal
 import java.text.SimpleDateFormat
 import java.util.Date

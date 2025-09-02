@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.coin.audits
+package com.mrv.wallet.modules.coin.audits
 
 import android.annotation.SuppressLint
 import androidx.compose.runtime.getValue
@@ -6,10 +6,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.coin.audits.CoinAuditsModule.AuditViewItem
-import io.horizontalsystems.bankwallet.modules.coin.audits.CoinAuditsModule.AuditorViewItem
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.coin.audits.CoinAuditsModule.AuditViewItem
+import com.mrv.wallet.modules.coin.audits.CoinAuditsModule.AuditorViewItem
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.core.helpers.DateHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

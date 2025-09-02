@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.contacts
+package com.mrv.wallet.modules.contacts
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.AppLogger
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsModule.ContactValidationException
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
-import io.horizontalsystems.bankwallet.modules.contacts.model.ContactAddress
-import io.horizontalsystems.bankwallet.modules.contacts.model.ContactNameAddress
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.AppLogger
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.modules.contacts.ContactsModule.ContactValidationException
+import com.mrv.wallet.modules.contacts.model.Contact
+import com.mrv.wallet.modules.contacts.model.ContactAddress
+import com.mrv.wallet.modules.contacts.model.ContactNameAddress
 import io.horizontalsystems.marketkit.models.BlockchainType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.asCoroutineDispatcher

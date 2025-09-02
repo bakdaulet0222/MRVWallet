@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.market.filtersresult
+package com.mrv.wallet.modules.market.filtersresult
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.SignalsControlManager
-import io.horizontalsystems.bankwallet.modules.market.filters.IMarketListFetcher
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.SignalsControlManager
+import com.mrv.wallet.modules.market.filters.IMarketListFetcher
 
 object MarketFiltersResultsModule {
     class Factory(val service: IMarketListFetcher) : ViewModelProvider.Factory {

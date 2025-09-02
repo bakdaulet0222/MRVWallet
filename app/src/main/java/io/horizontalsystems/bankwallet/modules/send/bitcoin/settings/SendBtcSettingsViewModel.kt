@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin.settings
+package com.mrv.wallet.modules.send.bitcoin.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.adapters.BitcoinFeeInfo
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.send.bitcoin.SendBitcoinFeeRateService
-import io.horizontalsystems.bankwallet.modules.send.bitcoin.SendBitcoinFeeService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.adapters.BitcoinFeeInfo
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.send.bitcoin.SendBitcoinFeeRateService
+import com.mrv.wallet.modules.send.bitcoin.SendBitcoinFeeService
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.coroutines.launch
 import java.math.BigDecimal

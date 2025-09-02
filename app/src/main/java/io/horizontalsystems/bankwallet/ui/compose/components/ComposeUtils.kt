@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size
@@ -16,14 +16,14 @@ import androidx.compose.ui.unit.dp
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberAsyncImagePainter
 import coil.imageLoader
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imagePlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.modules.market.Value
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imagePlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.modules.market.Value
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 import io.horizontalsystems.marketkit.models.Coin
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal

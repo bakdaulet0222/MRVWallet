@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.address
+package com.mrv.wallet.modules.send.address
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -14,13 +14,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.address.AddressCheckType
-import io.horizontalsystems.bankwallet.modules.usersubscription.ui.highlightText
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.extensions.BottomSheetHeader
+import com.mrv.wallet.R
+import com.mrv.wallet.core.address.AddressCheckType
+import com.mrv.wallet.modules.usersubscription.ui.highlightText
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.extensions.BottomSheetHeader
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

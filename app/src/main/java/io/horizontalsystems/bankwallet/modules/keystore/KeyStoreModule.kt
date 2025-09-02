@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.keystore
+package com.mrv.wallet.modules.keystore
 
 import android.os.Parcelable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import kotlinx.parcelize.Parcelize
 
 object KeyStoreModule {

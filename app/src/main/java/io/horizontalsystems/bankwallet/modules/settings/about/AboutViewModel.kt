@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.settings.about
+package com.mrv.wallet.modules.settings.about
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ITermsManager
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ITermsManager
+import com.mrv.wallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.providers.Translator
 import io.horizontalsystems.core.ISystemInfoManager
 import kotlinx.coroutines.launch
 
@@ -19,7 +19,7 @@ class AboutViewModel(
 ) : ViewModel() {
 
     val githubLink = appConfigProvider.appGithubLink
-    val appWebPageLink = appConfigProvider.appWebPageLink
+    val appWebPageLink = ""
     val appVersion: String
         get() {
             var appVersion = systemInfoManager.appVersion

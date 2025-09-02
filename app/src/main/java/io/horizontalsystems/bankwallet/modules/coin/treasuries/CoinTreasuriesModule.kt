@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.coin.treasuries
+package com.mrv.wallet.modules.coin.treasuries
 
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.ui.compose.Select
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.ui.compose.Select
+import com.mrv.wallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
 import io.horizontalsystems.marketkit.models.Coin
 
 object CoinTreasuriesModule {

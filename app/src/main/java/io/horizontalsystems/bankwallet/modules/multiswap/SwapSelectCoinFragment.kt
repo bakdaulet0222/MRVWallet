@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.core.setNavigationResultX
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.core.setNavigationResultX
 import io.horizontalsystems.marketkit.models.Token
 import kotlinx.parcelize.Parcelize
 

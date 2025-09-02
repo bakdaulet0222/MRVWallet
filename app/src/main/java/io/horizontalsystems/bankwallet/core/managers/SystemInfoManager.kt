@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.app.Activity
 import android.app.KeyguardManager
@@ -6,8 +6,8 @@ import android.os.Build
 import androidx.biometric.BiometricManager
 import androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK
 import androidx.biometric.BiometricManager.BIOMETRIC_SUCCESS
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.providers.AppConfigProvider
 import io.horizontalsystems.core.ISystemInfoManager
 
 class SystemInfoManager(appConfigProvider: AppConfigProvider) : ISystemInfoManager {

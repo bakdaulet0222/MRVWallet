@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Currency
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Currency
 import io.horizontalsystems.marketkit.models.CoinPrice
 import java.math.BigDecimal
 

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.storage.BlockchainSettingsStorage
-import io.horizontalsystems.bankwallet.entities.AccountOrigin
-import io.horizontalsystems.bankwallet.entities.BtcRestoreMode
-import io.horizontalsystems.bankwallet.entities.TransactionDataSortMode
+import com.mrv.wallet.core.storage.BlockchainSettingsStorage
+import com.mrv.wallet.entities.AccountOrigin
+import com.mrv.wallet.entities.BtcRestoreMode
+import com.mrv.wallet.entities.TransactionDataSortMode
 import io.horizontalsystems.bitcoincore.BitcoinCore.SyncMode
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.reactivex.Observable

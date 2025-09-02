@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
-import io.horizontalsystems.bankwallet.core.IAccountsStorage
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountOrigin
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.entities.ActiveAccount
+import com.mrv.wallet.core.IAccountsStorage
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountOrigin
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.entities.ActiveAccount
 import io.reactivex.Flowable
 
 class AccountsStorage(appDatabase: AppDatabase) : IAccountsStorage {

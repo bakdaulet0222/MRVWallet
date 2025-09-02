@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request
+package com.mrv.wallet.modules.walletconnect.request
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.ui.compose.components.ListErrorView
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.ui.compose.components.ListErrorView
 
 @Composable
 fun WcRequestPreScreen(navController: NavController) {

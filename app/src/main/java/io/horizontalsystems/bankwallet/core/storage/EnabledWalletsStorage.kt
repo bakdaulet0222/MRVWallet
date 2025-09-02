@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
-import io.horizontalsystems.bankwallet.core.IEnabledWalletStorage
-import io.horizontalsystems.bankwallet.entities.EnabledWallet
+import com.mrv.wallet.core.IEnabledWalletStorage
+import com.mrv.wallet.entities.EnabledWallet
 
 class EnabledWalletsStorage(private val appDatabase: AppDatabase) : IEnabledWalletStorage {
 

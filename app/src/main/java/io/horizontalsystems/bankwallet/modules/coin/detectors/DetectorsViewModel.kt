@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.coin.detectors
+package com.mrv.wallet.modules.coin.detectors
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.modules.coin.detectors.DetectorsModule.IssueViewItem
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.modules.coin.detectors.DetectorsModule.IssueViewItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

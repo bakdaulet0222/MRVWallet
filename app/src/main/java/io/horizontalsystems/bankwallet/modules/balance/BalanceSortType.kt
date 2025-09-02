@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 sealed class BalanceSortType {
     object Name : BalanceSortType()

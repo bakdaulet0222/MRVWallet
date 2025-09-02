@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.balance.token
+package com.mrv.wallet.modules.balance.token
 
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.balance.BalanceAdapterRepository
-import io.horizontalsystems.bankwallet.modules.balance.BalanceModule
-import io.horizontalsystems.bankwallet.modules.balance.BalanceXRateRepository
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.balance.BalanceAdapterRepository
+import com.mrv.wallet.modules.balance.BalanceModule
+import com.mrv.wallet.modules.balance.BalanceXRateRepository
 import io.horizontalsystems.marketkit.models.CoinPrice
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

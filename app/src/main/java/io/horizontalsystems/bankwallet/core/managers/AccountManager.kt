@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IAccountCleaner
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.IAccountsStorage
-import io.horizontalsystems.bankwallet.entities.Account
+import com.mrv.wallet.core.IAccountCleaner
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.IAccountsStorage
+import com.mrv.wallet.entities.Account
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.subjects.PublishSubject

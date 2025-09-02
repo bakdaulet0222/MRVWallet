@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
-import io.horizontalsystems.bankwallet.core.diff
-import io.horizontalsystems.bankwallet.core.order
+import com.mrv.wallet.core.diff
+import com.mrv.wallet.core.order
 import java.math.BigDecimal
 
 class BalanceSorter {

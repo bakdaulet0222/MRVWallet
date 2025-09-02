@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.evmfee
+package com.mrv.wallet.modules.evmfee
 
 import io.horizontalsystems.ethereumkit.core.EthereumKit
 import io.horizontalsystems.ethereumkit.core.rollup.L1FeeProvider

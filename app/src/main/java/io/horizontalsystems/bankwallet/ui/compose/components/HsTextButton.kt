@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.LocalRippleConfiguration
 import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
-import io.horizontalsystems.bankwallet.ui.compose.MyRippleConfiguration
+import com.mrv.wallet.ui.compose.MyRippleConfiguration
 
 @Composable
 fun HsTextButton(

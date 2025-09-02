@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
 import androidx.lifecycle.viewmodel.CreationExtras
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsRepository
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.modules.contacts.ContactsRepository
+import com.mrv.wallet.modules.contacts.model.Contact
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class SelectContactViewModel(

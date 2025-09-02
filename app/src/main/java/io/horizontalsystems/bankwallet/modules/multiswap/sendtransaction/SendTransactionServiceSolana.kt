@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction
+package com.mrv.wallet.modules.multiswap.sendtransaction
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.EvmError
-import io.horizontalsystems.bankwallet.core.ISendSolanaAdapter
-import io.horizontalsystems.bankwallet.core.adapters.SolanaAdapter
-import io.horizontalsystems.bankwallet.core.hexToByteArray
-import io.horizontalsystems.bankwallet.core.isNative
-import io.horizontalsystems.bankwallet.entities.CoinValue
-import io.horizontalsystems.bankwallet.modules.amount.AmountValidator
-import io.horizontalsystems.bankwallet.modules.amount.SendAmountService
-import io.horizontalsystems.bankwallet.modules.send.solana.SendSolanaAddressService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.EvmError
+import com.mrv.wallet.core.ISendSolanaAdapter
+import com.mrv.wallet.core.adapters.SolanaAdapter
+import com.mrv.wallet.core.hexToByteArray
+import com.mrv.wallet.core.isNative
+import com.mrv.wallet.entities.CoinValue
+import com.mrv.wallet.modules.amount.AmountValidator
+import com.mrv.wallet.modules.amount.SendAmountService
+import com.mrv.wallet.modules.send.solana.SendSolanaAddressService
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

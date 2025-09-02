@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.coin.treasuries
+package com.mrv.wallet.modules.coin.treasuries
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.modules.coin.treasuries.CoinTreasuriesModule.TreasuryTypeFilter
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.modules.coin.treasuries.CoinTreasuriesModule.TreasuryTypeFilter
 import io.horizontalsystems.marketkit.models.CoinTreasury
 import io.horizontalsystems.marketkit.models.CoinTreasury.TreasuryType
 import io.reactivex.Single

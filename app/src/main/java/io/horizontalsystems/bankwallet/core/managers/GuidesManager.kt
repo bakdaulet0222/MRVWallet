@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import com.google.gson.*
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Guide
-import io.horizontalsystems.bankwallet.entities.GuideCategoryMultiLang
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Guide
+import com.mrv.wallet.entities.GuideCategoryMultiLang
 import io.reactivex.Single
 import okhttp3.OkHttpClient
 import okhttp3.Request

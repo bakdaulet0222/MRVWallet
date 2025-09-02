@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.metricchart
+package com.mrv.wallet.modules.metricchart
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.chart.ChartCurrencyValueFormatterShortened
-import io.horizontalsystems.bankwallet.modules.chart.ChartModule
-import io.horizontalsystems.bankwallet.modules.chart.ChartNumberFormatterShortened
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.chart.ChartCurrencyValueFormatterShortened
+import com.mrv.wallet.modules.chart.ChartModule
+import com.mrv.wallet.modules.chart.ChartNumberFormatterShortened
 
 object ProChartModule {
 

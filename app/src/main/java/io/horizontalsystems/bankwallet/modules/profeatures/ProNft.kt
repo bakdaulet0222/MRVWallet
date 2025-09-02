@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.profeatures
+package com.mrv.wallet.modules.profeatures
 
 import java.math.BigInteger
 

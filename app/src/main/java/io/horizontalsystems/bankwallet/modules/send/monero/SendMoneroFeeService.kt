@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.send.monero
+package com.mrv.wallet.modules.send.monero
 
-import io.horizontalsystems.bankwallet.core.ISendMoneroAdapter
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.core.ISendMoneroAdapter
+import com.mrv.wallet.entities.Address
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

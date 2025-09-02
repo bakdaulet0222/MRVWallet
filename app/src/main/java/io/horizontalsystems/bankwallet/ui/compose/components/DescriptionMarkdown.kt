@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import android.content.Context
 import android.text.Spannable
@@ -16,8 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.helpers.LayoutHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.helpers.LayoutHelper
 import io.noties.markwon.AbstractMarkwonPlugin
 import io.noties.markwon.Markwon
 import io.noties.markwon.MarkwonSpansFactory

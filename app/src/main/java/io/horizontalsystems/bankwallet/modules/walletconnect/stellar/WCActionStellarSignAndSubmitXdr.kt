@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.stellar
+package com.mrv.wallet.modules.walletconnect.stellar
 
 import com.google.gson.GsonBuilder
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionData
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionServiceFactory
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.SectionViewItem
-import io.horizontalsystems.bankwallet.modules.sendevmtransaction.ViewItem
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.AbstractWCAction
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.WCActionState
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionData
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionServiceFactory
+import com.mrv.wallet.modules.sendevmtransaction.SectionViewItem
+import com.mrv.wallet.modules.sendevmtransaction.ViewItem
+import com.mrv.wallet.modules.walletconnect.request.AbstractWCAction
+import com.mrv.wallet.modules.walletconnect.request.WCActionState
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.TokenQuery
 import io.horizontalsystems.marketkit.models.TokenType

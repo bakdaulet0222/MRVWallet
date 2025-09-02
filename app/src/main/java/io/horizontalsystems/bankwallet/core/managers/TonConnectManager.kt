@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.content.Context
 import com.tonapps.wallet.data.tonconnect.entities.DAppRequestEntity
-import io.horizontalsystems.bankwallet.core.factories.AdapterFactory
+import com.mrv.wallet.core.factories.AdapterFactory
 import io.horizontalsystems.tonkit.core.TonKit
 import io.horizontalsystems.tonkit.models.Network
 import io.horizontalsystems.tonkit.tonconnect.TonConnectKit

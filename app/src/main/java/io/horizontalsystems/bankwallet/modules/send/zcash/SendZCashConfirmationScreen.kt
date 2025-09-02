@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.zcash
+package com.mrv.wallet.modules.send.zcash
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -7,8 +7,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.modules.amount.AmountInputModeViewModel
-import io.horizontalsystems.bankwallet.modules.send.SendConfirmationScreen
+import com.mrv.wallet.modules.amount.AmountInputModeViewModel
+import com.mrv.wallet.modules.send.SendConfirmationScreen
 
 @Composable
 fun SendZCashConfirmationScreen(

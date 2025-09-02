@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.metricchart
+package com.mrv.wallet.modules.metricchart
 
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.ui.compose.TranslatableString
 
 interface IMetricChartFetcher {
     val title: Int

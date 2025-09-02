@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.entities.nft
+package com.mrv.wallet.entities.nft
 
 import io.horizontalsystems.marketkit.models.NftPrice
 import java.util.*

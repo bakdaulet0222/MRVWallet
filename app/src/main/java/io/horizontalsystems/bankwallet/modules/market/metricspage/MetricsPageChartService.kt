@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.modules.market.metricspage
+package com.mrv.wallet.modules.market.metricspage
 
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.core.stats.statPage
-import io.horizontalsystems.bankwallet.core.stats.statPeriod
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.chart.AbstractChartService
-import io.horizontalsystems.bankwallet.modules.chart.ChartPointsWrapper
-import io.horizontalsystems.bankwallet.modules.market.tvl.GlobalMarketRepository
-import io.horizontalsystems.bankwallet.modules.metricchart.MetricsType
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.core.stats.statPage
+import com.mrv.wallet.core.stats.statPeriod
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.chart.AbstractChartService
+import com.mrv.wallet.modules.chart.ChartPointsWrapper
+import com.mrv.wallet.modules.market.tvl.GlobalMarketRepository
+import com.mrv.wallet.modules.metricchart.MetricsType
 import io.horizontalsystems.chartview.ChartViewType
 import io.horizontalsystems.marketkit.models.HsTimePeriod
 import io.reactivex.Single

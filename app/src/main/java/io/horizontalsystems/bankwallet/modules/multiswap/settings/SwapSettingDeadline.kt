@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.settings
+package com.mrv.wallet.modules.multiswap.settings
 
 import android.util.Range
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.ui.TransactionDeadlineInput
+import com.mrv.wallet.modules.multiswap.settings.ui.TransactionDeadlineInput
 import io.reactivex.subjects.PublishSubject
 import java.util.Optional
 

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.receive
+package com.mrv.wallet.modules.receive
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.receive.ui.UsedAddressScreen
-import io.horizontalsystems.bankwallet.modules.receive.ui.UsedAddressesParams
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.receive.ui.UsedAddressScreen
+import com.mrv.wallet.modules.receive.ui.UsedAddressesParams
 
 class BtcUsedAddressesFragment : BaseComposeFragment() {
     @Composable

@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.market.topcoins
+package com.mrv.wallet.modules.market.topcoins
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
 import io.horizontalsystems.marketkit.models.TopMovers
 import io.reactivex.Single
 

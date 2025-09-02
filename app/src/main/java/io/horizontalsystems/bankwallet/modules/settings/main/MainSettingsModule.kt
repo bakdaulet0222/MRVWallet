@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.settings.main
+package com.mrv.wallet.modules.settings.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object MainSettingsModule {
 

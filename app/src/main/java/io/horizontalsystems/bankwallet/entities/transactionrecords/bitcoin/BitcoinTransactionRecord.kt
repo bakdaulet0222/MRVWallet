@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.bitcoin
+package com.mrv.wallet.entities.transactionrecords.bitcoin
 
-import io.horizontalsystems.bankwallet.entities.LastBlockInfo
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionLockInfo
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.entities.LastBlockInfo
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.transactions.TransactionLockInfo
+import com.mrv.wallet.modules.transactions.TransactionSource
 import java.util.*
 
 abstract class BitcoinTransactionRecord(

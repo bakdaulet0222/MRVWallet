@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.zcash
+package com.mrv.wallet.entities.transactionrecords.zcash
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.adapters.zcash.ZcashTransaction.ShieldDirection
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.bitcoin.BitcoinTransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionLockInfo
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.R
+import com.mrv.wallet.core.adapters.zcash.ZcashTransaction.ShieldDirection
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.transactionrecords.bitcoin.BitcoinTransactionRecord
+import com.mrv.wallet.modules.transactions.TransactionLockInfo
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

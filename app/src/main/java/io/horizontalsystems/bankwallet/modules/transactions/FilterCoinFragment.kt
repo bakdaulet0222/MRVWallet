@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
@@ -27,19 +27,19 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.navGraphViewModels
 import coil.compose.rememberAsyncImagePainter
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.badge
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.B2
-import io.horizontalsystems.bankwallet.ui.compose.components.Badge
-import io.horizontalsystems.bankwallet.ui.compose.components.CellMultilineClear
-import io.horizontalsystems.bankwallet.ui.compose.components.D1
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.badge
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.B2
+import com.mrv.wallet.ui.compose.components.Badge
+import com.mrv.wallet.ui.compose.components.CellMultilineClear
+import com.mrv.wallet.ui.compose.components.D1
+import com.mrv.wallet.ui.compose.components.HsBackButton
 
 class FilterCoinFragment : BaseComposeFragment() {
 

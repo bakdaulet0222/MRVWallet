@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.providers
+package com.mrv.wallet.modules.multiswap.providers
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.adapters.Eip20Adapter
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.ApproveTransactionRecord
-import io.horizontalsystems.bankwallet.modules.multiswap.action.ActionApprove
-import io.horizontalsystems.bankwallet.modules.multiswap.action.ActionRevoke
-import io.horizontalsystems.bankwallet.modules.multiswap.action.ISwapProviderAction
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.adapters.Eip20Adapter
+import com.mrv.wallet.entities.transactionrecords.evm.ApproveTransactionRecord
+import com.mrv.wallet.modules.multiswap.action.ActionApprove
+import com.mrv.wallet.modules.multiswap.action.ActionRevoke
+import com.mrv.wallet.modules.multiswap.action.ISwapProviderAction
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
 import io.horizontalsystems.marketkit.models.BlockchainType

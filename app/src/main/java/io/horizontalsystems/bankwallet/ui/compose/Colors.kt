@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose
+package com.mrv.wallet.ui.compose
 
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
@@ -33,7 +33,7 @@ class Colors(
     val yellow20 = Yellow20
     val green20 = Green20
 
-    val yellowD = YellowD
+    val yellowD = BlueL
     val yellowL = YellowL
     val greenD = GreenD
     val greenL = GreenL

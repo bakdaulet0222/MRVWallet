@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.backupalert
+package com.mrv.wallet.modules.backupalert
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromBottom
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromBottom
 import kotlinx.coroutines.delay
 
 @Composable

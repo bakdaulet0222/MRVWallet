@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.market.filtersresult
+package com.mrv.wallet.modules.market.filtersresult
 
-import io.horizontalsystems.bankwallet.core.managers.MarketFavoritesManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.core.managers.SignalsControlManager
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.favorites.MarketItemWrapper
-import io.horizontalsystems.bankwallet.modules.market.filters.IMarketListFetcher
-import io.horizontalsystems.bankwallet.modules.market.sort
+import com.mrv.wallet.core.managers.MarketFavoritesManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.managers.SignalsControlManager
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.favorites.MarketItemWrapper
+import com.mrv.wallet.modules.market.filters.IMarketListFetcher
+import com.mrv.wallet.modules.market.sort
 import io.horizontalsystems.marketkit.models.Analytics
 import io.reactivex.subjects.BehaviorSubject
 import kotlinx.coroutines.CoroutineScope

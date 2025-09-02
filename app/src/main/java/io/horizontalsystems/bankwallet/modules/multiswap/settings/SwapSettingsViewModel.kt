@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.settings
+package com.mrv.wallet.modules.multiswap.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
+import com.mrv.wallet.core.ViewModelUiState
 
 class SwapSettingsViewModel(settings: Map<String, Any?>) : ViewModelUiState<SwapSettingsUiState>() {
     private var errors = mutableMapOf<String, Throwable>()

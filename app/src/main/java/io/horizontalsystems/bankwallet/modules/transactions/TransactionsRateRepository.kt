@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
 import android.util.Log
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.CurrencyValue
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import kotlinx.coroutines.CoroutineScope

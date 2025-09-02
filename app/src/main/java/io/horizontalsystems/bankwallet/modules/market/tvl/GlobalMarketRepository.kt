@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.market.tvl
+package com.mrv.wallet.modules.market.tvl
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.metricchart.MetricsType
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.metricchart.MetricsType
 import io.horizontalsystems.chartview.models.ChartPoint
 import io.horizontalsystems.marketkit.models.DefiMarketInfo
 import io.horizontalsystems.marketkit.models.HsTimePeriod

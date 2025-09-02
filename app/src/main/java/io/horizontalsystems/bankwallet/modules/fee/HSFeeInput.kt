@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.fee
+package com.mrv.wallet.modules.fee
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -8,12 +8,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.amount.AmountInputType
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.amount.AmountInputType
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
 import java.math.BigDecimal
 
 @Composable

@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.market.filters
+package com.mrv.wallet.modules.market.filters
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.modules.market.filters.MarketFiltersModule.BlockchainViewItem
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.modules.market.filters.MarketFiltersModule.BlockchainViewItem
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.marketkit.models.Blockchain
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers

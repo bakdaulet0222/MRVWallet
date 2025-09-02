@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.receive.ui
+package com.mrv.wallet.modules.receive.ui
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -6,9 +6,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.ScreenMessageWithAction
+import com.mrv.wallet.R
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.ScreenMessageWithAction
 
 @Composable
 fun ReceiveTokenActivationRequired(onClickActivate: () -> Unit) {

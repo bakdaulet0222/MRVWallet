@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IAdapter
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.ITransactionsAdapter
-import io.horizontalsystems.bankwallet.core.factories.AdapterFactory
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.core.IAdapter
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.ITransactionsAdapter
+import com.mrv.wallet.core.factories.AdapterFactory
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.BlockchainType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

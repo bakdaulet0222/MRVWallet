@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.ui
+package com.mrv.wallet.modules.multiswap.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.multiswap.QuoteInfoRow
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.multiswap.QuoteInfoRow
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_leah
 
 data class DataFieldNonce(val nonce: Long) : DataField {
     @Composable

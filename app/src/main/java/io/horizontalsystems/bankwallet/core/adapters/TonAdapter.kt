@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.BalanceData
-import io.horizontalsystems.bankwallet.core.ISendTonAdapter
-import io.horizontalsystems.bankwallet.core.managers.TonKitWrapper
-import io.horizontalsystems.bankwallet.core.managers.toAdapterState
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionStatus
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.BalanceData
+import com.mrv.wallet.core.ISendTonAdapter
+import com.mrv.wallet.core.managers.TonKitWrapper
+import com.mrv.wallet.core.managers.toAdapterState
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.transactions.TransactionStatus
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.tonkit.FriendlyAddress
 import io.horizontalsystems.tonkit.core.TonKit.SendAmount

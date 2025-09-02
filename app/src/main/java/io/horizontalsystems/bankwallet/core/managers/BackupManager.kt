@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.IBackupManager
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.IBackupManager
 import io.reactivex.Flowable
 
 class BackupManager(private val accountManager: IAccountManager) : IBackupManager {

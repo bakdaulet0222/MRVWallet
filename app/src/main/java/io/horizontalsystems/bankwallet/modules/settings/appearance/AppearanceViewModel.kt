@@ -1,20 +1,20 @@
-package io.horizontalsystems.bankwallet.modules.settings.appearance
+package com.mrv.wallet.modules.settings.appearance
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.LanguageManager
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.core.stats.statValue
-import io.horizontalsystems.bankwallet.entities.LaunchPage
-import io.horizontalsystems.bankwallet.modules.balance.BalanceViewType
-import io.horizontalsystems.bankwallet.modules.balance.BalanceViewTypeManager
-import io.horizontalsystems.bankwallet.modules.theme.ThemeService
-import io.horizontalsystems.bankwallet.modules.theme.ThemeType
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.LanguageManager
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.core.stats.statValue
+import com.mrv.wallet.entities.LaunchPage
+import com.mrv.wallet.modules.balance.BalanceViewType
+import com.mrv.wallet.modules.balance.BalanceViewTypeManager
+import com.mrv.wallet.modules.theme.ThemeService
+import com.mrv.wallet.modules.theme.ThemeType
+import com.mrv.wallet.ui.compose.Select
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow
 

@@ -1,18 +1,18 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request
+package com.mrv.wallet.modules.walletconnect.request
 
 import android.os.Parcelable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.google.gson.JsonParser
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.core.managers.EvmKitWrapper
-import io.horizontalsystems.bankwallet.core.toHexString
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCDelegate
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCManager
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCSessionManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.core.managers.EvmKitWrapper
+import com.mrv.wallet.core.toHexString
+import com.mrv.wallet.modules.walletconnect.WCDelegate
+import com.mrv.wallet.modules.walletconnect.WCManager
+import com.mrv.wallet.modules.walletconnect.WCSessionManager
 import io.horizontalsystems.ethereumkit.core.hexStringToByteArray
 import kotlinx.parcelize.Parcelize
 import org.json.JSONArray

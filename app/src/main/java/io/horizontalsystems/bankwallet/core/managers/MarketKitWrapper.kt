@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.content.Context
-import io.horizontalsystems.bankwallet.core.InvalidAuthTokenException
-import io.horizontalsystems.bankwallet.core.NoAuthTokenException
-import io.horizontalsystems.bankwallet.core.customCoinPrefix
+import com.mrv.wallet.core.InvalidAuthTokenException
+import com.mrv.wallet.core.NoAuthTokenException
+import com.mrv.wallet.core.customCoinPrefix
 import io.horizontalsystems.marketkit.MarketKit
 import io.horizontalsystems.marketkit.SyncInfo
 import io.horizontalsystems.marketkit.models.BlockchainType

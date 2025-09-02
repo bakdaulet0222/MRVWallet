@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import android.app.Activity
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -48,12 +48,12 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.utils.ModuleField
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.qrscanner.QRScannerActivity
-import io.horizontalsystems.bankwallet.ui.compose.ColoredTextStyle
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.R
+import com.mrv.wallet.core.utils.ModuleField
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.qrscanner.QRScannerActivity
+import com.mrv.wallet.ui.compose.ColoredTextStyle
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 
 @Composable
 fun FormsInput(

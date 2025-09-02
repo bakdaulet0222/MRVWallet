@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.coin.analytics
+package com.mrv.wallet.modules.coin.analytics
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAppNumberFormatter
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAppNumberFormatter
+import com.mrv.wallet.core.providers.Translator
 import io.horizontalsystems.core.helpers.DateHelper
 import io.horizontalsystems.marketkit.models.Analytics.TechnicalAdvice
 import io.horizontalsystems.marketkit.models.Analytics.TechnicalAdvice.Advice

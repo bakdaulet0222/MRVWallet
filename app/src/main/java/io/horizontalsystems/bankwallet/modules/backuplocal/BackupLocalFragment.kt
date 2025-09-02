@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.backuplocal
+package com.mrv.wallet.modules.backuplocal
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
@@ -6,14 +6,14 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.composablePage
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup.SelectBackupItemsScreen
-import io.horizontalsystems.bankwallet.modules.backuplocal.password.BackupType
-import io.horizontalsystems.bankwallet.modules.backuplocal.password.LocalBackupPasswordScreen
-import io.horizontalsystems.bankwallet.modules.backuplocal.terms.LocalBackupTermsScreen
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.composablePage
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.backuplocal.fullbackup.SelectBackupItemsScreen
+import com.mrv.wallet.modules.backuplocal.password.BackupType
+import com.mrv.wallet.modules.backuplocal.password.LocalBackupPasswordScreen
+import com.mrv.wallet.modules.backuplocal.terms.LocalBackupTermsScreen
 
 class BackupLocalFragment : BaseComposeFragment() {
 

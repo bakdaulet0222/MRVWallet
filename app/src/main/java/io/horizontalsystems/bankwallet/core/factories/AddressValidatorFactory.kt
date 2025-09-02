@@ -1,15 +1,15 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.send.address.BitcoinAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.EnterAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.EvmAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.SolanaAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.StellarAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.TonAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.TronAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.ZcashAddressValidator
-import io.horizontalsystems.bankwallet.modules.send.address.MoneroAddressValidator
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.send.address.BitcoinAddressValidator
+import com.mrv.wallet.modules.send.address.EnterAddressValidator
+import com.mrv.wallet.modules.send.address.EvmAddressValidator
+import com.mrv.wallet.modules.send.address.SolanaAddressValidator
+import com.mrv.wallet.modules.send.address.StellarAddressValidator
+import com.mrv.wallet.modules.send.address.TonAddressValidator
+import com.mrv.wallet.modules.send.address.TronAddressValidator
+import com.mrv.wallet.modules.send.address.ZcashAddressValidator
+import com.mrv.wallet.modules.send.address.MoneroAddressValidator
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 

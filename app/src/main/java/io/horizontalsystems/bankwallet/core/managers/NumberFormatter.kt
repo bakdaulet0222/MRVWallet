@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAppNumberFormatter
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.modules.market.Value
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAppNumberFormatter
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.modules.market.Value
 import java.math.BigDecimal
 import java.math.BigInteger
 import java.math.RoundingMode

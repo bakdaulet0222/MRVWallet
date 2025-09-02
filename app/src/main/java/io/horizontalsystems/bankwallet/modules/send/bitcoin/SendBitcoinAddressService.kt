@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin
+package com.mrv.wallet.modules.send.bitcoin
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ISendBitcoinAdapter
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ISendBitcoinAdapter
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.Address
 import io.horizontalsystems.bitcoincore.core.IPluginData
 import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException
 import io.horizontalsystems.hodler.HodlerPlugin

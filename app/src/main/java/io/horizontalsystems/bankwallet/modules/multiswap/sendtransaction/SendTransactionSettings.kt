@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction
+package com.mrv.wallet.modules.multiswap.sendtransaction
 
-import io.horizontalsystems.bankwallet.modules.evmfee.GasPriceInfo
+import com.mrv.wallet.modules.evmfee.GasPriceInfo
 import io.horizontalsystems.ethereumkit.models.Address
 
 sealed class SendTransactionSettings {

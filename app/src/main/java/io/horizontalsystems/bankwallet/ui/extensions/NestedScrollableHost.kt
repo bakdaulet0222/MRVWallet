@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.extensions
+package com.mrv.wallet.ui.extensions
 
 /*
  * Copyright 2019 The Android Open Source Project

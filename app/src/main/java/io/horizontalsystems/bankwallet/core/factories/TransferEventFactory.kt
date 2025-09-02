@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
-import io.horizontalsystems.bankwallet.core.adapters.StellarTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.EvmIncomingTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.ExternalContractCallTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.evm.TransferEvent
-import io.horizontalsystems.bankwallet.entities.transactionrecords.tron.TronExternalContractCallTransactionRecord
-import io.horizontalsystems.bankwallet.entities.transactionrecords.tron.TronIncomingTransactionRecord
+import com.mrv.wallet.core.adapters.StellarTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.entities.transactionrecords.evm.EvmIncomingTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.evm.ExternalContractCallTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.evm.TransferEvent
+import com.mrv.wallet.entities.transactionrecords.tron.TronExternalContractCallTransactionRecord
+import com.mrv.wallet.entities.transactionrecords.tron.TronIncomingTransactionRecord
 
 class TransferEventFactory {
 

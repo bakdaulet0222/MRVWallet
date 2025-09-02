@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.send.evm.settings
+package com.mrv.wallet.modules.send.evm.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.ethereum.CautionViewItemFactory
-import io.horizontalsystems.bankwallet.core.ethereum.EvmCoinService
+import com.mrv.wallet.core.ethereum.CautionViewItemFactory
+import com.mrv.wallet.core.ethereum.EvmCoinService
 
 object SendEvmSettingsModule {
 

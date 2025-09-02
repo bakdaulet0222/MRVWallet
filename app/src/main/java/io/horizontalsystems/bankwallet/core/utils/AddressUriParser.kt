@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.utils
+package com.mrv.wallet.core.utils
 
 import android.net.Uri
-import io.horizontalsystems.bankwallet.core.IAddressParser
-import io.horizontalsystems.bankwallet.core.factories.removeScheme
-import io.horizontalsystems.bankwallet.core.factories.uriScheme
-import io.horizontalsystems.bankwallet.core.supported
-import io.horizontalsystems.bankwallet.entities.AddressUri
+import com.mrv.wallet.core.IAddressParser
+import com.mrv.wallet.core.factories.removeScheme
+import com.mrv.wallet.core.factories.uriScheme
+import com.mrv.wallet.core.supported
+import com.mrv.wallet.entities.AddressUri
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.TokenType
 import java.net.URI

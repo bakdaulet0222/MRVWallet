@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.receive
+package com.mrv.wallet.modules.receive
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.UsedAddress
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.receive.viewmodels.ReceiveAddressViewModel
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.UsedAddress
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.receive.viewmodels.ReceiveAddressViewModel
 import java.math.BigDecimal
 
 object ReceiveModule {

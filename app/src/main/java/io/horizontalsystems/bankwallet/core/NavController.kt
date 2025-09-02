@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -7,11 +7,11 @@ import androidx.annotation.IdRes
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.NavOptions
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.pin.ConfirmPinFragment
-import io.horizontalsystems.bankwallet.modules.pin.SetPinFragment
-import io.horizontalsystems.bankwallet.modules.settings.terms.TermsFragment
-import io.horizontalsystems.bankwallet.modules.usersubscription.BuySubscriptionFragment
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.pin.ConfirmPinFragment
+import com.mrv.wallet.modules.pin.SetPinFragment
+import com.mrv.wallet.modules.settings.terms.TermsFragment
+import com.mrv.wallet.modules.usersubscription.BuySubscriptionFragment
 import io.horizontalsystems.core.parcelable
 import io.horizontalsystems.subscriptions.core.IPaidAction
 import io.horizontalsystems.subscriptions.core.UserSubscriptionManager

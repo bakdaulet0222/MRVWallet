@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -6,11 +6,11 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Handler
 import android.os.Looper
-import io.horizontalsystems.bankwallet.core.IAdapterManager
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.IRateAppManager
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
+import com.mrv.wallet.core.IAdapterManager
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.IRateAppManager
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.ui.helpers.LinkHelper
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.update
@@ -102,14 +102,14 @@ class RateAppManager(
                 context.startActivity(getPlayMarketAppIntent())
             } catch (e: ActivityNotFoundException) {
                 val appPlayStoreLink =
-                    "http://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet"
+                    "http://play.google.com/store/apps/details?id=com.mrv.wallet"
                 LinkHelper.openLinkInAppBrowser(context, appPlayStoreLink)
             }
         }
 
         private fun getPlayMarketAppIntent(): Intent {
             val uri =
-                Uri.parse("market://details?id=io.horizontalsystems.bankwallet")  //context.packageName
+                Uri.parse("market://details?id=com.mrv.wallet")  //context.packageName
             val goToMarketIntent = Intent(Intent.ACTION_VIEW, uri)
             goToMarketIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or Intent.FLAG_ACTIVITY_MULTIPLE_TASK or Intent.FLAG_ACTIVITY_NEW_DOCUMENT)
             return goToMarketIntent

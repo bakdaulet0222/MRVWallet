@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IRandomProvider
+import com.mrv.wallet.core.IRandomProvider
 import java.util.*
 
 class RandomProvider : IRandomProvider {

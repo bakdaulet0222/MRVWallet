@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.addtoken
+package com.mrv.wallet.modules.addtoken
 
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.ICoinManager
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.core.order
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.ICoinManager
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.order
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.Wallet
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token

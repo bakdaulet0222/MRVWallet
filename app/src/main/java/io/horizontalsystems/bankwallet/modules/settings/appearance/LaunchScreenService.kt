@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.settings.appearance
+package com.mrv.wallet.modules.settings.appearance
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.entities.LaunchPage
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.entities.LaunchPage
+import com.mrv.wallet.ui.compose.Select
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
 import android.content.Context
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BalanceData
-import io.horizontalsystems.bankwallet.core.ICoinManager
-import io.horizontalsystems.bankwallet.core.managers.EvmKitWrapper
-import io.horizontalsystems.bankwallet.core.managers.EvmLabelManager
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BalanceData
+import com.mrv.wallet.core.ICoinManager
+import com.mrv.wallet.core.managers.EvmKitWrapper
+import com.mrv.wallet.core.managers.EvmLabelManager
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
 import io.horizontalsystems.erc20kit.core.Erc20Kit
 import io.horizontalsystems.ethereumkit.core.EthereumKit.SyncState
 import io.horizontalsystems.ethereumkit.models.Address

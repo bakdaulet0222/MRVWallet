@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.qrscanner
+package com.mrv.wallet.modules.qrscanner
 
 import android.Manifest
 import android.app.Activity
@@ -50,20 +50,20 @@ import com.google.accompanist.permissions.rememberPermissionState
 import com.google.zxing.client.android.Intents
 import com.journeyapps.barcodescanner.CompoundBarcodeView
 import com.journeyapps.barcodescanner.ScanOptions
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseActivity
-import io.horizontalsystems.bankwallet.core.utils.ModuleField
-import io.horizontalsystems.bankwallet.ui.compose.Bright
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.Dark
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimary
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryDefaults
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryTransparent
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonPrimaryYellow
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.title3_leah
-import io.horizontalsystems.bankwallet.ui.helpers.TextHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseActivity
+import com.mrv.wallet.core.utils.ModuleField
+import com.mrv.wallet.ui.compose.Bright
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.Dark
+import com.mrv.wallet.ui.compose.components.ButtonPrimary
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryDefaults
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryTransparent
+import com.mrv.wallet.ui.compose.components.ButtonPrimaryYellow
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.title3_leah
+import com.mrv.wallet.ui.helpers.TextHelper
 
 class QRScannerActivity : BaseActivity() {
 

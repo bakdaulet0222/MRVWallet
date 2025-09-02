@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.main
+package com.mrv.wallet.modules.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,15 +8,15 @@ import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.fragment.NavHostFragment
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseActivity
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.core.slideFromBottomForResult
-import io.horizontalsystems.bankwallet.modules.intro.IntroActivity
-import io.horizontalsystems.bankwallet.modules.keystore.KeyStoreActivity
-import io.horizontalsystems.bankwallet.modules.lockscreen.LockScreenActivity
-import io.horizontalsystems.bankwallet.modules.tonconnect.TonConnectNewFragment
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseActivity
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.core.slideFromBottomForResult
+import com.mrv.wallet.modules.intro.IntroActivity
+import com.mrv.wallet.modules.keystore.KeyStoreActivity
+import com.mrv.wallet.modules.lockscreen.LockScreenActivity
+import com.mrv.wallet.modules.tonconnect.TonConnectNewFragment
 import io.horizontalsystems.core.hideKeyboard
 
 class MainActivity : BaseActivity() {

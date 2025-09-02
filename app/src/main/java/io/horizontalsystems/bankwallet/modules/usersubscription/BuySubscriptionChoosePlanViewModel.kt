@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.usersubscription
+package com.mrv.wallet.modules.usersubscription
 
 import android.app.Activity
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
 import io.horizontalsystems.subscriptions.core.BasePlan
 import io.horizontalsystems.subscriptions.core.HSPurchase
 import io.horizontalsystems.subscriptions.core.UserSubscriptionManager

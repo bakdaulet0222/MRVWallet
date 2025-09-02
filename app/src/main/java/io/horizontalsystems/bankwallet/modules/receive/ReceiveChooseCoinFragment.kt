@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.receive
+package com.mrv.wallet.modules.receive
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -12,25 +12,25 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navigation
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.composablePage
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveChooseCoinRoutes.BCH_ADDRESS_FORMAT_SCREEN
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveChooseCoinRoutes.COIN_SELECT_SCREEN
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveChooseCoinRoutes.DERIVATION_SELECT_SCREEN
-import io.horizontalsystems.bankwallet.modules.receive.ReceiveChooseCoinRoutes.NETWORK_SELECT_SCREEN
-import io.horizontalsystems.bankwallet.modules.receive.ui.AddressFormatSelectScreen
-import io.horizontalsystems.bankwallet.modules.receive.ui.NetworkSelectScreen
-import io.horizontalsystems.bankwallet.modules.receive.ui.ReceiveTokenSelectScreen
-import io.horizontalsystems.bankwallet.modules.receive.viewmodels.BchAddressTypeSelectViewModel
-import io.horizontalsystems.bankwallet.modules.receive.viewmodels.DerivationSelectViewModel
-import io.horizontalsystems.bankwallet.modules.receive.viewmodels.ReceiveSharedViewModel
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.composablePage
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.receive.ReceiveChooseCoinRoutes.BCH_ADDRESS_FORMAT_SCREEN
+import com.mrv.wallet.modules.receive.ReceiveChooseCoinRoutes.COIN_SELECT_SCREEN
+import com.mrv.wallet.modules.receive.ReceiveChooseCoinRoutes.DERIVATION_SELECT_SCREEN
+import com.mrv.wallet.modules.receive.ReceiveChooseCoinRoutes.NETWORK_SELECT_SCREEN
+import com.mrv.wallet.modules.receive.ui.AddressFormatSelectScreen
+import com.mrv.wallet.modules.receive.ui.NetworkSelectScreen
+import com.mrv.wallet.modules.receive.ui.ReceiveTokenSelectScreen
+import com.mrv.wallet.modules.receive.viewmodels.BchAddressTypeSelectViewModel
+import com.mrv.wallet.modules.receive.viewmodels.DerivationSelectViewModel
+import com.mrv.wallet.modules.receive.viewmodels.ReceiveSharedViewModel
 import io.horizontalsystems.core.helpers.HudHelper
 
 class ReceiveChooseCoinFragment : BaseComposeFragment() {

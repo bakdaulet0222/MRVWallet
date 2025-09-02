@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 enum class TransactionDataSortMode(val raw: String) {
     Shuffle("shuffle"),

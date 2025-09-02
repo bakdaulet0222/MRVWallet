@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.market.posts
+package com.mrv.wallet.modules.market.posts
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.layout.Spacer
@@ -15,18 +15,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.StatSection
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.Loading
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.HSSwipeRefresh
-import io.horizontalsystems.bankwallet.ui.compose.components.CellNews
-import io.horizontalsystems.bankwallet.ui.compose.components.ListErrorView
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.StatSection
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.overview.ui.Loading
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.HSSwipeRefresh
+import com.mrv.wallet.ui.compose.components.CellNews
+import com.mrv.wallet.ui.compose.components.ListErrorView
+import com.mrv.wallet.ui.helpers.LinkHelper
 
 @Composable
 fun MarketPostsScreen(viewModel: MarketPostsViewModel = viewModel(factory = MarketPostsModule.Factory())) {

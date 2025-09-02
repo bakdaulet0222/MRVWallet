@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.contacts.viewmodel
+package com.mrv.wallet.modules.contacts.viewmodel
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.shorten
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsRepository
-import io.horizontalsystems.bankwallet.modules.contacts.Mode
-import io.horizontalsystems.bankwallet.modules.contacts.model.Contact
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.shorten
+import com.mrv.wallet.modules.contacts.ContactsRepository
+import com.mrv.wallet.modules.contacts.Mode
+import com.mrv.wallet.modules.contacts.model.Contact
+import com.mrv.wallet.ui.compose.TranslatableString
 import kotlinx.coroutines.launch
 
 class ContactsViewModel(

@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.profeatures.storage
+package com.mrv.wallet.modules.profeatures.storage
 
-import io.horizontalsystems.bankwallet.core.storage.AppDatabase
-import io.horizontalsystems.bankwallet.modules.profeatures.ProNft
+import com.mrv.wallet.core.storage.AppDatabase
+import com.mrv.wallet.modules.profeatures.ProNft
 
 class ProFeaturesStorage(appDatabase: AppDatabase) {
 

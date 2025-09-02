@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.about
+package com.mrv.wallet.modules.settings.about
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -16,23 +16,23 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.composablePage
-import io.horizontalsystems.bankwallet.core.composablePopup
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.releasenotes.ReleaseNotesScreen
-import io.horizontalsystems.bankwallet.modules.settings.appstatus.AppStatusScreen
-import io.horizontalsystems.bankwallet.modules.settings.main.HsSettingCell
-import io.horizontalsystems.bankwallet.modules.settings.terms.TermsScreen
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.composablePage
+import com.mrv.wallet.core.composablePopup
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.releasenotes.ReleaseNotesScreen
+import com.mrv.wallet.modules.settings.appstatus.AppStatusScreen
+import com.mrv.wallet.modules.settings.main.HsSettingCell
+import com.mrv.wallet.modules.settings.terms.TermsScreen
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.helpers.LinkHelper
 
 class AboutFragment : BaseComposeFragment() {
 
@@ -152,7 +152,6 @@ private fun SettingSections(
                 R.string.SettingsAboutApp_Github,
                 R.drawable.ic_github_20,
                 onClick = {
-                    LinkHelper.openLinkInAppBrowser(context, viewModel.githubLink)
 
                     stat(page = StatPage.AboutApp, event = StatEvent.Open(StatPage.ExternalGithub))
                 }

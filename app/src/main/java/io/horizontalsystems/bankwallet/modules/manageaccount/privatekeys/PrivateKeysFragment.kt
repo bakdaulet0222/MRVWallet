@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.privatekeys
+package com.mrv.wallet.modules.manageaccount.privatekeys
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -13,21 +13,21 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.authorizedAction
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.manageaccount.evmprivatekey.EvmPrivateKeyFragment
-import io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey.ShowExtendedKeyFragment
-import io.horizontalsystems.bankwallet.modules.manageaccount.stellarsecretkey.StellarSecretKeyFragment
-import io.horizontalsystems.bankwallet.modules.manageaccount.ui.KeyActionItem
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.HsBackButton
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.authorizedAction
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.manageaccount.evmprivatekey.EvmPrivateKeyFragment
+import com.mrv.wallet.modules.manageaccount.showextendedkey.ShowExtendedKeyFragment
+import com.mrv.wallet.modules.manageaccount.stellarsecretkey.StellarSecretKeyFragment
+import com.mrv.wallet.modules.manageaccount.ui.KeyActionItem
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.HsBackButton
 
 class PrivateKeysFragment : BaseComposeFragment() {
 

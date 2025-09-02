@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.usersubscription.ui
+package com.mrv.wallet.modules.usersubscription.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -36,16 +36,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.usersubscription.BuySubscriptionModel.bigDescriptionStringRes
-import io.horizontalsystems.bankwallet.modules.usersubscription.BuySubscriptionModel.iconRes
-import io.horizontalsystems.bankwallet.modules.usersubscription.BuySubscriptionModel.titleStringRes
-import io.horizontalsystems.bankwallet.modules.usersubscription.BuySubscriptionViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.RadialBackground
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.usersubscription.BuySubscriptionModel.bigDescriptionStringRes
+import com.mrv.wallet.modules.usersubscription.BuySubscriptionModel.iconRes
+import com.mrv.wallet.modules.usersubscription.BuySubscriptionModel.titleStringRes
+import com.mrv.wallet.modules.usersubscription.BuySubscriptionViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.RadialBackground
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.headline2_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 import io.horizontalsystems.core.helpers.HudHelper
 import io.horizontalsystems.subscriptions.core.IPaidAction
 import kotlinx.coroutines.launch

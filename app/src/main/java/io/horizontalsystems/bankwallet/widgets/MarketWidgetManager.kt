@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.widgets
+package com.mrv.wallet.widgets
 
 import android.content.Context
 import androidx.glance.GlanceId
@@ -9,8 +9,8 @@ import coil.annotation.ExperimentalCoilApi
 import coil.imageLoader
 import coil.request.ErrorResult
 import coil.request.ImageRequest
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.storage.TokenAutoEnabledBlockchainDao
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.TokenAutoEnabledBlockchain
+import com.mrv.wallet.core.storage.TokenAutoEnabledBlockchainDao
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.TokenAutoEnabledBlockchain
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class TokenAutoEnableManager(

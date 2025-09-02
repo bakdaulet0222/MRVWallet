@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.IWalletManager
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.IWalletManager
 import io.horizontalsystems.core.IKeyStoreCleaner
 
 class KeyStoreCleaner(

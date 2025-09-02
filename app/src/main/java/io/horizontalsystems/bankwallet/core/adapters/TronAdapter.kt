@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.BalanceData
-import io.horizontalsystems.bankwallet.core.managers.TronKitWrapper
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.BalanceData
+import com.mrv.wallet.core.managers.TronKitWrapper
 import io.horizontalsystems.tronkit.TronKit
 import io.horizontalsystems.tronkit.models.Address
 import io.horizontalsystems.tronkit.network.Network

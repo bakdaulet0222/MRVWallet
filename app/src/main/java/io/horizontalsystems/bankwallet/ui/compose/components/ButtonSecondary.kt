@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.BorderStroke
@@ -33,10 +33,10 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.Select
-import io.horizontalsystems.bankwallet.ui.compose.WithTranslatableTitle
-import io.horizontalsystems.bankwallet.ui.compose.components.SecondaryButtonDefaults.buttonColors
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.Select
+import com.mrv.wallet.ui.compose.WithTranslatableTitle
+import com.mrv.wallet.ui.compose.components.SecondaryButtonDefaults.buttonColors
 
 @Composable
 fun ButtonSecondaryDefault(

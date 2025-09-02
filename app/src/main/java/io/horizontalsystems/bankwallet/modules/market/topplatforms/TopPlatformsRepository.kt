@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.market.topplatforms
+package com.mrv.wallet.modules.market.topplatforms
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
-import io.horizontalsystems.bankwallet.modules.market.sortedByDescendingNullLast
-import io.horizontalsystems.bankwallet.modules.market.sortedByNullLast
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.TimeDuration
+import com.mrv.wallet.modules.market.sortedByDescendingNullLast
+import com.mrv.wallet.modules.market.sortedByNullLast
 import io.horizontalsystems.marketkit.models.TopPlatform
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.rx2.await

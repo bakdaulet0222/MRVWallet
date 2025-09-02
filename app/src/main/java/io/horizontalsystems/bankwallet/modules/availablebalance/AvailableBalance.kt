@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.availablebalance
+package com.mrv.wallet.modules.availablebalance
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
@@ -9,11 +9,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.amount.AmountInputType
-import io.horizontalsystems.bankwallet.ui.compose.components.HSCircularProgressIndicator
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.amount.AmountInputType
+import com.mrv.wallet.ui.compose.components.HSCircularProgressIndicator
+import com.mrv.wallet.ui.compose.components.caption_grey
 import java.math.BigDecimal
 
 @Composable

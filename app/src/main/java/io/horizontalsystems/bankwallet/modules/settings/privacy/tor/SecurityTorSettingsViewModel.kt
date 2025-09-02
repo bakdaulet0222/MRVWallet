@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.settings.privacy.tor
+package com.mrv.wallet.modules.settings.privacy.tor
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.AppLogger
-import io.horizontalsystems.bankwallet.core.ITorManager
+import com.mrv.wallet.core.AppLogger
+import com.mrv.wallet.core.ITorManager
 import io.horizontalsystems.core.IPinComponent
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.await

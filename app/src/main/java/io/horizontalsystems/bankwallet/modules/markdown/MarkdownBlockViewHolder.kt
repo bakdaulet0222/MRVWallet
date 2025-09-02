@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.markdown
+package com.mrv.wallet.modules.markdown
 
 import android.text.SpannableStringBuilder
 import android.text.method.LinkMovementMethod
@@ -13,13 +13,13 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.request.ImageRequest
 import coil.request.SuccessResult
-import io.horizontalsystems.bankwallet.databinding.ViewHolderMarkdownFooterBinding
-import io.horizontalsystems.bankwallet.databinding.ViewHolderMarkdownH1Binding
-import io.horizontalsystems.bankwallet.databinding.ViewHolderMarkdownH2Binding
-import io.horizontalsystems.bankwallet.databinding.ViewHolderMarkdownH3Binding
-import io.horizontalsystems.bankwallet.databinding.ViewHolderMarkdownImageBinding
-import io.horizontalsystems.bankwallet.databinding.ViewHolderMarkdownParagraphBinding
-import io.horizontalsystems.bankwallet.ui.helpers.LayoutHelper
+import com.mrv.wallet.databinding.ViewHolderMarkdownFooterBinding
+import com.mrv.wallet.databinding.ViewHolderMarkdownH1Binding
+import com.mrv.wallet.databinding.ViewHolderMarkdownH2Binding
+import com.mrv.wallet.databinding.ViewHolderMarkdownH3Binding
+import com.mrv.wallet.databinding.ViewHolderMarkdownImageBinding
+import com.mrv.wallet.databinding.ViewHolderMarkdownParagraphBinding
+import com.mrv.wallet.ui.helpers.LayoutHelper
 import org.apache.commons.io.FilenameUtils
 import java.net.URL
 

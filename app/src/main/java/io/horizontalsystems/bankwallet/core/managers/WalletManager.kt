@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.IWalletManager
-import io.horizontalsystems.bankwallet.core.IWalletStorage
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.EnabledWallet
-import io.horizontalsystems.bankwallet.entities.Wallet
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.IWalletManager
+import com.mrv.wallet.core.IWalletStorage
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.EnabledWallet
+import com.mrv.wallet.entities.Wallet
 import io.reactivex.subjects.PublishSubject
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

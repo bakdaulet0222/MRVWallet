@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin
+package com.mrv.wallet.modules.send.bitcoin
 
 import io.horizontalsystems.bitcoincore.core.IPluginData
 import io.horizontalsystems.hodler.HodlerData

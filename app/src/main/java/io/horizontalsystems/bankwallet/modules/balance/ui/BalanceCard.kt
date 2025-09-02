@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.balance.ui
+package com.mrv.wallet.modules.balance.ui
 
 import android.view.View
 import androidx.compose.foundation.Image
@@ -29,22 +29,22 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.modules.balance.BalanceViewItem2
-import io.horizontalsystems.bankwallet.modules.balance.BalanceViewModel
-import io.horizontalsystems.bankwallet.modules.syncerror.SyncErrorDialog
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.DraggableCardSimple
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.Badge
-import io.horizontalsystems.bankwallet.ui.compose.components.CoinImage
-import io.horizontalsystems.bankwallet.ui.compose.components.HsIconButton
-import io.horizontalsystems.bankwallet.ui.compose.components.diffColor
-import io.horizontalsystems.bankwallet.ui.compose.components.diffText
-import io.horizontalsystems.bankwallet.ui.compose.components.headline2_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead_grey
-import io.horizontalsystems.bankwallet.ui.extensions.RotatingCircleProgressView
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.modules.balance.BalanceViewItem2
+import com.mrv.wallet.modules.balance.BalanceViewModel
+import com.mrv.wallet.modules.syncerror.SyncErrorDialog
+import com.mrv.wallet.modules.walletconnect.list.ui.DraggableCardSimple
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.Badge
+import com.mrv.wallet.ui.compose.components.CoinImage
+import com.mrv.wallet.ui.compose.components.HsIconButton
+import com.mrv.wallet.ui.compose.components.diffColor
+import com.mrv.wallet.ui.compose.components.diffText
+import com.mrv.wallet.ui.compose.components.headline2_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead_grey
+import com.mrv.wallet.ui.extensions.RotatingCircleProgressView
 import io.horizontalsystems.core.helpers.HudHelper
 import io.horizontalsystems.marketkit.models.Token
 

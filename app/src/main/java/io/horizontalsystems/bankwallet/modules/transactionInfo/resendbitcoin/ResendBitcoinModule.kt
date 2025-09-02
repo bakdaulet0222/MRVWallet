@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.transactionInfo.resendbitcoin
+package com.mrv.wallet.modules.transactionInfo.resendbitcoin
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.adapters.BitcoinBaseAdapter
-import io.horizontalsystems.bankwallet.core.factories.FeeRateProviderFactory
-import io.horizontalsystems.bankwallet.entities.transactionrecords.bitcoin.BitcoinOutgoingTransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactionInfo.options.SpeedUpCancelType
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.adapters.BitcoinBaseAdapter
+import com.mrv.wallet.core.factories.FeeRateProviderFactory
+import com.mrv.wallet.entities.transactionrecords.bitcoin.BitcoinOutgoingTransactionRecord
+import com.mrv.wallet.modules.transactionInfo.options.SpeedUpCancelType
+import com.mrv.wallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.xrate.XRateService
 
 object ResendBitcoinModule {
 

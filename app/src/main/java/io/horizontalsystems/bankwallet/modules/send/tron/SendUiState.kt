@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.send.tron
+package com.mrv.wallet.modules.send.tron
 
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.ViewState
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.ViewState
 import java.math.BigDecimal
 
 data class SendUiState(

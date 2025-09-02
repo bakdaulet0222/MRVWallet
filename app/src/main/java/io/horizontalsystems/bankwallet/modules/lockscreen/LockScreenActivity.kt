@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.lockscreen
+package com.mrv.wallet.modules.lockscreen
 
 import android.app.Activity
 import android.content.Intent
@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.view.WindowManager
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.compose.setContent
-import io.horizontalsystems.bankwallet.core.BaseActivity
-import io.horizontalsystems.bankwallet.modules.pin.ui.PinUnlock
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.core.BaseActivity
+import com.mrv.wallet.modules.pin.ui.PinUnlock
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 
 class LockScreenActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

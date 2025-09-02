@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.evm
+package com.mrv.wallet.entities.transactionrecords.evm
 
-import io.horizontalsystems.bankwallet.entities.TransactionValue
+import com.mrv.wallet.entities.TransactionValue
 
 data class TransferEvent(
     val address: String?,

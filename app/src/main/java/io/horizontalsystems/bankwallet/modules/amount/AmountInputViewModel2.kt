@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.amount
+package com.mrv.wallet.modules.amount
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.CurrencyValue
 import java.math.BigDecimal
 import java.math.RoundingMode
 

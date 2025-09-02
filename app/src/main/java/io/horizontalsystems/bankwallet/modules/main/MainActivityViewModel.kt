@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.main
+package com.mrv.wallet.modules.main
 
 import android.content.Intent
 import androidx.lifecycle.LiveData
@@ -7,13 +7,13 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.managers.DAppRequestEntityWrapper
-import io.horizontalsystems.bankwallet.core.managers.TonConnectManager
-import io.horizontalsystems.bankwallet.core.managers.UserManager
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCDelegate
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.managers.DAppRequestEntityWrapper
+import com.mrv.wallet.core.managers.TonConnectManager
+import com.mrv.wallet.core.managers.UserManager
+import com.mrv.wallet.modules.walletconnect.WCDelegate
 import io.horizontalsystems.core.IKeyStoreManager
 import io.horizontalsystems.core.IPinComponent
 import io.horizontalsystems.core.ISystemInfoManager
@@ -95,9 +95,9 @@ class MainActivityViewModel(
             throw MainScreenValidationError.KeystoreRuntimeException()
         }
 
-        if (accountManager.isAccountsEmpty && !localStorage.mainShowedOnce) {
-            throw MainScreenValidationError.Welcome()
-        }
+//        if (accountManager.isAccountsEmpty && !localStorage.mainShowedOnce) {
+//            throw MainScreenValidationError.Welcome()
+//        }
 
         if (pinComponent.isLocked) {
             throw MainScreenValidationError.Unlock()

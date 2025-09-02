@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.releasenotes
+package com.mrv.wallet.modules.releasenotes
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 
 object ReleaseNotesModule {
     class Factory : ViewModelProvider.Factory {

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.xtransaction.cells
+package com.mrv.wallet.modules.xtransaction.cells
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -13,25 +13,25 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.modules.coin.CoinFragment
-import io.horizontalsystems.bankwallet.modules.xtransaction.helpers.TransactionInfoHelper
-import io.horizontalsystems.bankwallet.modules.xtransaction.helpers.coinAmountString
-import io.horizontalsystems.bankwallet.modules.xtransaction.helpers.coinIconPainter
-import io.horizontalsystems.bankwallet.modules.xtransaction.helpers.fiatAmountString
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.HFillSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.HSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.CellUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_leah
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.modules.coin.CoinFragment
+import com.mrv.wallet.modules.xtransaction.helpers.TransactionInfoHelper
+import com.mrv.wallet.modules.xtransaction.helpers.coinAmountString
+import com.mrv.wallet.modules.xtransaction.helpers.coinIconPainter
+import com.mrv.wallet.modules.xtransaction.helpers.fiatAmountString
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.HFillSpacer
+import com.mrv.wallet.ui.compose.components.HSpacer
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.caption_grey
+import com.mrv.wallet.ui.compose.components.cell.CellUniversal
+import com.mrv.wallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.ui.compose.components.subhead2_leah
 
 @Composable
 fun AmountCell(

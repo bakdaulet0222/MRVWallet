@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.modules.settings.appearance.PriceChangeInterval
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.modules.settings.appearance.PriceChangeInterval
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.StateFlow

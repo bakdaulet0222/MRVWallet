@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.entities.transactionrecords.solana
+package com.mrv.wallet.entities.transactionrecords.solana
 
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.solanakit.models.Transaction
 

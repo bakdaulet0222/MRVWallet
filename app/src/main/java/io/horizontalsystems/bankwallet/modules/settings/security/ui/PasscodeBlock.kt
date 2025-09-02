@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.security.ui
+package com.mrv.wallet.modules.settings.security.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Spacer
@@ -12,20 +12,20 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.authorizedAction
-import io.horizontalsystems.bankwallet.core.ensurePinSet
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.modules.settings.main.HsSettingCell
-import io.horizontalsystems.bankwallet.modules.settings.security.SecurityCenterCell
-import io.horizontalsystems.bankwallet.modules.settings.security.passcode.SecuritySettingsViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HsSwitch
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_jacob
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.body_lucian
+import com.mrv.wallet.R
+import com.mrv.wallet.core.authorizedAction
+import com.mrv.wallet.core.ensurePinSet
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.modules.settings.main.HsSettingCell
+import com.mrv.wallet.modules.settings.security.SecurityCenterCell
+import com.mrv.wallet.modules.settings.security.passcode.SecuritySettingsViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HsSwitch
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_jacob
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.body_lucian
 
 @Composable
 fun PasscodeBlock(

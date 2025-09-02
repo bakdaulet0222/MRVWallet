@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
-import io.horizontalsystems.bankwallet.entities.BlockchainSettingRecord
-import io.horizontalsystems.bankwallet.entities.BtcRestoreMode
-import io.horizontalsystems.bankwallet.entities.TransactionDataSortMode
+import com.mrv.wallet.entities.BlockchainSettingRecord
+import com.mrv.wallet.entities.BtcRestoreMode
+import com.mrv.wallet.entities.TransactionDataSortMode
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class BlockchainSettingsStorage(appDatabase: AppDatabase) {

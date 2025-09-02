@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.market.tvl
+package com.mrv.wallet.modules.market.tvl
 
-import io.horizontalsystems.bankwallet.modules.chart.ChartCurrencyValueFormatterShortened
-import io.horizontalsystems.bankwallet.modules.chart.ChartViewModel
+import com.mrv.wallet.modules.chart.ChartCurrencyValueFormatterShortened
+import com.mrv.wallet.modules.chart.ChartViewModel
 
 class TvlChartViewModel(
     private val tvlChartService: TvlChartService,

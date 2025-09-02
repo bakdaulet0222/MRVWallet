@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request
+package com.mrv.wallet.modules.walletconnect.request
 
-import io.horizontalsystems.bankwallet.core.ServiceState
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.core.ServiceState
+import com.mrv.wallet.ui.compose.TranslatableString
 import kotlinx.coroutines.CoroutineScope
 
 abstract class AbstractWCAction : ServiceState<WCActionState>() {

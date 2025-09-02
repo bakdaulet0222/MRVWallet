@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.core.adapters
+package com.mrv.wallet.core.adapters
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ITransactionsAdapter
-import io.horizontalsystems.bankwallet.core.managers.SolanaKitWrapper
-import io.horizontalsystems.bankwallet.entities.LastBlockInfo
-import io.horizontalsystems.bankwallet.entities.transactionrecords.TransactionRecord
-import io.horizontalsystems.bankwallet.modules.transactions.FilterTransactionType
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ITransactionsAdapter
+import com.mrv.wallet.core.managers.SolanaKitWrapper
+import com.mrv.wallet.entities.LastBlockInfo
+import com.mrv.wallet.entities.transactionrecords.TransactionRecord
+import com.mrv.wallet.modules.transactions.FilterTransactionType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenType
 import io.horizontalsystems.solanakit.SolanaKit

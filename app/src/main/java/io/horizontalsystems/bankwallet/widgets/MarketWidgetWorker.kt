@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.widgets
+package com.mrv.wallet.widgets
 
 import android.appwidget.AppWidgetManager
 import android.content.ComponentName

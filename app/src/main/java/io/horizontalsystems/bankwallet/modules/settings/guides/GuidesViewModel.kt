@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.settings.guides
+package com.mrv.wallet.modules.settings.guides
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.GuideCategory
-import io.horizontalsystems.bankwallet.entities.ViewState
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.GuideCategory
+import com.mrv.wallet.entities.ViewState
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx2.asFlow
 

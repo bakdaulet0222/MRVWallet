@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.address
+package com.mrv.wallet.core.address
 
 import HashDitAddressValidator
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.core.managers.SpamManager
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.core.managers.SpamManager
+import com.mrv.wallet.entities.Address
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 

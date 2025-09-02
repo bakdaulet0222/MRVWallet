@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.settings.guides
+package com.mrv.wallet.modules.settings.guides
 
-import io.horizontalsystems.bankwallet.core.managers.ConnectivityManager
-import io.horizontalsystems.bankwallet.core.managers.GuidesManager
-import io.horizontalsystems.bankwallet.core.managers.LanguageManager
-import io.horizontalsystems.bankwallet.core.retryWhen
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.entities.GuideCategory
-import io.horizontalsystems.bankwallet.entities.GuideCategoryMultiLang
-import io.horizontalsystems.bankwallet.entities.GuideSection
+import com.mrv.wallet.core.managers.ConnectivityManager
+import com.mrv.wallet.core.managers.GuidesManager
+import com.mrv.wallet.core.managers.LanguageManager
+import com.mrv.wallet.core.retryWhen
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.entities.GuideCategory
+import com.mrv.wallet.entities.GuideCategoryMultiLang
+import com.mrv.wallet.entities.GuideSection
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject
 import kotlinx.coroutines.CoroutineScope

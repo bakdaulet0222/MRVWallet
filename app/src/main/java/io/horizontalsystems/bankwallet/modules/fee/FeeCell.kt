@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.fee
+package com.mrv.wallet.modules.fee
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -20,13 +20,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsInfoDialog
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.evmfee.FeeSettingsInfoDialog
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 
 @Composable
 fun FeeCell(

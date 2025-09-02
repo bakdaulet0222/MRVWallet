@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import android.app.Activity
 import android.content.Context
@@ -15,9 +15,9 @@ import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import coil.load
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.modules.market.ImageSource
-import io.horizontalsystems.bankwallet.modules.market.topplatforms.Platform
+import com.mrv.wallet.R
+import com.mrv.wallet.modules.market.ImageSource
+import com.mrv.wallet.modules.market.topplatforms.Platform
 import io.horizontalsystems.ethereumkit.core.toRawHexString
 import io.horizontalsystems.hdwalletkit.Language
 import io.horizontalsystems.hodler.LockTimeInterval

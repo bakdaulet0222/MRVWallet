@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.core.stats
+package com.mrv.wallet.core.stats
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.bitcoinCashCoinType
-import io.horizontalsystems.bankwallet.core.derivation
-import io.horizontalsystems.bankwallet.entities.BtcRestoreMode
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.bitcoinCashCoinType
+import com.mrv.wallet.core.derivation
+import com.mrv.wallet.entities.BtcRestoreMode
 import io.horizontalsystems.marketkit.models.Token
 
 enum class StatPage(val key: String) {

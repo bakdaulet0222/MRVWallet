@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.providers.AppConfigProvider
 import io.horizontalsystems.core.ISystemInfoManager
 
 class ReleaseNotesManager(

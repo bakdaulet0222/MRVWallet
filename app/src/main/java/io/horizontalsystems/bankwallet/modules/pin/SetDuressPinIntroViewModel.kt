@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.pin
+package com.mrv.wallet.modules.pin
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.IAccountManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.IAccountManager
 import io.horizontalsystems.core.ISystemInfoManager
 
 class SetDuressPinIntroViewModel(

@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.net.Uri
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
-import io.horizontalsystems.bankwallet.core.storage.BlockchainSettingsStorage
-import io.horizontalsystems.bankwallet.core.storage.EvmSyncSourceStorage
-import io.horizontalsystems.bankwallet.entities.EvmSyncSource
-import io.horizontalsystems.bankwallet.entities.EvmSyncSourceRecord
+import com.mrv.wallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.storage.BlockchainSettingsStorage
+import com.mrv.wallet.core.storage.EvmSyncSourceStorage
+import com.mrv.wallet.entities.EvmSyncSource
+import com.mrv.wallet.entities.EvmSyncSourceRecord
 import io.horizontalsystems.ethereumkit.models.RpcSource
 import io.horizontalsystems.ethereumkit.models.TransactionSource
 import io.horizontalsystems.marketkit.models.BlockchainType

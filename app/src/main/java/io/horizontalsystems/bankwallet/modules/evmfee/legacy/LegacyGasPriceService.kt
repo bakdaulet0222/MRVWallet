@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.evmfee.legacy
+package com.mrv.wallet.modules.evmfee.legacy
 
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.evmfee.Bound
-import io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsWarning
-import io.horizontalsystems.bankwallet.modules.evmfee.GasPriceInfo
-import io.horizontalsystems.bankwallet.modules.evmfee.IEvmGasPriceService
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.evmfee.Bound
+import com.mrv.wallet.modules.evmfee.FeeSettingsWarning
+import com.mrv.wallet.modules.evmfee.GasPriceInfo
+import com.mrv.wallet.modules.evmfee.IEvmGasPriceService
 import io.horizontalsystems.ethereumkit.core.LegacyGasPriceProvider
 import io.horizontalsystems.ethereumkit.models.GasPrice
 import kotlinx.coroutines.CoroutineScope

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 import android.os.Parcelable
 import io.horizontalsystems.bitcoincore.core.purpose

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.providers
+package com.mrv.wallet.core.providers
 
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.APIClient
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.APIClient
 import retrofit2.http.GET
 
 class EvmLabelProvider {

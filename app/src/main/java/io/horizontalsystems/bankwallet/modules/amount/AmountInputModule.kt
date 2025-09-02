@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.amount
+package com.mrv.wallet.modules.amount
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

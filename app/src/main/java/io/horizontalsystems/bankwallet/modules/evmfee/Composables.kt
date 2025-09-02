@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.evmfee
+package com.mrv.wallet.modules.evmfee
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -41,26 +41,26 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.core.Warning
-import io.horizontalsystems.bankwallet.core.ethereum.CautionViewItem
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.modules.evmfee.eip1559.Eip1559FeeSettingsViewModel
-import io.horizontalsystems.bankwallet.modules.evmfee.legacy.LegacyFeeSettingsViewModel
-import io.horizontalsystems.bankwallet.modules.fee.FeeCell
-import io.horizontalsystems.bankwallet.ui.compose.ColoredTextStyle
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.animations.shake
-import io.horizontalsystems.bankwallet.ui.compose.components.ButtonSecondaryCircle
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HeaderText
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantError
-import io.horizontalsystems.bankwallet.ui.compose.components.TextImportantWarning
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.core.Warning
+import com.mrv.wallet.core.ethereum.CautionViewItem
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.modules.evmfee.eip1559.Eip1559FeeSettingsViewModel
+import com.mrv.wallet.modules.evmfee.legacy.LegacyFeeSettingsViewModel
+import com.mrv.wallet.modules.fee.FeeCell
+import com.mrv.wallet.ui.compose.ColoredTextStyle
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.animations.shake
+import com.mrv.wallet.ui.compose.components.ButtonSecondaryCircle
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HeaderText
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.TextImportantError
+import com.mrv.wallet.ui.compose.components.TextImportantWarning
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.subhead1_leah
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 import java.math.BigDecimal
 
 @Composable

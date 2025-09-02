@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.send.bitcoin.advanced
+package com.mrv.wallet.modules.send.bitcoin.advanced
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.BtcBlockchainManager
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.entities.TransactionDataSortMode
-import io.horizontalsystems.bankwallet.modules.send.bitcoin.SendBitcoinModule.rbfSupported
-import io.horizontalsystems.bankwallet.modules.send.bitcoin.advanced.SendBtcAdvancedSettingsModule.SortModeViewItem
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.BtcBlockchainManager
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.entities.TransactionDataSortMode
+import com.mrv.wallet.modules.send.bitcoin.SendBitcoinModule.rbfSupported
+import com.mrv.wallet.modules.send.bitcoin.advanced.SendBtcAdvancedSettingsModule.SortModeViewItem
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class SendBtcAdvancedSettingsViewModel(

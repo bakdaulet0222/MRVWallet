@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.ui.compose.components
+package com.mrv.wallet.ui.compose.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -27,13 +27,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.alternativeImageUrl
-import io.horizontalsystems.bankwallet.core.iconPlaceholder
-import io.horizontalsystems.bankwallet.core.imageUrl
-import io.horizontalsystems.bankwallet.modules.market.MarketViewItem
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.DraggableCardSimple
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.R
+import com.mrv.wallet.core.alternativeImageUrl
+import com.mrv.wallet.core.iconPlaceholder
+import com.mrv.wallet.core.imageUrl
+import com.mrv.wallet.modules.market.MarketViewItem
+import com.mrv.wallet.modules.walletconnect.list.ui.DraggableCardSimple
+import com.mrv.wallet.ui.compose.ComposeAppTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

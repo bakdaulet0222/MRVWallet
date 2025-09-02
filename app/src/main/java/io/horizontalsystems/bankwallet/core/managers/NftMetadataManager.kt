@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
-import io.horizontalsystems.bankwallet.core.providers.nft.INftProvider
-import io.horizontalsystems.bankwallet.core.providers.nft.OpenSeaNftProvider
-import io.horizontalsystems.bankwallet.core.storage.NftStorage
-import io.horizontalsystems.bankwallet.entities.nft.NftAddressMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftAssetBriefMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftAssetShortMetadata
-import io.horizontalsystems.bankwallet.entities.nft.NftKey
-import io.horizontalsystems.bankwallet.entities.nft.NftUid
+import com.mrv.wallet.core.providers.AppConfigProvider
+import com.mrv.wallet.core.providers.nft.INftProvider
+import com.mrv.wallet.core.providers.nft.OpenSeaNftProvider
+import com.mrv.wallet.core.storage.NftStorage
+import com.mrv.wallet.entities.nft.NftAddressMetadata
+import com.mrv.wallet.entities.nft.NftAssetBriefMetadata
+import com.mrv.wallet.entities.nft.NftAssetShortMetadata
+import com.mrv.wallet.entities.nft.NftKey
+import com.mrv.wallet.entities.nft.NftUid
 import io.horizontalsystems.marketkit.models.BlockchainType
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.Flow

@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.createaccount
+package com.mrv.wallet.modules.createaccount
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.PassphraseValidator
-import io.horizontalsystems.bankwallet.core.providers.PredefinedBlockchainSettingsProvider
-import io.horizontalsystems.bankwallet.core.providers.Translator
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.PassphraseValidator
+import com.mrv.wallet.core.providers.PredefinedBlockchainSettingsProvider
+import com.mrv.wallet.core.providers.Translator
 
 object CreateAccountModule {
 

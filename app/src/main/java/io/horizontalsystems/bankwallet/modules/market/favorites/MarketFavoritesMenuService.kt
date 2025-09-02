@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.market.favorites
+package com.mrv.wallet.modules.market.favorites
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
-import io.horizontalsystems.bankwallet.widgets.MarketWidgetManager
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.modules.market.TimeDuration
+import com.mrv.wallet.widgets.MarketWidgetManager
 
 class MarketFavoritesMenuService(
     private val localStorage: ILocalStorage,

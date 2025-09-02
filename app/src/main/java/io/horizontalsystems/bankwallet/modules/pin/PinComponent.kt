@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.pin
+package com.mrv.wallet.modules.pin
 
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.UserManager
-import io.horizontalsystems.bankwallet.modules.pin.core.LockManager
-import io.horizontalsystems.bankwallet.modules.pin.core.PinDbStorage
-import io.horizontalsystems.bankwallet.modules.pin.core.PinManager
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.UserManager
+import com.mrv.wallet.modules.pin.core.LockManager
+import com.mrv.wallet.modules.pin.core.PinDbStorage
+import com.mrv.wallet.modules.pin.core.PinManager
 import io.horizontalsystems.core.BackgroundManager
 import io.horizontalsystems.core.BackgroundManagerState
 import io.horizontalsystems.core.IPinComponent

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.core.managers.EvmBlockchainManager
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 val BlockchainType.uriScheme: String?

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.modules.chart
+package com.mrv.wallet.modules.chart
 
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.coin.overview.ui.SelectedItem
-import io.horizontalsystems.bankwallet.modules.market.Value
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.coin.overview.ui.SelectedItem
+import com.mrv.wallet.modules.market.Value
 import io.horizontalsystems.chartview.models.ChartVolumeType
 import java.math.BigDecimal
 

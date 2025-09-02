@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.request
+package com.mrv.wallet.modules.walletconnect.request
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCDelegate
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.walletconnect.WCDelegate
 
 class WCRequestPreViewModel : ViewModelUiState<DataState<WCRequestPreUiState>>() {
     private val sessionRequest = WCDelegate.sessionRequestEvent

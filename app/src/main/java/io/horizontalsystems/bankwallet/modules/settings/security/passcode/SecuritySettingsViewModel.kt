@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.settings.security.passcode
+package com.mrv.wallet.modules.settings.security.passcode
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.BalanceHiddenManager
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.BalanceHiddenManager
 import io.horizontalsystems.core.IPinComponent
 import io.horizontalsystems.core.ISystemInfoManager
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import junit.framework.TestCase
 import org.junit.Assert

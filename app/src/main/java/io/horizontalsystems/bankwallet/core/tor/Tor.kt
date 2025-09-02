@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.tor
+package com.mrv.wallet.core.tor
 
 import android.app.Application
 import android.content.Context
-import io.horizontalsystems.bankwallet.core.tor.torcore.TorConstants
+import com.mrv.wallet.core.tor.torcore.TorConstants
 import java.io.File
 
 enum class EntityStatus(val processId: Int) {

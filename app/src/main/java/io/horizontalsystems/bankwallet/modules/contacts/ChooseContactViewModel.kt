@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.contacts
+package com.mrv.wallet.modules.contacts
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 class ChooseContactViewModel(

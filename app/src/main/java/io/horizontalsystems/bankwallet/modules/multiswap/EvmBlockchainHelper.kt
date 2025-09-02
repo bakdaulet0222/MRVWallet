@@ -1,6 +1,6 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
-import io.horizontalsystems.bankwallet.core.App
+import com.mrv.wallet.core.App
 import io.horizontalsystems.ethereumkit.models.RpcSource
 import io.horizontalsystems.marketkit.models.BlockchainType
 

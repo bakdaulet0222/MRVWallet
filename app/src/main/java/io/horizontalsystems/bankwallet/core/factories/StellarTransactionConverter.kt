@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
-import io.horizontalsystems.bankwallet.core.ICoinManager
-import io.horizontalsystems.bankwallet.core.adapters.StellarTransactionRecord
-import io.horizontalsystems.bankwallet.core.adapters.StellarTransactionRecord.Type
-import io.horizontalsystems.bankwallet.core.managers.SpamManager
-import io.horizontalsystems.bankwallet.core.tokenIconPlaceholder
-import io.horizontalsystems.bankwallet.entities.TransactionValue
-import io.horizontalsystems.bankwallet.modules.transactions.TransactionSource
+import com.mrv.wallet.core.ICoinManager
+import com.mrv.wallet.core.adapters.StellarTransactionRecord
+import com.mrv.wallet.core.adapters.StellarTransactionRecord.Type
+import com.mrv.wallet.core.managers.SpamManager
+import com.mrv.wallet.core.tokenIconPlaceholder
+import com.mrv.wallet.entities.TransactionValue
+import com.mrv.wallet.modules.transactions.TransactionSource
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.market.sector
+package com.mrv.wallet.modules.market.sector
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.Currency
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
-import io.horizontalsystems.bankwallet.modules.market.favorites.period
-import io.horizontalsystems.bankwallet.modules.market.sort
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.Currency
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.TimeDuration
+import com.mrv.wallet.modules.market.favorites.period
+import com.mrv.wallet.modules.market.sort
 import io.horizontalsystems.marketkit.models.MarketInfo
 import io.reactivex.Single
 import kotlin.math.min

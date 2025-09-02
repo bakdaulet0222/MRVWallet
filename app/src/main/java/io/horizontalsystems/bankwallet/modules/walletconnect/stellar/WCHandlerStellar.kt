@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.stellar
+package com.mrv.wallet.modules.walletconnect.stellar
 
 import com.walletconnect.android.Core
 import com.walletconnect.web3.wallet.client.Wallet
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.StellarKitManager
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.walletconnect.handler.IWCHandler
-import io.horizontalsystems.bankwallet.modules.walletconnect.handler.MethodData
-import io.horizontalsystems.bankwallet.modules.walletconnect.handler.UnsupportedMethodException
-import io.horizontalsystems.bankwallet.modules.walletconnect.request.AbstractWCAction
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.StellarKitManager
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.walletconnect.handler.IWCHandler
+import com.mrv.wallet.modules.walletconnect.handler.MethodData
+import com.mrv.wallet.modules.walletconnect.handler.UnsupportedMethodException
+import com.mrv.wallet.modules.walletconnect.request.AbstractWCAction
 import io.horizontalsystems.stellarkit.StellarKit
 
 class WCHandlerStellar(private val stellarKitManager: StellarKitManager) : IWCHandler {

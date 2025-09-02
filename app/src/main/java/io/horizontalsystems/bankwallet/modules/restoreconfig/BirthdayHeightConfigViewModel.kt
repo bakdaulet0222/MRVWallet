@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.restoreconfig
+package com.mrv.wallet.modules.restoreconfig
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.modules.enablecoin.restoresettings.BirthdayHeightConfig
+import com.mrv.wallet.modules.enablecoin.restoresettings.BirthdayHeightConfig
 
 class BirthdayHeightConfigViewModel : ViewModel() {
 

@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.coin.ranks
+package com.mrv.wallet.modules.coin.ranks
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.coin.analytics.CoinAnalyticsModule
-import io.horizontalsystems.bankwallet.modules.market.MarketModule
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
-import io.horizontalsystems.bankwallet.ui.compose.Select
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.coin.analytics.CoinAnalyticsModule
+import com.mrv.wallet.modules.market.MarketModule
+import com.mrv.wallet.modules.market.TimeDuration
+import com.mrv.wallet.ui.compose.Select
 import io.horizontalsystems.marketkit.models.RankMultiValue
 import io.horizontalsystems.marketkit.models.RankValue
 

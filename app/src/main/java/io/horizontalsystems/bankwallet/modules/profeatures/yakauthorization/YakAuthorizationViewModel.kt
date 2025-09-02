@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.profeatures.yakauthorization
+package com.mrv.wallet.modules.profeatures.yakauthorization
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

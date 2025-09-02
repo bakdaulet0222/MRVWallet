@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.multiswap
+package com.mrv.wallet.modules.multiswap
 
 import android.os.CountDownTimer
-import io.horizontalsystems.bankwallet.core.ServiceState
+import com.mrv.wallet.core.ServiceState
 import kotlin.math.ceil
 
 class TimerService : ServiceState<TimerService.State>() {

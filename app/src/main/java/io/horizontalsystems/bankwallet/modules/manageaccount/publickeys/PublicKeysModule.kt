@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.publickeys
+package com.mrv.wallet.modules.manageaccount.publickeys
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule.DisplayKeyType.AccountPublicKey
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule.DisplayKeyType.AccountPublicKey
 import io.horizontalsystems.hdwalletkit.HDExtendedKey
 
 object PublicKeysModule {

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.syncerror
+package com.mrv.wallet.modules.syncerror
 
 import androidx.lifecycle.ViewModel
 

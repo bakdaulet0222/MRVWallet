@@ -1,9 +1,9 @@
-package io.horizontalsystems.bankwallet.modules.backuplocal
+package com.mrv.wallet.modules.backuplocal
 
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.RestoreSettingType
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.RestoreSettingType
+import com.mrv.wallet.entities.AccountType
 import io.horizontalsystems.hdwalletkit.Base58
 import io.horizontalsystems.tronkit.toBigInteger
 

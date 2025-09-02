@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.providers.nft
+package com.mrv.wallet.core.providers.nft
 
-import io.horizontalsystems.bankwallet.entities.nft.*
-import io.horizontalsystems.bankwallet.entities.nft.NftEventMetadata.EventType
+import com.mrv.wallet.entities.nft.*
+import com.mrv.wallet.entities.nft.NftEventMetadata.EventType
 import io.horizontalsystems.marketkit.models.BlockchainType
 
 interface INftProvider {

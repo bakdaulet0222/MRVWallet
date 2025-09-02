@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
@@ -7,7 +7,7 @@ import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 
 abstract class BaseFragment(
     @LayoutRes layoutResId: Int = 0,

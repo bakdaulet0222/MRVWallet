@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.send.zcash.shield
+package com.mrv.wallet.modules.send.zcash.shield
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.adapters.zcash.ZcashAdapter
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.adapters.zcash.ZcashAdapter
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.xrate.XRateService
 
 object ShieldZcashModule {
 

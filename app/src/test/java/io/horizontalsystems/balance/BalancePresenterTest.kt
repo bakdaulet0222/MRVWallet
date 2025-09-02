@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.balance
+package com.mrv.wallet.modules.balance
 
 /*class BalancePresenterTest {
 

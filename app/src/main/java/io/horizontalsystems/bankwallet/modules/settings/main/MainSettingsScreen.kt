@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.settings.main
+package com.mrv.wallet.modules.settings.main
 
 import android.content.Context
 import android.content.Intent
@@ -34,43 +34,43 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.BuildConfig
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.RateAppManager
-import io.horizontalsystems.bankwallet.core.paidAction
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.slideFromBottom
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.core.stats.StatEvent
-import io.horizontalsystems.bankwallet.core.stats.StatPage
-import io.horizontalsystems.bankwallet.core.stats.StatPremiumTrigger
-import io.horizontalsystems.bankwallet.core.stats.stat
-import io.horizontalsystems.bankwallet.modules.contacts.ContactsFragment
-import io.horizontalsystems.bankwallet.modules.contacts.Mode
-import io.horizontalsystems.bankwallet.modules.manageaccount.dialogs.BackupRequiredDialog
-import io.horizontalsystems.bankwallet.modules.manageaccounts.ManageAccountsModule
-import io.horizontalsystems.bankwallet.modules.settings.banners.DonateBanner
-import io.horizontalsystems.bankwallet.modules.settings.banners.GameBanner
-import io.horizontalsystems.bankwallet.modules.settings.banners.SubscriptionBanner
-import io.horizontalsystems.bankwallet.modules.settings.main.ui.BannerCarousel
-import io.horizontalsystems.bankwallet.modules.settings.vipsupport.VipSupportBottomSheet
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCAccountTypeNotSupportedDialog
-import io.horizontalsystems.bankwallet.modules.walletconnect.WCManager
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.AppBar
-import io.horizontalsystems.bankwallet.ui.compose.components.BadgeText
-import io.horizontalsystems.bankwallet.ui.compose.components.CellSingleLineLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.CellUniversalLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HsDivider
-import io.horizontalsystems.bankwallet.ui.compose.components.PremiumHeader
-import io.horizontalsystems.bankwallet.ui.compose.components.RowUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.VSpacer
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.caption_grey
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.SectionPremiumUniversalLawrence
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
-import io.horizontalsystems.bankwallet.ui.helpers.LinkHelper
+import com.mrv.wallet.BuildConfig
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.RateAppManager
+import com.mrv.wallet.core.paidAction
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.slideFromBottom
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.core.stats.StatEvent
+import com.mrv.wallet.core.stats.StatPage
+import com.mrv.wallet.core.stats.StatPremiumTrigger
+import com.mrv.wallet.core.stats.stat
+import com.mrv.wallet.modules.contacts.ContactsFragment
+import com.mrv.wallet.modules.contacts.Mode
+import com.mrv.wallet.modules.manageaccount.dialogs.BackupRequiredDialog
+import com.mrv.wallet.modules.manageaccounts.ManageAccountsModule
+import com.mrv.wallet.modules.settings.banners.DonateBanner
+import com.mrv.wallet.modules.settings.banners.GameBanner
+import com.mrv.wallet.modules.settings.banners.SubscriptionBanner
+import com.mrv.wallet.modules.settings.main.ui.BannerCarousel
+import com.mrv.wallet.modules.settings.vipsupport.VipSupportBottomSheet
+import com.mrv.wallet.modules.walletconnect.WCAccountTypeNotSupportedDialog
+import com.mrv.wallet.modules.walletconnect.WCManager
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.AppBar
+import com.mrv.wallet.ui.compose.components.BadgeText
+import com.mrv.wallet.ui.compose.components.CellSingleLineLawrenceSection
+import com.mrv.wallet.ui.compose.components.CellUniversalLawrenceSection
+import com.mrv.wallet.ui.compose.components.HsDivider
+import com.mrv.wallet.ui.compose.components.PremiumHeader
+import com.mrv.wallet.ui.compose.components.RowUniversal
+import com.mrv.wallet.ui.compose.components.VSpacer
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.caption_grey
+import com.mrv.wallet.ui.compose.components.cell.SectionPremiumUniversalLawrence
+import com.mrv.wallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.ui.helpers.LinkHelper
 import io.horizontalsystems.subscriptions.core.AddressBlacklist
 import io.horizontalsystems.subscriptions.core.VIPSupport
 
@@ -95,7 +95,7 @@ fun SettingsScreen(
                     openVipSupport = {
                         isVipSupportVisible = true
                     })
-                SettingsFooter(viewModel.appVersion, viewModel.companyWebPage)
+//                SettingsFooter(viewModel.appVersion, viewModel.companyWebPage)
             }
         }
         VipSupportBottomSheet(
@@ -270,25 +270,13 @@ private fun SettingSections(
             add {
                 HsSettingCell(
                     R.string.Settings_AppSettings,
-                    R.drawable.ic_unstoppable_icon_20,
+                    R.drawable.ic_settings_20,
                     onClick = {
                         navController.slideFromRight(R.id.appearanceFragment)
 
                         stat(page = StatPage.Settings, event = StatEvent.Open(StatPage.Appearance))
                     }
                 )
-            }
-            if (!BuildConfig.FDROID_BUILD) {
-                add {
-                    HsSettingCell(
-                        R.string.Settings_Subscription,
-                        R.drawable.ic_star_24,
-                        value = if (uiState.hasSubscription) stringResource(R.string.SettingsSubscription_Active) else null,
-                        onClick = {
-                            navController.slideFromRight(R.id.subscriptionFragment)
-                        }
-                    )
-                }
             }
             add {
                 HsSettingCell(
@@ -322,12 +310,6 @@ private fun SettingSections(
     )
 
     VSpacer(24.dp)
-
-    if (isFDroidBuild) {
-        PremiumHeader(R.string.Premium_TitleForDroid)
-    } else {
-        PremiumHeader()
-    }
 
     SectionPremiumUniversalLawrence {
         HsSettingCell(
@@ -371,16 +353,16 @@ private fun SettingSections(
 
     CellUniversalLawrenceSection(
         listOf({
-            HsSettingCell(
-                R.string.SettingsAboutApp_Title,
-                R.drawable.ic_info_20,
-                showAlert = uiState.aboutAppShowAlert,
-                onClick = {
-                    navController.slideFromRight(R.id.aboutAppFragment)
-
-                    stat(page = StatPage.Settings, event = StatEvent.Open(StatPage.AboutApp))
-                }
-            )
+//            HsSettingCell(
+//                R.string.SettingsAboutApp_Title,
+//                R.drawable.ic_info_20,
+//                showAlert = uiState.aboutAppShowAlert,
+//                onClick = {
+//                    navController.slideFromRight(R.id.aboutAppFragment)
+//
+//                    stat(page = StatPage.Settings, event = StatEvent.Open(StatPage.AboutApp))
+//                }
+//            )
         }, {
             HsSettingCell(
                 R.string.Settings_RateUs,
@@ -433,28 +415,28 @@ private fun SettingSections(
     }
     CellUniversalLawrenceSection(
         listOf({
-            HsSettingCell(
-                R.string.Settings_Telegram,
-                R.drawable.ic_telegram_24,
-                onClick = {
-                    LinkHelper.openLinkInAppBrowser(context, App.appConfigProvider.appTelegramLink)
-
-                    stat(
-                        page = StatPage.Settings,
-                        event = StatEvent.Open(StatPage.ExternalTelegram)
-                    )
-                }
-            )
+//            HsSettingCell(
+//                R.string.Settings_Telegram,
+//                R.drawable.ic_telegram_24,
+//                onClick = {
+//                    LinkHelper.openLinkInAppBrowser(context, App.appConfigProvider.appTelegramLink)
+//
+//                    stat(
+//                        page = StatPage.Settings,
+//                        event = StatEvent.Open(StatPage.ExternalTelegram)
+//                    )
+//                }
+//            )
         }, {
-            HsSettingCell(
-                R.string.Settings_Twitter,
-                R.drawable.ic_twitter_24,
-                onClick = {
-                    LinkHelper.openLinkInAppBrowser(context, App.appConfigProvider.appTwitterLink)
-
-                    stat(page = StatPage.Settings, event = StatEvent.Open(StatPage.ExternalTwitter))
-                }
-            )
+//            HsSettingCell(
+//                R.string.Settings_Twitter,
+//                R.drawable.ic_twitter_24,
+//                onClick = {
+//                    LinkHelper.openLinkInAppBrowser(context, App.appConfigProvider.appTwitterLink)
+//
+//                    stat(page = StatPage.Settings, event = StatEvent.Open(StatPage.ExternalTwitter))
+//                }
+//            )
         })
     )
 

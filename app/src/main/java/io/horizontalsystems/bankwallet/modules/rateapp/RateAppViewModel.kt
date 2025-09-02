@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.rateapp
+package com.mrv.wallet.modules.rateapp
 
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bankwallet.core.IRateAppManager
+import com.mrv.wallet.core.IRateAppManager
 
 class RateAppViewModel(private val rateAppManager: IRateAppManager) : ViewModel() {
 

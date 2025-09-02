@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.core.tor.torcore
+package com.mrv.wallet.core.tor.torcore
 
 import com.jaredrummler.android.shell.Shell
-import io.horizontalsystems.bankwallet.core.tor.ConnectionStatus
-import io.horizontalsystems.bankwallet.core.tor.EntityStatus
-import io.horizontalsystems.bankwallet.core.tor.Tor
-import io.horizontalsystems.bankwallet.core.tor.torutils.ProcessUtils
+import com.mrv.wallet.core.tor.ConnectionStatus
+import com.mrv.wallet.core.tor.EntityStatus
+import com.mrv.wallet.core.tor.Tor
+import com.mrv.wallet.core.tor.torutils.ProcessUtils
 import io.reactivex.Single
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

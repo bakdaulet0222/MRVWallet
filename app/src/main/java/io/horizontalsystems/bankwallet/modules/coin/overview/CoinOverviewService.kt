@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.coin.overview
+package com.mrv.wallet.modules.coin.overview
 
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.core.managers.LanguageManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.core.providers.AppConfigProvider
-import io.horizontalsystems.bankwallet.entities.DataState
-import io.horizontalsystems.bankwallet.modules.roi.RoiManager
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.core.managers.LanguageManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.providers.AppConfigProvider
+import com.mrv.wallet.entities.DataState
+import com.mrv.wallet.modules.roi.RoiManager
 import io.horizontalsystems.marketkit.models.FullCoin
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject

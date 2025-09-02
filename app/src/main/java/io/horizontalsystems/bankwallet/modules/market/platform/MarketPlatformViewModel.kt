@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.market.platform
+package com.mrv.wallet.modules.market.platform
 
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.MarketFavoritesManager
-import io.horizontalsystems.bankwallet.entities.ViewState
-import io.horizontalsystems.bankwallet.modules.market.MarketItem
-import io.horizontalsystems.bankwallet.modules.market.MarketViewItem
-import io.horizontalsystems.bankwallet.modules.market.SortingField
-import io.horizontalsystems.bankwallet.modules.market.TimeDuration
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.MarketFavoritesManager
+import com.mrv.wallet.entities.ViewState
+import com.mrv.wallet.modules.market.MarketItem
+import com.mrv.wallet.modules.market.MarketViewItem
+import com.mrv.wallet.modules.market.SortingField
+import com.mrv.wallet.modules.market.TimeDuration
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

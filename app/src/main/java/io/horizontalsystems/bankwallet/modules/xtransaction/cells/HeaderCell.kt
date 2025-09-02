@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.xtransaction.cells
+package com.mrv.wallet.modules.xtransaction.cells
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Icon
@@ -8,10 +8,10 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.cell.CellUniversal
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.cell.CellUniversal
+import com.mrv.wallet.ui.compose.components.subhead1_grey
 
 @Composable
 fun HeaderCell(

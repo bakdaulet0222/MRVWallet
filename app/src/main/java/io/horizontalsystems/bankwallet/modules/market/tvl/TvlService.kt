@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.market.tvl
+package com.mrv.wallet.modules.market.tvl
 
-import io.horizontalsystems.bankwallet.core.managers.CurrencyManager
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.managers.CurrencyManager
+import com.mrv.wallet.entities.DataState
 import io.horizontalsystems.marketkit.models.HsTimePeriod
 import io.reactivex.subjects.BehaviorSubject
 import kotlinx.coroutines.CoroutineScope

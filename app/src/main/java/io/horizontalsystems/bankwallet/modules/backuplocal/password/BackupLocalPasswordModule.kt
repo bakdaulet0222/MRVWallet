@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.backuplocal.password
+package com.mrv.wallet.modules.backuplocal.password
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.PassphraseValidator
-import io.horizontalsystems.bankwallet.entities.DataState
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.PassphraseValidator
+import com.mrv.wallet.entities.DataState
 
 object BackupLocalPasswordModule {
 

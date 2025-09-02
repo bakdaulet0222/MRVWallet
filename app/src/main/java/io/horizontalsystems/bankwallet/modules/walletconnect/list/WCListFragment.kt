@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.list
+package com.mrv.wallet.modules.walletconnect.list
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.core.getInput
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.ui.WCSessionsScreen
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.core.getInput
+import com.mrv.wallet.modules.walletconnect.list.ui.WCSessionsScreen
 import kotlinx.parcelize.Parcelize
 
 class WCListFragment : BaseComposeFragment() {

@@ -1,12 +1,12 @@
-package io.horizontalsystems.bankwallet.modules.pin.unlock
+package com.mrv.wallet.modules.pin.unlock
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.modules.pin.core.LockoutManager
-import io.horizontalsystems.bankwallet.modules.pin.core.LockoutUntilDateFactory
-import io.horizontalsystems.bankwallet.modules.pin.core.OneTimeTimer
-import io.horizontalsystems.bankwallet.modules.pin.core.UptimeProvider
+import com.mrv.wallet.core.App
+import com.mrv.wallet.modules.pin.core.LockoutManager
+import com.mrv.wallet.modules.pin.core.LockoutUntilDateFactory
+import com.mrv.wallet.modules.pin.core.OneTimeTimer
+import com.mrv.wallet.modules.pin.core.UptimeProvider
 import io.horizontalsystems.core.CoreApp
 import io.horizontalsystems.core.CurrentDateProvider
 

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount.privatekeys
+package com.mrv.wallet.modules.manageaccount.privatekeys
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.modules.manageaccount.showextendedkey.ShowExtendedKeyModule
 import io.horizontalsystems.hdwalletkit.HDExtendedKey
 
 object PrivateKeysModule {

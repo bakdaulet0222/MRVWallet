@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.core.factories
+package com.mrv.wallet.core.factories
 
-import io.horizontalsystems.bankwallet.core.IAccountFactory
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.managers.UserManager
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountOrigin
-import io.horizontalsystems.bankwallet.entities.AccountType
+import com.mrv.wallet.core.IAccountFactory
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.managers.UserManager
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountOrigin
+import com.mrv.wallet.entities.AccountType
 import java.util.UUID
 
 class AccountFactory(

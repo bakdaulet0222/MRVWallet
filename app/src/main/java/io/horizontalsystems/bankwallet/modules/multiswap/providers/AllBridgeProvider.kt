@@ -1,26 +1,26 @@
-package io.horizontalsystems.bankwallet.modules.multiswap.providers
+package com.mrv.wallet.modules.multiswap.providers
 
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.HSCaution
-import io.horizontalsystems.bankwallet.core.isEvm
-import io.horizontalsystems.bankwallet.core.managers.APIClient
-import io.horizontalsystems.bankwallet.modules.multiswap.ISwapFinalQuote
-import io.horizontalsystems.bankwallet.modules.multiswap.ISwapQuote
-import io.horizontalsystems.bankwallet.modules.multiswap.action.ISwapProviderAction
-import io.horizontalsystems.bankwallet.modules.multiswap.providers.AllBridgeAPI.Response
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionData
-import io.horizontalsystems.bankwallet.modules.multiswap.sendtransaction.SendTransactionSettings
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.ISwapSetting
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.SwapSettingRecipient
-import io.horizontalsystems.bankwallet.modules.multiswap.settings.SwapSettingSlippage
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataField
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldAllowance
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldRecipient
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldRecipientExtended
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldSlippage
-import io.horizontalsystems.bankwallet.modules.multiswap.ui.DataFieldSlippageNotAvailable
-import io.horizontalsystems.bankwallet.ui.compose.TranslatableString
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.HSCaution
+import com.mrv.wallet.core.isEvm
+import com.mrv.wallet.core.managers.APIClient
+import com.mrv.wallet.modules.multiswap.ISwapFinalQuote
+import com.mrv.wallet.modules.multiswap.ISwapQuote
+import com.mrv.wallet.modules.multiswap.action.ISwapProviderAction
+import com.mrv.wallet.modules.multiswap.providers.AllBridgeAPI.Response
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionData
+import com.mrv.wallet.modules.multiswap.sendtransaction.SendTransactionSettings
+import com.mrv.wallet.modules.multiswap.settings.ISwapSetting
+import com.mrv.wallet.modules.multiswap.settings.SwapSettingRecipient
+import com.mrv.wallet.modules.multiswap.settings.SwapSettingSlippage
+import com.mrv.wallet.modules.multiswap.ui.DataField
+import com.mrv.wallet.modules.multiswap.ui.DataFieldAllowance
+import com.mrv.wallet.modules.multiswap.ui.DataFieldRecipient
+import com.mrv.wallet.modules.multiswap.ui.DataFieldRecipientExtended
+import com.mrv.wallet.modules.multiswap.ui.DataFieldSlippage
+import com.mrv.wallet.modules.multiswap.ui.DataFieldSlippageNotAvailable
+import com.mrv.wallet.ui.compose.TranslatableString
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.ethereumkit.models.TransactionData
 import io.horizontalsystems.marketkit.models.BlockchainType
@@ -332,7 +332,7 @@ object AllBridgeProvider : IMultiSwapProvider {
         tokenOut: Token,
         amountIn: BigDecimal,
         expectedAmountOutMin: BigDecimal,
-        recipient: io.horizontalsystems.bankwallet.entities.Address?,
+        recipient: com.mrv.wallet.entities.Address?,
     ): SendTransactionData {
         val tokenPairIn = tokenPairs.first { it.token == tokenIn }
         val tokenPairOut = tokenPairs.first { it.token == tokenOut }

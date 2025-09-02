@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.walletconnect.list.ui
+package com.mrv.wallet.modules.walletconnect.list.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -32,16 +32,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.slideFromRight
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.WalletConnectListModule
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.WalletConnectListUiState
-import io.horizontalsystems.bankwallet.modules.walletconnect.list.WalletConnectListViewModel
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.CellSingleLineLawrenceSection
-import io.horizontalsystems.bankwallet.ui.compose.components.HsIconButton
-import io.horizontalsystems.bankwallet.ui.compose.components.body_leah
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead1_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.core.slideFromRight
+import com.mrv.wallet.modules.walletconnect.list.WalletConnectListModule
+import com.mrv.wallet.modules.walletconnect.list.WalletConnectListUiState
+import com.mrv.wallet.modules.walletconnect.list.WalletConnectListViewModel
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.CellSingleLineLawrenceSection
+import com.mrv.wallet.ui.compose.components.HsIconButton
+import com.mrv.wallet.ui.compose.components.body_leah
+import com.mrv.wallet.ui.compose.components.subhead1_grey
 import io.horizontalsystems.core.helpers.HudHelper
 
 @Composable

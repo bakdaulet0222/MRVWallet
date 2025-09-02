@@ -1,11 +1,11 @@
-package io.horizontalsystems.bankwallet.entities
+package com.mrv.wallet.entities
 
 import android.os.Parcelable
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.managers.PassphraseValidator
-import io.horizontalsystems.bankwallet.core.providers.Translator
-import io.horizontalsystems.bankwallet.core.shorten
+import com.mrv.wallet.R
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.managers.PassphraseValidator
+import com.mrv.wallet.core.providers.Translator
+import com.mrv.wallet.core.shorten
 import io.horizontalsystems.ethereumkit.core.signer.Signer
 import io.horizontalsystems.ethereumkit.models.Chain
 import io.horizontalsystems.hdwalletkit.HDExtendedKey

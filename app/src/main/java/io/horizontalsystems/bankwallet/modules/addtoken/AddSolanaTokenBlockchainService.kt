@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.addtoken
+package com.mrv.wallet.modules.addtoken
 
-import io.horizontalsystems.bankwallet.core.customCoinUid
-import io.horizontalsystems.bankwallet.modules.addtoken.AddTokenModule.IAddTokenBlockchainService
+import com.mrv.wallet.core.customCoinUid
+import com.mrv.wallet.modules.addtoken.AddTokenModule.IAddTokenBlockchainService
 import io.horizontalsystems.marketkit.models.Blockchain
 import io.horizontalsystems.marketkit.models.Coin
 import io.horizontalsystems.marketkit.models.Token

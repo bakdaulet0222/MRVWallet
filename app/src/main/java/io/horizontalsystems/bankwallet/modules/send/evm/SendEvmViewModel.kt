@@ -1,19 +1,19 @@
-package io.horizontalsystems.bankwallet.modules.send.evm
+package com.mrv.wallet.modules.send.evm
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.viewModelScope
 import cash.z.ecc.android.sdk.ext.collectWith
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.core.ISendEthereumAdapter
-import io.horizontalsystems.bankwallet.core.ViewModelUiState
-import io.horizontalsystems.bankwallet.core.managers.ConnectivityManager
-import io.horizontalsystems.bankwallet.entities.Address
-import io.horizontalsystems.bankwallet.entities.Wallet
-import io.horizontalsystems.bankwallet.modules.amount.SendAmountService
-import io.horizontalsystems.bankwallet.modules.send.SendUiState
-import io.horizontalsystems.bankwallet.modules.xrate.XRateService
+import com.mrv.wallet.core.App
+import com.mrv.wallet.core.ISendEthereumAdapter
+import com.mrv.wallet.core.ViewModelUiState
+import com.mrv.wallet.core.managers.ConnectivityManager
+import com.mrv.wallet.entities.Address
+import com.mrv.wallet.entities.Wallet
+import com.mrv.wallet.modules.amount.SendAmountService
+import com.mrv.wallet.modules.send.SendUiState
+import com.mrv.wallet.modules.xrate.XRateService
 import io.horizontalsystems.marketkit.models.Token
 import java.math.BigDecimal
 

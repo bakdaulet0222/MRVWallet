@@ -1,10 +1,10 @@
-package io.horizontalsystems.bankwallet.modules.transactions
+package com.mrv.wallet.modules.transactions
 
-import io.horizontalsystems.bankwallet.core.AdapterState
-import io.horizontalsystems.bankwallet.core.Clearable
-import io.horizontalsystems.bankwallet.core.ITransactionsAdapter
-import io.horizontalsystems.bankwallet.core.managers.TransactionAdapterManager
-import io.horizontalsystems.bankwallet.entities.LastBlockInfo
+import com.mrv.wallet.core.AdapterState
+import com.mrv.wallet.core.Clearable
+import com.mrv.wallet.core.ITransactionsAdapter
+import com.mrv.wallet.core.managers.TransactionAdapterManager
+import com.mrv.wallet.entities.LastBlockInfo
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import kotlinx.coroutines.CoroutineScope

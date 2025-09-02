@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.entities.nft.*
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.entities.nft.*
 import io.horizontalsystems.marketkit.models.NftPrice
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

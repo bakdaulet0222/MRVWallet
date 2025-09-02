@@ -1,17 +1,17 @@
-package io.horizontalsystems.bankwallet.modules.manageaccount
+package com.mrv.wallet.modules.manageaccount
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.entities.Account
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.modules.balance.headerNote
-import io.horizontalsystems.bankwallet.modules.manageaccount.ManageAccountModule.BackupItem
-import io.horizontalsystems.bankwallet.modules.manageaccount.ManageAccountModule.KeyAction
+import com.mrv.wallet.R
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.entities.Account
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.modules.balance.headerNote
+import com.mrv.wallet.modules.manageaccount.ManageAccountModule.BackupItem
+import com.mrv.wallet.modules.manageaccount.ManageAccountModule.KeyAction
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.reactive.asFlow
 

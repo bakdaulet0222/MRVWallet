@@ -1,8 +1,8 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.core.ITermsManager
-import io.horizontalsystems.bankwallet.modules.settings.terms.TermsModule
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.core.ITermsManager
+import com.mrv.wallet.modules.settings.terms.TermsModule
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

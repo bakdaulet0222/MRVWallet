@@ -1,14 +1,14 @@
-package io.horizontalsystems.bankwallet.modules.watchaddress
+package com.mrv.wallet.modules.watchaddress
 
-import io.horizontalsystems.bankwallet.core.IAccountFactory
-import io.horizontalsystems.bankwallet.core.IAccountManager
-import io.horizontalsystems.bankwallet.core.managers.EvmBlockchainManager
-import io.horizontalsystems.bankwallet.core.managers.MarketKitWrapper
-import io.horizontalsystems.bankwallet.core.managers.WalletActivator
-import io.horizontalsystems.bankwallet.core.order
-import io.horizontalsystems.bankwallet.core.supports
-import io.horizontalsystems.bankwallet.entities.AccountType
-import io.horizontalsystems.bankwallet.entities.tokenTypeDerivation
+import com.mrv.wallet.core.IAccountFactory
+import com.mrv.wallet.core.IAccountManager
+import com.mrv.wallet.core.managers.EvmBlockchainManager
+import com.mrv.wallet.core.managers.MarketKitWrapper
+import com.mrv.wallet.core.managers.WalletActivator
+import com.mrv.wallet.core.order
+import com.mrv.wallet.core.supports
+import com.mrv.wallet.entities.AccountType
+import com.mrv.wallet.entities.tokenTypeDerivation
 import io.horizontalsystems.marketkit.models.BlockchainType
 import io.horizontalsystems.marketkit.models.Token
 import io.horizontalsystems.marketkit.models.TokenQuery

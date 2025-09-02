@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.storage
+package com.mrv.wallet.core.storage
 
 import androidx.room.*
-import io.horizontalsystems.bankwallet.entities.EnabledWallet
+import com.mrv.wallet.entities.EnabledWallet
 
 @Dao
 interface EnabledWalletsDao {

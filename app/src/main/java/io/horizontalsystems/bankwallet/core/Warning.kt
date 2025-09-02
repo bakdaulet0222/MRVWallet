@@ -1,3 +1,3 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 abstract class Warning

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.roi
+package com.mrv.wallet.modules.roi
 
 data class PerformanceCoin(
     val uid: String,

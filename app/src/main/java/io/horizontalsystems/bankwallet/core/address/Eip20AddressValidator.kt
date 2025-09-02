@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.core.address
+package com.mrv.wallet.core.address
 
-import io.horizontalsystems.bankwallet.core.managers.EvmSyncSourceManager
-import io.horizontalsystems.bankwallet.entities.Address
+import com.mrv.wallet.core.managers.EvmSyncSourceManager
+import com.mrv.wallet.entities.Address
 import io.horizontalsystems.ethereumkit.contracts.ContractMethod
 import io.horizontalsystems.ethereumkit.core.EthereumKit
 import io.horizontalsystems.marketkit.models.BlockchainType

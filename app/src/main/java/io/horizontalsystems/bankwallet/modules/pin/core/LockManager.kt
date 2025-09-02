@@ -1,7 +1,7 @@
-package io.horizontalsystems.bankwallet.modules.pin.core
+package com.mrv.wallet.modules.pin.core
 
-import io.horizontalsystems.bankwallet.core.ILocalStorage
-import io.horizontalsystems.bankwallet.modules.settings.security.autolock.AutoLockInterval
+import com.mrv.wallet.core.ILocalStorage
+import com.mrv.wallet.modules.settings.security.autolock.AutoLockInterval
 import io.horizontalsystems.core.helpers.DateHelper
 import java.util.Date
 

@@ -1,13 +1,13 @@
-package io.horizontalsystems.bankwallet.modules.availablebalance
+package com.mrv.wallet.modules.availablebalance
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bankwallet.core.App
-import io.horizontalsystems.bankwallet.entities.CurrencyValue
-import io.horizontalsystems.bankwallet.modules.amount.AmountInputType
+import com.mrv.wallet.core.App
+import com.mrv.wallet.entities.CurrencyValue
+import com.mrv.wallet.modules.amount.AmountInputType
 import java.math.BigDecimal
 
 class AvailableBalanceViewModel(

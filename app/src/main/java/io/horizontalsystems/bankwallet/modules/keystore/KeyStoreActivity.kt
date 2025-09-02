@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.modules.keystore
+package com.mrv.wallet.modules.keystore
 
 import android.content.Context
 import android.content.Intent
@@ -31,14 +31,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.core.content.ContextCompat
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseActivity
-import io.horizontalsystems.bankwallet.modules.main.MainModule
-import io.horizontalsystems.bankwallet.ui.compose.ComposeAppTheme
-import io.horizontalsystems.bankwallet.ui.compose.components.BottomSheetsElementsButtons
-import io.horizontalsystems.bankwallet.ui.compose.components.BottomSheetsElementsHeader
-import io.horizontalsystems.bankwallet.ui.compose.components.BottomSheetsElementsText
-import io.horizontalsystems.bankwallet.ui.compose.components.subhead2_grey
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseActivity
+import com.mrv.wallet.modules.main.MainModule
+import com.mrv.wallet.ui.compose.ComposeAppTheme
+import com.mrv.wallet.ui.compose.components.BottomSheetsElementsButtons
+import com.mrv.wallet.ui.compose.components.BottomSheetsElementsHeader
+import com.mrv.wallet.ui.compose.components.BottomSheetsElementsText
+import com.mrv.wallet.ui.compose.components.subhead2_grey
 import io.horizontalsystems.core.parcelable
 import io.horizontalsystems.core.putParcelableExtra
 

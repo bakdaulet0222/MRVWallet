@@ -1,26 +1,26 @@
-package io.horizontalsystems.bankwallet.modules.send
+package com.mrv.wallet.modules.send
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
 import androidx.navigation.navGraphViewModels
-import io.horizontalsystems.bankwallet.R
-import io.horizontalsystems.bankwallet.core.BaseComposeFragment
-import io.horizontalsystems.bankwallet.modules.amount.AmountInputModeViewModel
-import io.horizontalsystems.bankwallet.modules.send.bitcoin.SendBitcoinConfirmationScreen
-import io.horizontalsystems.bankwallet.modules.send.bitcoin.SendBitcoinViewModel
-import io.horizontalsystems.bankwallet.modules.send.monero.SendMoneroConfirmationScreen
-import io.horizontalsystems.bankwallet.modules.send.monero.SendMoneroViewModel
-import io.horizontalsystems.bankwallet.modules.send.solana.SendSolanaConfirmationScreen
-import io.horizontalsystems.bankwallet.modules.send.solana.SendSolanaViewModel
-import io.horizontalsystems.bankwallet.modules.send.stellar.SendStellarConfirmationScreen
-import io.horizontalsystems.bankwallet.modules.send.stellar.SendStellarViewModel
-import io.horizontalsystems.bankwallet.modules.send.ton.SendTonConfirmationScreen
-import io.horizontalsystems.bankwallet.modules.send.ton.SendTonViewModel
-import io.horizontalsystems.bankwallet.modules.send.tron.SendTronConfirmationScreen
-import io.horizontalsystems.bankwallet.modules.send.tron.SendTronViewModel
-import io.horizontalsystems.bankwallet.modules.send.zcash.SendZCashConfirmationScreen
-import io.horizontalsystems.bankwallet.modules.send.zcash.SendZCashViewModel
+import com.mrv.wallet.R
+import com.mrv.wallet.core.BaseComposeFragment
+import com.mrv.wallet.modules.amount.AmountInputModeViewModel
+import com.mrv.wallet.modules.send.bitcoin.SendBitcoinConfirmationScreen
+import com.mrv.wallet.modules.send.bitcoin.SendBitcoinViewModel
+import com.mrv.wallet.modules.send.monero.SendMoneroConfirmationScreen
+import com.mrv.wallet.modules.send.monero.SendMoneroViewModel
+import com.mrv.wallet.modules.send.solana.SendSolanaConfirmationScreen
+import com.mrv.wallet.modules.send.solana.SendSolanaViewModel
+import com.mrv.wallet.modules.send.stellar.SendStellarConfirmationScreen
+import com.mrv.wallet.modules.send.stellar.SendStellarViewModel
+import com.mrv.wallet.modules.send.ton.SendTonConfirmationScreen
+import com.mrv.wallet.modules.send.ton.SendTonViewModel
+import com.mrv.wallet.modules.send.tron.SendTronConfirmationScreen
+import com.mrv.wallet.modules.send.tron.SendTronViewModel
+import com.mrv.wallet.modules.send.zcash.SendZCashConfirmationScreen
+import com.mrv.wallet.modules.send.zcash.SendZCashViewModel
 import kotlinx.parcelize.Parcelize
 
 class SendConfirmationFragment : BaseComposeFragment() {

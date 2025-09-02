@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core.managers
+package com.mrv.wallet.core.managers
 
 import android.content.Context
 import cash.z.ecc.android.sdk.model.BlockHeight

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bankwallet.core
+package com.mrv.wallet.core
 
 import android.content.Context
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import io.horizontalsystems.bankwallet.R
+import com.mrv.wallet.R
 import io.horizontalsystems.core.CoreApp
 
 abstract class BaseActivity : AppCompatActivity() {
